@@ -1,0 +1,19 @@
+body.single-product {
+
+  h1.product_title {
+    @extend .text-lg;
+    @extend .text-md-xl;
+  }
+  
+  .product-tabs-wrapper {
+    .tabs-layout {
+      margin-bottom: 4rem;
+    }
+    .tabs-layout ~ .lorada-html-block {
+      margin-bottom: 4rem;
+    }
+  }
+  .woocommerce-product-gallery ~ .lorada-html-block {
+    margin-top: 4rem;
+  }
+}

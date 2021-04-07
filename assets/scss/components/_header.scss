@@ -1,0 +1,70 @@
+#header-topbar.topbar-container .topbar-wrapper,
+.main-header .header-container .header-wrapper {
+    max-width: 1600px;
+}
+
+/** there was a gap between the <li> in the nav, and its child dropdown (the mega menu) -- this is a fix for that */
+.lorada-menu-nav li.dropdown-mega-menu.full-width-mega>.sub-menu-dropdown {
+  margin-top: -11px;
+}
+
+
+.header-wrapper .lorada-navigation .menu-main-navigation { /** <div>, <nav>, <ul> */
+  @media screen and (min-width: 960px){
+    text-align: right;
+    display: flex;
+  }
+}
+
+.lorada-navigation .menu-main-navigation li.item-level-0  {
+  @media screen and (min-width: 960px) and (max-width: 1199px){
+    margin-right: 0px !important;
+  }
+}
+
+.main-header .site-logo {
+  @media screen and (min-width: 960px) and (max-width: 1199px){
+    flex: 0 0 130px;
+  }
+}
+.main-header .site-logo>a {
+  @media screen and (min-width: 960px) and (max-width: 1199px){
+    padding-right: 0px !important;
+  }
+}
+
+.lorada-navigation .menu-main-navigation li a {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: .75rem;
+  text-transform: none;
+  @media screen and (min-width: 1200px){
+    font-size: 1rem;
+  }
+}
+
+.main-header .site-logo img.normal-logo {
+  @media screen and (min-width: 1200px){
+    max-height: none !important;
+    max-width: 300px;
+  }
+}
+
+
+
+@media screen and (min-width: 992px){
+  .main-header .header-container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  ul#menu-main-navigation > .menu-item > a > .menu-title {
+    transition: opacity .5s ease-in;
+  }
+  ul#menu-main-navigation:hover > .menu-item > a > .menu-title {
+      opacity: .25;
+  }
+
+  ul#menu-main-navigation:hover > .menu-item:hover > a > .menu-title {
+      opacity: 1;
+  }
+}

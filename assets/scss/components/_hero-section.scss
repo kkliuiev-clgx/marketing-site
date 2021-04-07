@@ -1,0 +1,55 @@
+.hero-section {
+  padding: 4rem 0;
+  position: relative;
+  @media screen and (min-width: 768px) {
+    padding: 8rem 0 10rem;
+  }
+
+  &:before {
+    @include pseudo;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  > .container {
+    padding: 0 2rem;
+    position: relative;
+    z-index: 2;
+  }
+
+  &__main-heading {
+    margin-bottom: 1rem;
+    @extend .text-2xl;
+    @extend .text-md-3xl;
+    // color: white;
+  }
+  &__sub-heading {
+    margin-bottom: 1rem;
+    @extend .text-lg;
+    @extend .text-md-2xl;
+    // color: white;
+  }
+
+  &__sub-heading {
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  .btn {
+    margin-top: 2rem;
+  }
+  &__sub-heading-wrapper {
+    p {
+      // color: white;
+      @extend .text-md-lg;
+    }
+  }
+}

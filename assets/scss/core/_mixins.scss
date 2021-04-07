@@ -1,0 +1,32 @@
+@mixin pseudo {
+  content: '';
+  display: block;
+  position: absolute;
+}
+
+.content-section {
+  padding: 4rem 0;
+  @media screen and (min-width: 1200px){
+    padding: 6rem 0;
+  }
+}
+
+.white-panel {
+  box-shadow: var(--white-panel-shadow);
+  border-radius: var(--white-panel-border-radius);
+  background-color: white;
+}
+
+.brand-gradient-vertical {
+  background: rgb(214,50,97);
+  background: linear-gradient(180deg, rgba(214,50,97,1) 0%, rgba(237,144,47,1) 25%, rgba(235,178,45,1) 50%, rgba(137,195,48,1) 75%, rgba(27,188,194,1) 100%);
+}
+.brand-gradient {
+  background: rgb(214,50,97);
+  background: linear-gradient(90deg, rgba(214,50,97,1) 0%, rgba(237,144,47,1) 25%, rgba(235,178,45,1) 50%, rgba(137,195,48,1) 75%, rgba(27,188,194,1) 100%);
+}
+
+.deep-blue-gradient {
+  background: rgb(8,19,103);
+  background: linear-gradient(180deg, rgba(8,19,103,1) 0%, rgba(27,188,194,1) 100%);
+}

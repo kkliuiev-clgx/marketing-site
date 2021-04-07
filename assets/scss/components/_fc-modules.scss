@@ -1,0 +1,66 @@
+.module-accordion_sections {
+  @extend .content-section;
+}
+
+.module-section ~ .module-section {
+  margin-top: 4rem;
+}
+
+section.module {
+  &:nth-child(even){
+  
+  }
+}
+
+.module-section {
+  @extend .content-section;
+  > .container {
+    @include media-breakpoint-up(md){
+      display: flex;
+    }
+  }
+  &:nth-child(even){
+    background-color: $light;
+    > .container {
+      flex-direction: row-reverse;
+    }
+    .module-section__content {
+      @include media-breakpoint-up(md){
+        padding-right: 3rem;
+      }
+    }
+  }
+  &__heading {
+    &:before {
+      display: block;
+      position: relative;
+      content: '';
+      width: 3rem;
+      height: .25rem;
+      background-color: var(--orange);
+      margin: 0 0 1em;
+    }
+  }
+  &__content {
+    @include media-breakpoint-up(md){
+      flex: 0 0 70%;
+      padding-left: 3rem;
+    }
+  }
+  &__img-wrapper {
+    @include media-breakpoint-up(md){
+      flex: 0 0 30%;
+      display: flex;
+      justify-content: center;
+    }
+    img {
+      width: 14rem;
+      height: 14rem;
+      border-radius: 100%;
+      margin: 0 auto 2rem;
+      @include media-breakpoint-up(md){
+        margin: 0;
+      }
+    }
+  }
+}

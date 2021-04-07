@@ -1,0 +1,18 @@
+/**
+
+@ToDo: Move everything out of here:
+EVERYTHING in here was written before SCSS was introduced to this theme.
+
+
+*/
+
+
+/*
+Make the unit label and price sit next to each other
+*/
+.product-quick-shop-enable .product-infobox .rating-price-wrap {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+

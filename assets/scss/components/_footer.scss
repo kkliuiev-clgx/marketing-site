@@ -1,0 +1,70 @@
+
+// FOoter
+
+#lorada-footer {
+  .footer-main {
+    background-color: black !important;
+    a,
+    p,
+    li,
+    span,
+    .elementor-widget-icon-list .elementor-icon-list-text {
+      color: white;
+    }
+    .elementor-widget-icon-list .elementor-icon-list-icon i[class^="fa"] {
+      color: white !important;
+      opacity: .35;
+    }
+    .footer-widget-content {
+      padding-top: 0 !important;
+      margin-top: 2rem;
+    }
+  }
+  .main-footer-column .elementor-widget-wp-widget-nav_menu h5 {
+    font-weight: 700;
+    margin-bottom: .875rem;
+    font-size: .875rem;
+    color: white;
+    opacity: .35;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  a {
+    &:hover {
+      color: var(--orange);
+    }
+  }
+  .column-index-2,
+  .column-index-3,
+  .column-index-4 {
+    h5 {
+      @extend .text-sm;
+      letter-spacing: 2px !important;
+    }
+  }
+}
+
+
+.meenta-footer__logo-bar  {
+  padding-top: 2rem;
+}
+
+.meenta-footer__logo-bar img.sticky-logo {
+  display: none !important;
+}
+.meenta-footer__logo-bar img.normal-logo {
+  display: none !important;
+}
+
+.meenta-footer__logo-bar .site-logo {
+  display: block;
+  max-width: 200px;
+}
+.meenta-footer__logo-bar .normal-logo,
+.meenta-footer__logo-bar .sticky-logo, {
+  display: none;
+}
+.meenta-special-product__price-wrapper .meenta-price__unit-label {
+  margin-top: 10px;
+}
+

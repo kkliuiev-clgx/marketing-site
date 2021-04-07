@@ -1,0 +1,2055 @@
+ray
+(
+    [hero_main_heading] => The Digital Platform for Clinical Testing and Science
+    [button_text] => Get Started
+    [button_target] => same_tab
+    [button_link] => https://meenta.io/map
+    [button_page] => 
+    [button_type] => href
+    [hero_button] => Array
+        (
+            [button_text] => 
+            [button_target] => 
+            [button_type] => 
+            [button_link] => 
+            [button_page] => 
+        )
+
+    [hero_content] => 
+Find and submit samples to hundreds of clinical and research labs all in one place.
+
+
+
+    [instruments_heading] => Research Scientists Can Instantly Search Hundreds of Instruments
+    [instruments_content] => 
+Scientific instruments no longer need to be limited to their immediate labs and institutions. Meenta makes it possible to access those instruments around the world.
+
+
+
+    [intro_cards] => Array
+        (
+            [0] => Array
+                (
+                    [title] => COVID-19 Testing
+                    [content] => 
+Access our large-scale testing capacity, multiple test options, population monitoring tools and team of experts; all in a single place.
+
+
+
+                    [button_text] => Learn More
+                    [button_target] => new_tab
+                    [button_type] => page-link
+                    [button_link] => 
+                    [button_page] => https://meentadevleop.local/marketplace/
+                )
+
+            [1] => Array
+                (
+                    [title] => NGS Research
+                    [content] => 
+R&D outsourcing scientists can find and instantly submit projects to thousands of shared research equipment and services.
+
+
+
+                    [button_text] => Learn More
+                    [button_target] => same_tab
+                    [button_type] => href
+                    [button_link] => #search-section
+                    [button_page] => 
+                )
+
+        )
+
+    [cards] => Array
+        (
+            [0] => Array
+                (
+                    [card_title] => Rapid
+                    [card_content] => Book an instrument in minutes.  24/7 access to equipment.  Get your data in 12 days.
+                    [card_color_scheme] => magenta
+                )
+
+            [1] => Array
+                (
+                    [card_title] => Compare Pricing
+                    [card_content] => Compare pricing on the fly.  Skip the quotes.  Implementation in minutes.
+                    [card_color_scheme] => orange
+                )
+
+            [2] => Array
+                (
+                    [card_title] => Peace of Mind
+                    [card_content] => Quality data from trusted hosts.  Our Re-Run Guarantee.  Track every step.
+                    [card_color_scheme] => yellow
+                )
+
+        )
+
+    [how_it_works_title] => How it Works
+    [how_it_works_intro_content] => Meenta makes it easy for scientists to find instruments in minutes and for hosts to offer their instruments for bookings with just a few clicks.
+    [how_it_works_tabs] => Array
+        (
+            [0] => Array
+                (
+                    [tb_title] => Research Scientists
+                    [tab_blurbs] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [blurb_image] => Array
+                                        (
+                                            [ID] => 949
+                                            [id] => 949
+                                            [title] => service-image-1@2x
+                                            [filename] => service-image-1@2x.jpg
+                                            [filesize] => 54272
+                                            [url] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-1@2x.jpg
+                                            [link] => https://meentadevleop.local/home/attachment/service-image-12x/
+                                            [alt] => 
+                                            [author] => 2
+                                            [description] => 
+                                            [caption] => 
+                                            [name] => service-image-12x
+                                            [status] => inherit
+                                            [uploaded_to] => 860
+                                            [date] => 2021-04-06 12:42:19
+                                            [modified] => 2021-04-06 13:00:36
+                                            [menu_order] => 0
+                                            [mime_type] => image/jpeg
+                                            [type] => image
+                                            [subtype] => jpeg
+                                            [icon] => https://meentadevleop.local/wp-includes/images/media/default.png
+                                            [width] => 203
+                                            [height] => 203
+                                            [sizes] => Array
+                                                (
+                                                    [thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-1@2x-150x150.jpg
+                                                    [thumbnail-width] => 150
+                                                    [thumbnail-height] => 150
+                                                    [medium] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-1@2x.jpg
+                                                    [medium-width] => 203
+                                                    [medium-height] => 203
+                                                    [medium_large] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-1@2x.jpg
+                                                    [medium_large-width] => 203
+                                                    [medium_large-height] => 203
+                                                    [large] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-1@2x.jpg
+                                                    [large-width] => 203
+                                                    [large-height] => 203
+                                                    [1536x1536] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-1@2x.jpg
+                                                    [1536x1536-width] => 203
+                                                    [1536x1536-height] => 203
+                                                    [2048x2048] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-1@2x.jpg
+                                                    [2048x2048-width] => 203
+                                                    [2048x2048-height] => 203
+                                                    [yith-woocompare-image] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-1@2x-203x154.jpg
+                                                    [yith-woocompare-image-width] => 203
+                                                    [yith-woocompare-image-height] => 154
+                                                    [lorada-blog-thumnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-1@2x.jpg
+                                                    [lorada-blog-thumnail-width] => 203
+                                                    [lorada-blog-thumnail-height] => 203
+                                                    [lorada-blog-thumnail2] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-1@2x.jpg
+                                                    [lorada-blog-thumnail2-width] => 203
+                                                    [lorada-blog-thumnail2-height] => 203
+                                                    [lorada-blog-thumnail-list] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-1@2x.jpg
+                                                    [lorada-blog-thumnail-list-width] => 203
+                                                    [lorada-blog-thumnail-list-height] => 203
+                                                    [lorada-single-post] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-1@2x.jpg
+                                                    [lorada-single-post-width] => 203
+                                                    [lorada-single-post-height] => 203
+                                                    [lorada-product-cat-thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-1@2x.jpg
+                                                    [lorada-product-cat-thumb-width] => 203
+                                                    [lorada-product-cat-thumb-height] => 203
+                                                    [lorada-map-marker] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-1@2x-42x42.jpg
+                                                    [lorada-map-marker-width] => 42
+                                                    [lorada-map-marker-height] => 42
+                                                    [lookbook] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-1@2x.jpg
+                                                    [lookbook-width] => 203
+                                                    [lookbook-height] => 203
+                                                    [woocommerce_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-1@2x.jpg
+                                                    [woocommerce_thumbnail-width] => 203
+                                                    [woocommerce_thumbnail-height] => 203
+                                                    [woocommerce_single] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-1@2x.jpg
+                                                    [woocommerce_single-width] => 203
+                                                    [woocommerce_single-height] => 203
+                                                    [woocommerce_gallery_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-1@2x-150x150.jpg
+                                                    [woocommerce_gallery_thumbnail-width] => 150
+                                                    [woocommerce_gallery_thumbnail-height] => 150
+                                                    [shop_catalog] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-1@2x.jpg
+                                                    [shop_catalog-width] => 203
+                                                    [shop_catalog-height] => 203
+                                                    [shop_single] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-1@2x.jpg
+                                                    [shop_single-width] => 203
+                                                    [shop_single-height] => 203
+                                                    [shop_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-1@2x-150x150.jpg
+                                                    [shop_thumbnail-width] => 150
+                                                    [shop_thumbnail-height] => 150
+                                                    [lorada_wc_gallery_thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-1@2x-150x150.jpg
+                                                    [lorada_wc_gallery_thumb-width] => 150
+                                                    [lorada_wc_gallery_thumb-height] => 150
+                                                )
+
+                                        )
+
+                                    [blurb_title] => Find an Instrument
+                                    [blurb_content] => Search from hundreds of live instruments
+                                )
+
+                            [1] => Array
+                                (
+                                    [blurb_image] => Array
+                                        (
+                                            [ID] => 950
+                                            [id] => 950
+                                            [title] => service-image-2@2x
+                                            [filename] => service-image-2@2x.jpg
+                                            [filesize] => 49714
+                                            [url] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-2@2x.jpg
+                                            [link] => https://meentadevleop.local/home/attachment/service-image-22x/
+                                            [alt] => 
+                                            [author] => 2
+                                            [description] => 
+                                            [caption] => 
+                                            [name] => service-image-22x
+                                            [status] => inherit
+                                            [uploaded_to] => 860
+                                            [date] => 2021-04-06 12:42:20
+                                            [modified] => 2021-04-06 13:00:36
+                                            [menu_order] => 0
+                                            [mime_type] => image/jpeg
+                                            [type] => image
+                                            [subtype] => jpeg
+                                            [icon] => https://meentadevleop.local/wp-includes/images/media/default.png
+                                            [width] => 203
+                                            [height] => 203
+                                            [sizes] => Array
+                                                (
+                                                    [thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-2@2x-150x150.jpg
+                                                    [thumbnail-width] => 150
+                                                    [thumbnail-height] => 150
+                                                    [medium] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-2@2x.jpg
+                                                    [medium-width] => 203
+                                                    [medium-height] => 203
+                                                    [medium_large] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-2@2x.jpg
+                                                    [medium_large-width] => 203
+                                                    [medium_large-height] => 203
+                                                    [large] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-2@2x.jpg
+                                                    [large-width] => 203
+                                                    [large-height] => 203
+                                                    [1536x1536] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-2@2x.jpg
+                                                    [1536x1536-width] => 203
+                                                    [1536x1536-height] => 203
+                                                    [2048x2048] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-2@2x.jpg
+                                                    [2048x2048-width] => 203
+                                                    [2048x2048-height] => 203
+                                                    [yith-woocompare-image] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-2@2x-203x154.jpg
+                                                    [yith-woocompare-image-width] => 203
+                                                    [yith-woocompare-image-height] => 154
+                                                    [lorada-blog-thumnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-2@2x.jpg
+                                                    [lorada-blog-thumnail-width] => 203
+                                                    [lorada-blog-thumnail-height] => 203
+                                                    [lorada-blog-thumnail2] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-2@2x.jpg
+                                                    [lorada-blog-thumnail2-width] => 203
+                                                    [lorada-blog-thumnail2-height] => 203
+                                                    [lorada-blog-thumnail-list] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-2@2x.jpg
+                                                    [lorada-blog-thumnail-list-width] => 203
+                                                    [lorada-blog-thumnail-list-height] => 203
+                                                    [lorada-single-post] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-2@2x.jpg
+                                                    [lorada-single-post-width] => 203
+                                                    [lorada-single-post-height] => 203
+                                                    [lorada-product-cat-thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-2@2x.jpg
+                                                    [lorada-product-cat-thumb-width] => 203
+                                                    [lorada-product-cat-thumb-height] => 203
+                                                    [lorada-map-marker] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-2@2x-42x42.jpg
+                                                    [lorada-map-marker-width] => 42
+                                                    [lorada-map-marker-height] => 42
+                                                    [lookbook] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-2@2x.jpg
+                                                    [lookbook-width] => 203
+                                                    [lookbook-height] => 203
+                                                    [woocommerce_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-2@2x.jpg
+                                                    [woocommerce_thumbnail-width] => 203
+                                                    [woocommerce_thumbnail-height] => 203
+                                                    [woocommerce_single] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-2@2x.jpg
+                                                    [woocommerce_single-width] => 203
+                                                    [woocommerce_single-height] => 203
+                                                    [woocommerce_gallery_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-2@2x-150x150.jpg
+                                                    [woocommerce_gallery_thumbnail-width] => 150
+                                                    [woocommerce_gallery_thumbnail-height] => 150
+                                                    [shop_catalog] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-2@2x.jpg
+                                                    [shop_catalog-width] => 203
+                                                    [shop_catalog-height] => 203
+                                                    [shop_single] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-2@2x.jpg
+                                                    [shop_single-width] => 203
+                                                    [shop_single-height] => 203
+                                                    [shop_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-2@2x-150x150.jpg
+                                                    [shop_thumbnail-width] => 150
+                                                    [shop_thumbnail-height] => 150
+                                                    [lorada_wc_gallery_thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-2@2x-150x150.jpg
+                                                    [lorada_wc_gallery_thumb-width] => 150
+                                                    [lorada_wc_gallery_thumb-height] => 150
+                                                )
+
+                                        )
+
+                                    [blurb_title] => Book an Instrument
+                                    [blurb_content] => Assign your libraries to an instrument in minutes
+                                )
+
+                            [2] => Array
+                                (
+                                    [blurb_image] => Array
+                                        (
+                                            [ID] => 951
+                                            [id] => 951
+                                            [title] => service-image-3@2x
+                                            [filename] => service-image-3@2x.jpg
+                                            [filesize] => 49104
+                                            [url] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-3@2x.jpg
+                                            [link] => https://meentadevleop.local/home/attachment/service-image-32x/
+                                            [alt] => 
+                                            [author] => 2
+                                            [description] => 
+                                            [caption] => 
+                                            [name] => service-image-32x
+                                            [status] => inherit
+                                            [uploaded_to] => 860
+                                            [date] => 2021-04-06 12:42:21
+                                            [modified] => 2021-04-06 13:00:36
+                                            [menu_order] => 0
+                                            [mime_type] => image/jpeg
+                                            [type] => image
+                                            [subtype] => jpeg
+                                            [icon] => https://meentadevleop.local/wp-includes/images/media/default.png
+                                            [width] => 203
+                                            [height] => 203
+                                            [sizes] => Array
+                                                (
+                                                    [thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-3@2x-150x150.jpg
+                                                    [thumbnail-width] => 150
+                                                    [thumbnail-height] => 150
+                                                    [medium] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-3@2x.jpg
+                                                    [medium-width] => 203
+                                                    [medium-height] => 203
+                                                    [medium_large] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-3@2x.jpg
+                                                    [medium_large-width] => 203
+                                                    [medium_large-height] => 203
+                                                    [large] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-3@2x.jpg
+                                                    [large-width] => 203
+                                                    [large-height] => 203
+                                                    [1536x1536] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-3@2x.jpg
+                                                    [1536x1536-width] => 203
+                                                    [1536x1536-height] => 203
+                                                    [2048x2048] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-3@2x.jpg
+                                                    [2048x2048-width] => 203
+                                                    [2048x2048-height] => 203
+                                                    [yith-woocompare-image] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-3@2x-203x154.jpg
+                                                    [yith-woocompare-image-width] => 203
+                                                    [yith-woocompare-image-height] => 154
+                                                    [lorada-blog-thumnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-3@2x.jpg
+                                                    [lorada-blog-thumnail-width] => 203
+                                                    [lorada-blog-thumnail-height] => 203
+                                                    [lorada-blog-thumnail2] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-3@2x.jpg
+                                                    [lorada-blog-thumnail2-width] => 203
+                                                    [lorada-blog-thumnail2-height] => 203
+                                                    [lorada-blog-thumnail-list] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-3@2x.jpg
+                                                    [lorada-blog-thumnail-list-width] => 203
+                                                    [lorada-blog-thumnail-list-height] => 203
+                                                    [lorada-single-post] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-3@2x.jpg
+                                                    [lorada-single-post-width] => 203
+                                                    [lorada-single-post-height] => 203
+                                                    [lorada-product-cat-thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-3@2x.jpg
+                                                    [lorada-product-cat-thumb-width] => 203
+                                                    [lorada-product-cat-thumb-height] => 203
+                                                    [lorada-map-marker] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-3@2x-42x42.jpg
+                                                    [lorada-map-marker-width] => 42
+                                                    [lorada-map-marker-height] => 42
+                                                    [lookbook] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-3@2x.jpg
+                                                    [lookbook-width] => 203
+                                                    [lookbook-height] => 203
+                                                    [woocommerce_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-3@2x.jpg
+                                                    [woocommerce_thumbnail-width] => 203
+                                                    [woocommerce_thumbnail-height] => 203
+                                                    [woocommerce_single] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-3@2x.jpg
+                                                    [woocommerce_single-width] => 203
+                                                    [woocommerce_single-height] => 203
+                                                    [woocommerce_gallery_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-3@2x-150x150.jpg
+                                                    [woocommerce_gallery_thumbnail-width] => 150
+                                                    [woocommerce_gallery_thumbnail-height] => 150
+                                                    [shop_catalog] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-3@2x.jpg
+                                                    [shop_catalog-width] => 203
+                                                    [shop_catalog-height] => 203
+                                                    [shop_single] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-3@2x.jpg
+                                                    [shop_single-width] => 203
+                                                    [shop_single-height] => 203
+                                                    [shop_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-3@2x-150x150.jpg
+                                                    [shop_thumbnail-width] => 150
+                                                    [shop_thumbnail-height] => 150
+                                                    [lorada_wc_gallery_thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-3@2x-150x150.jpg
+                                                    [lorada_wc_gallery_thumb-width] => 150
+                                                    [lorada_wc_gallery_thumb-height] => 150
+                                                )
+
+                                        )
+
+                                    [blurb_title] => Ship your Samples
+                                    [blurb_content] => Print the generated shipping label and send your samples
+                                )
+
+                            [3] => Array
+                                (
+                                    [blurb_image] => Array
+                                        (
+                                            [ID] => 952
+                                            [id] => 952
+                                            [title] => service-image-4@2x
+                                            [filename] => service-image-4@2x.jpg
+                                            [filesize] => 33069
+                                            [url] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-4@2x.jpg
+                                            [link] => https://meentadevleop.local/home/attachment/service-image-42x/
+                                            [alt] => 
+                                            [author] => 2
+                                            [description] => 
+                                            [caption] => 
+                                            [name] => service-image-42x
+                                            [status] => inherit
+                                            [uploaded_to] => 860
+                                            [date] => 2021-04-06 12:42:21
+                                            [modified] => 2021-04-06 13:00:36
+                                            [menu_order] => 0
+                                            [mime_type] => image/jpeg
+                                            [type] => image
+                                            [subtype] => jpeg
+                                            [icon] => https://meentadevleop.local/wp-includes/images/media/default.png
+                                            [width] => 406
+                                            [height] => 406
+                                            [sizes] => Array
+                                                (
+                                                    [thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-4@2x-150x150.jpg
+                                                    [thumbnail-width] => 150
+                                                    [thumbnail-height] => 150
+                                                    [medium] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-4@2x-300x300.jpg
+                                                    [medium-width] => 300
+                                                    [medium-height] => 300
+                                                    [medium_large] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-4@2x.jpg
+                                                    [medium_large-width] => 406
+                                                    [medium_large-height] => 406
+                                                    [large] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-4@2x.jpg
+                                                    [large-width] => 406
+                                                    [large-height] => 406
+                                                    [1536x1536] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-4@2x.jpg
+                                                    [1536x1536-width] => 406
+                                                    [1536x1536-height] => 406
+                                                    [2048x2048] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-4@2x.jpg
+                                                    [2048x2048-width] => 406
+                                                    [2048x2048-height] => 406
+                                                    [yith-woocompare-image] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-4@2x-220x154.jpg
+                                                    [yith-woocompare-image-width] => 220
+                                                    [yith-woocompare-image-height] => 154
+                                                    [lorada-blog-thumnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-4@2x.jpg
+                                                    [lorada-blog-thumnail-width] => 406
+                                                    [lorada-blog-thumnail-height] => 406
+                                                    [lorada-blog-thumnail2] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-4@2x.jpg
+                                                    [lorada-blog-thumnail2-width] => 406
+                                                    [lorada-blog-thumnail2-height] => 406
+                                                    [lorada-blog-thumnail-list] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-4@2x-406x370.jpg
+                                                    [lorada-blog-thumnail-list-width] => 406
+                                                    [lorada-blog-thumnail-list-height] => 370
+                                                    [lorada-single-post] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-4@2x.jpg
+                                                    [lorada-single-post-width] => 406
+                                                    [lorada-single-post-height] => 406
+                                                    [lorada-product-cat-thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-4@2x.jpg
+                                                    [lorada-product-cat-thumb-width] => 406
+                                                    [lorada-product-cat-thumb-height] => 406
+                                                    [lorada-map-marker] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-4@2x-42x42.jpg
+                                                    [lorada-map-marker-width] => 42
+                                                    [lorada-map-marker-height] => 42
+                                                    [lookbook] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-4@2x-400x400.jpg
+                                                    [lookbook-width] => 400
+                                                    [lookbook-height] => 400
+                                                    [woocommerce_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-4@2x-350x350.jpg
+                                                    [woocommerce_thumbnail-width] => 350
+                                                    [woocommerce_thumbnail-height] => 350
+                                                    [woocommerce_single] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-4@2x.jpg
+                                                    [woocommerce_single-width] => 406
+                                                    [woocommerce_single-height] => 406
+                                                    [woocommerce_gallery_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-4@2x-150x150.jpg
+                                                    [woocommerce_gallery_thumbnail-width] => 150
+                                                    [woocommerce_gallery_thumbnail-height] => 150
+                                                    [shop_catalog] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-4@2x-350x350.jpg
+                                                    [shop_catalog-width] => 350
+                                                    [shop_catalog-height] => 350
+                                                    [shop_single] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-4@2x.jpg
+                                                    [shop_single-width] => 406
+                                                    [shop_single-height] => 406
+                                                    [shop_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-4@2x-150x150.jpg
+                                                    [shop_thumbnail-width] => 150
+                                                    [shop_thumbnail-height] => 150
+                                                    [lorada_wc_gallery_thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-4@2x-150x150.jpg
+                                                    [lorada_wc_gallery_thumb-width] => 150
+                                                    [lorada_wc_gallery_thumb-height] => 150
+                                                )
+
+                                        )
+
+                                    [blurb_title] => Get your Data
+                                    [blurb_content] => Download your data from the secure Meenta Cloud—now or any time in the future
+                                )
+
+                        )
+
+                    [tab_features] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [heading] => 12-day
+                                    [content] => Turnaround Guarantee
+                                )
+
+                            [1] => Array
+                                (
+                                    [heading] => Unlimited Data
+                                    [content] => Stored in Meenta Cloud
+                                )
+
+                        )
+
+                    [button_text] => Learn How it Works...
+                    [button_target] => same_tab
+                    [button_type] => page-link
+                    [button_link] => 
+                    [button_page] => https://meentadevleop.local/research-scientists/
+                )
+
+            [1] => Array
+                (
+                    [tb_title] => Service Providers
+                    [tab_blurbs] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [blurb_image] => Array
+                                        (
+                                            [ID] => 953
+                                            [id] => 953
+                                            [title] => service-image-5@2x
+                                            [filename] => service-image-5@2x.jpg
+                                            [filesize] => 6619
+                                            [url] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-5@2x.jpg
+                                            [link] => https://meentadevleop.local/home/attachment/service-image-52x/
+                                            [alt] => 
+                                            [author] => 2
+                                            [description] => 
+                                            [caption] => 
+                                            [name] => service-image-52x
+                                            [status] => inherit
+                                            [uploaded_to] => 860
+                                            [date] => 2021-04-06 12:42:22
+                                            [modified] => 2021-04-06 13:10:51
+                                            [menu_order] => 0
+                                            [mime_type] => image/jpeg
+                                            [type] => image
+                                            [subtype] => jpeg
+                                            [icon] => https://meentadevleop.local/wp-includes/images/media/default.png
+                                            [width] => 406
+                                            [height] => 406
+                                            [sizes] => Array
+                                                (
+                                                    [thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-5@2x-150x150.jpg
+                                                    [thumbnail-width] => 150
+                                                    [thumbnail-height] => 150
+                                                    [medium] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-5@2x-300x300.jpg
+                                                    [medium-width] => 300
+                                                    [medium-height] => 300
+                                                    [medium_large] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-5@2x.jpg
+                                                    [medium_large-width] => 406
+                                                    [medium_large-height] => 406
+                                                    [large] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-5@2x.jpg
+                                                    [large-width] => 406
+                                                    [large-height] => 406
+                                                    [1536x1536] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-5@2x.jpg
+                                                    [1536x1536-width] => 406
+                                                    [1536x1536-height] => 406
+                                                    [2048x2048] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-5@2x.jpg
+                                                    [2048x2048-width] => 406
+                                                    [2048x2048-height] => 406
+                                                    [yith-woocompare-image] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-5@2x-220x154.jpg
+                                                    [yith-woocompare-image-width] => 220
+                                                    [yith-woocompare-image-height] => 154
+                                                    [lorada-blog-thumnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-5@2x.jpg
+                                                    [lorada-blog-thumnail-width] => 406
+                                                    [lorada-blog-thumnail-height] => 406
+                                                    [lorada-blog-thumnail2] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-5@2x.jpg
+                                                    [lorada-blog-thumnail2-width] => 406
+                                                    [lorada-blog-thumnail2-height] => 406
+                                                    [lorada-blog-thumnail-list] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-5@2x-406x370.jpg
+                                                    [lorada-blog-thumnail-list-width] => 406
+                                                    [lorada-blog-thumnail-list-height] => 370
+                                                    [lorada-single-post] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-5@2x.jpg
+                                                    [lorada-single-post-width] => 406
+                                                    [lorada-single-post-height] => 406
+                                                    [lorada-product-cat-thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-5@2x.jpg
+                                                    [lorada-product-cat-thumb-width] => 406
+                                                    [lorada-product-cat-thumb-height] => 406
+                                                    [lorada-map-marker] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-5@2x-42x42.jpg
+                                                    [lorada-map-marker-width] => 42
+                                                    [lorada-map-marker-height] => 42
+                                                    [lookbook] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-5@2x-400x400.jpg
+                                                    [lookbook-width] => 400
+                                                    [lookbook-height] => 400
+                                                    [woocommerce_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-5@2x-350x350.jpg
+                                                    [woocommerce_thumbnail-width] => 350
+                                                    [woocommerce_thumbnail-height] => 350
+                                                    [woocommerce_single] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-5@2x.jpg
+                                                    [woocommerce_single-width] => 406
+                                                    [woocommerce_single-height] => 406
+                                                    [woocommerce_gallery_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-5@2x-150x150.jpg
+                                                    [woocommerce_gallery_thumbnail-width] => 150
+                                                    [woocommerce_gallery_thumbnail-height] => 150
+                                                    [shop_catalog] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-5@2x-350x350.jpg
+                                                    [shop_catalog-width] => 350
+                                                    [shop_catalog-height] => 350
+                                                    [shop_single] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-5@2x.jpg
+                                                    [shop_single-width] => 406
+                                                    [shop_single-height] => 406
+                                                    [shop_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-5@2x-150x150.jpg
+                                                    [shop_thumbnail-width] => 150
+                                                    [shop_thumbnail-height] => 150
+                                                    [lorada_wc_gallery_thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-5@2x-150x150.jpg
+                                                    [lorada_wc_gallery_thumb-width] => 150
+                                                    [lorada_wc_gallery_thumb-height] => 150
+                                                )
+
+                                        )
+
+                                    [blurb_title] => Provision Your Instrument
+                                    [blurb_content] => Select your instrument and specify your run details
+                                )
+
+                            [1] => Array
+                                (
+                                    [blurb_image] => Array
+                                        (
+                                            [ID] => 954
+                                            [id] => 954
+                                            [title] => service-image-6@2x
+                                            [filename] => service-image-6@2x.jpg
+                                            [filesize] => 49121
+                                            [url] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-6@2x.jpg
+                                            [link] => https://meentadevleop.local/home/attachment/service-image-62x/
+                                            [alt] => 
+                                            [author] => 2
+                                            [description] => 
+                                            [caption] => 
+                                            [name] => service-image-62x
+                                            [status] => inherit
+                                            [uploaded_to] => 860
+                                            [date] => 2021-04-06 12:42:23
+                                            [modified] => 2021-04-06 13:10:51
+                                            [menu_order] => 0
+                                            [mime_type] => image/jpeg
+                                            [type] => image
+                                            [subtype] => jpeg
+                                            [icon] => https://meentadevleop.local/wp-includes/images/media/default.png
+                                            [width] => 203
+                                            [height] => 203
+                                            [sizes] => Array
+                                                (
+                                                    [thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-6@2x-150x150.jpg
+                                                    [thumbnail-width] => 150
+                                                    [thumbnail-height] => 150
+                                                    [medium] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-6@2x.jpg
+                                                    [medium-width] => 203
+                                                    [medium-height] => 203
+                                                    [medium_large] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-6@2x.jpg
+                                                    [medium_large-width] => 203
+                                                    [medium_large-height] => 203
+                                                    [large] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-6@2x.jpg
+                                                    [large-width] => 203
+                                                    [large-height] => 203
+                                                    [1536x1536] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-6@2x.jpg
+                                                    [1536x1536-width] => 203
+                                                    [1536x1536-height] => 203
+                                                    [2048x2048] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-6@2x.jpg
+                                                    [2048x2048-width] => 203
+                                                    [2048x2048-height] => 203
+                                                    [yith-woocompare-image] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-6@2x-203x154.jpg
+                                                    [yith-woocompare-image-width] => 203
+                                                    [yith-woocompare-image-height] => 154
+                                                    [lorada-blog-thumnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-6@2x.jpg
+                                                    [lorada-blog-thumnail-width] => 203
+                                                    [lorada-blog-thumnail-height] => 203
+                                                    [lorada-blog-thumnail2] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-6@2x.jpg
+                                                    [lorada-blog-thumnail2-width] => 203
+                                                    [lorada-blog-thumnail2-height] => 203
+                                                    [lorada-blog-thumnail-list] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-6@2x.jpg
+                                                    [lorada-blog-thumnail-list-width] => 203
+                                                    [lorada-blog-thumnail-list-height] => 203
+                                                    [lorada-single-post] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-6@2x.jpg
+                                                    [lorada-single-post-width] => 203
+                                                    [lorada-single-post-height] => 203
+                                                    [lorada-product-cat-thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-6@2x.jpg
+                                                    [lorada-product-cat-thumb-width] => 203
+                                                    [lorada-product-cat-thumb-height] => 203
+                                                    [lorada-map-marker] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-6@2x-42x42.jpg
+                                                    [lorada-map-marker-width] => 42
+                                                    [lorada-map-marker-height] => 42
+                                                    [lookbook] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-6@2x.jpg
+                                                    [lookbook-width] => 203
+                                                    [lookbook-height] => 203
+                                                    [woocommerce_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-6@2x.jpg
+                                                    [woocommerce_thumbnail-width] => 203
+                                                    [woocommerce_thumbnail-height] => 203
+                                                    [woocommerce_single] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-6@2x.jpg
+                                                    [woocommerce_single-width] => 203
+                                                    [woocommerce_single-height] => 203
+                                                    [woocommerce_gallery_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-6@2x-150x150.jpg
+                                                    [woocommerce_gallery_thumbnail-width] => 150
+                                                    [woocommerce_gallery_thumbnail-height] => 150
+                                                    [shop_catalog] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-6@2x.jpg
+                                                    [shop_catalog-width] => 203
+                                                    [shop_catalog-height] => 203
+                                                    [shop_single] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-6@2x.jpg
+                                                    [shop_single-width] => 203
+                                                    [shop_single-height] => 203
+                                                    [shop_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-6@2x-150x150.jpg
+                                                    [shop_thumbnail-width] => 150
+                                                    [shop_thumbnail-height] => 150
+                                                    [lorada_wc_gallery_thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-6@2x-150x150.jpg
+                                                    [lorada_wc_gallery_thumb-width] => 150
+                                                    [lorada_wc_gallery_thumb-height] => 150
+                                                )
+
+                                        )
+
+                                    [blurb_title] => Accept Booking
+                                    [blurb_content] => Accept incoming bookings with a single click
+                                )
+
+                            [2] => Array
+                                (
+                                    [blurb_image] => Array
+                                        (
+                                            [ID] => 955
+                                            [id] => 955
+                                            [title] => service-image-7@2x
+                                            [filename] => service-image-7@2x.jpg
+                                            [filesize] => 21393
+                                            [url] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-7@2x.jpg
+                                            [link] => https://meentadevleop.local/home/attachment/service-image-72x/
+                                            [alt] => 
+                                            [author] => 2
+                                            [description] => 
+                                            [caption] => 
+                                            [name] => service-image-72x
+                                            [status] => inherit
+                                            [uploaded_to] => 860
+                                            [date] => 2021-04-06 12:42:24
+                                            [modified] => 2021-04-06 13:10:51
+                                            [menu_order] => 0
+                                            [mime_type] => image/jpeg
+                                            [type] => image
+                                            [subtype] => jpeg
+                                            [icon] => https://meentadevleop.local/wp-includes/images/media/default.png
+                                            [width] => 406
+                                            [height] => 406
+                                            [sizes] => Array
+                                                (
+                                                    [thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-7@2x-150x150.jpg
+                                                    [thumbnail-width] => 150
+                                                    [thumbnail-height] => 150
+                                                    [medium] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-7@2x-300x300.jpg
+                                                    [medium-width] => 300
+                                                    [medium-height] => 300
+                                                    [medium_large] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-7@2x.jpg
+                                                    [medium_large-width] => 406
+                                                    [medium_large-height] => 406
+                                                    [large] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-7@2x.jpg
+                                                    [large-width] => 406
+                                                    [large-height] => 406
+                                                    [1536x1536] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-7@2x.jpg
+                                                    [1536x1536-width] => 406
+                                                    [1536x1536-height] => 406
+                                                    [2048x2048] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-7@2x.jpg
+                                                    [2048x2048-width] => 406
+                                                    [2048x2048-height] => 406
+                                                    [yith-woocompare-image] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-7@2x-220x154.jpg
+                                                    [yith-woocompare-image-width] => 220
+                                                    [yith-woocompare-image-height] => 154
+                                                    [lorada-blog-thumnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-7@2x.jpg
+                                                    [lorada-blog-thumnail-width] => 406
+                                                    [lorada-blog-thumnail-height] => 406
+                                                    [lorada-blog-thumnail2] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-7@2x.jpg
+                                                    [lorada-blog-thumnail2-width] => 406
+                                                    [lorada-blog-thumnail2-height] => 406
+                                                    [lorada-blog-thumnail-list] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-7@2x-406x370.jpg
+                                                    [lorada-blog-thumnail-list-width] => 406
+                                                    [lorada-blog-thumnail-list-height] => 370
+                                                    [lorada-single-post] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-7@2x.jpg
+                                                    [lorada-single-post-width] => 406
+                                                    [lorada-single-post-height] => 406
+                                                    [lorada-product-cat-thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-7@2x.jpg
+                                                    [lorada-product-cat-thumb-width] => 406
+                                                    [lorada-product-cat-thumb-height] => 406
+                                                    [lorada-map-marker] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-7@2x-42x42.jpg
+                                                    [lorada-map-marker-width] => 42
+                                                    [lorada-map-marker-height] => 42
+                                                    [lookbook] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-7@2x-400x400.jpg
+                                                    [lookbook-width] => 400
+                                                    [lookbook-height] => 400
+                                                    [woocommerce_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-7@2x-350x350.jpg
+                                                    [woocommerce_thumbnail-width] => 350
+                                                    [woocommerce_thumbnail-height] => 350
+                                                    [woocommerce_single] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-7@2x.jpg
+                                                    [woocommerce_single-width] => 406
+                                                    [woocommerce_single-height] => 406
+                                                    [woocommerce_gallery_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-7@2x-150x150.jpg
+                                                    [woocommerce_gallery_thumbnail-width] => 150
+                                                    [woocommerce_gallery_thumbnail-height] => 150
+                                                    [shop_catalog] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-7@2x-350x350.jpg
+                                                    [shop_catalog-width] => 350
+                                                    [shop_catalog-height] => 350
+                                                    [shop_single] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-7@2x.jpg
+                                                    [shop_single-width] => 406
+                                                    [shop_single-height] => 406
+                                                    [shop_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-7@2x-150x150.jpg
+                                                    [shop_thumbnail-width] => 150
+                                                    [shop_thumbnail-height] => 150
+                                                    [lorada_wc_gallery_thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-7@2x-150x150.jpg
+                                                    [lorada_wc_gallery_thumb-width] => 150
+                                                    [lorada_wc_gallery_thumb-height] => 150
+                                                )
+
+                                        )
+
+                                    [blurb_title] => Track Your Orders
+                                    [blurb_content] => Automatically update your users on their sample status
+                                )
+
+                            [3] => Array
+                                (
+                                    [blurb_image] => Array
+                                        (
+                                            [ID] => 956
+                                            [id] => 956
+                                            [title] => service-image-8@2x
+                                            [filename] => service-image-8@2x.jpg
+                                            [filesize] => 22821
+                                            [url] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-8@2x.jpg
+                                            [link] => https://meentadevleop.local/home/attachment/service-image-82x/
+                                            [alt] => 
+                                            [author] => 2
+                                            [description] => 
+                                            [caption] => 
+                                            [name] => service-image-82x
+                                            [status] => inherit
+                                            [uploaded_to] => 860
+                                            [date] => 2021-04-06 12:42:25
+                                            [modified] => 2021-04-06 13:10:51
+                                            [menu_order] => 0
+                                            [mime_type] => image/jpeg
+                                            [type] => image
+                                            [subtype] => jpeg
+                                            [icon] => https://meentadevleop.local/wp-includes/images/media/default.png
+                                            [width] => 406
+                                            [height] => 406
+                                            [sizes] => Array
+                                                (
+                                                    [thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-8@2x-150x150.jpg
+                                                    [thumbnail-width] => 150
+                                                    [thumbnail-height] => 150
+                                                    [medium] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-8@2x-300x300.jpg
+                                                    [medium-width] => 300
+                                                    [medium-height] => 300
+                                                    [medium_large] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-8@2x.jpg
+                                                    [medium_large-width] => 406
+                                                    [medium_large-height] => 406
+                                                    [large] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-8@2x.jpg
+                                                    [large-width] => 406
+                                                    [large-height] => 406
+                                                    [1536x1536] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-8@2x.jpg
+                                                    [1536x1536-width] => 406
+                                                    [1536x1536-height] => 406
+                                                    [2048x2048] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-8@2x.jpg
+                                                    [2048x2048-width] => 406
+                                                    [2048x2048-height] => 406
+                                                    [yith-woocompare-image] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-8@2x-220x154.jpg
+                                                    [yith-woocompare-image-width] => 220
+                                                    [yith-woocompare-image-height] => 154
+                                                    [lorada-blog-thumnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-8@2x.jpg
+                                                    [lorada-blog-thumnail-width] => 406
+                                                    [lorada-blog-thumnail-height] => 406
+                                                    [lorada-blog-thumnail2] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-8@2x.jpg
+                                                    [lorada-blog-thumnail2-width] => 406
+                                                    [lorada-blog-thumnail2-height] => 406
+                                                    [lorada-blog-thumnail-list] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-8@2x-406x370.jpg
+                                                    [lorada-blog-thumnail-list-width] => 406
+                                                    [lorada-blog-thumnail-list-height] => 370
+                                                    [lorada-single-post] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-8@2x.jpg
+                                                    [lorada-single-post-width] => 406
+                                                    [lorada-single-post-height] => 406
+                                                    [lorada-product-cat-thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-8@2x.jpg
+                                                    [lorada-product-cat-thumb-width] => 406
+                                                    [lorada-product-cat-thumb-height] => 406
+                                                    [lorada-map-marker] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-8@2x-42x42.jpg
+                                                    [lorada-map-marker-width] => 42
+                                                    [lorada-map-marker-height] => 42
+                                                    [lookbook] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-8@2x-400x400.jpg
+                                                    [lookbook-width] => 400
+                                                    [lookbook-height] => 400
+                                                    [woocommerce_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-8@2x-350x350.jpg
+                                                    [woocommerce_thumbnail-width] => 350
+                                                    [woocommerce_thumbnail-height] => 350
+                                                    [woocommerce_single] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-8@2x.jpg
+                                                    [woocommerce_single-width] => 406
+                                                    [woocommerce_single-height] => 406
+                                                    [woocommerce_gallery_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-8@2x-150x150.jpg
+                                                    [woocommerce_gallery_thumbnail-width] => 150
+                                                    [woocommerce_gallery_thumbnail-height] => 150
+                                                    [shop_catalog] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-8@2x-350x350.jpg
+                                                    [shop_catalog-width] => 350
+                                                    [shop_catalog-height] => 350
+                                                    [shop_single] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-8@2x.jpg
+                                                    [shop_single-width] => 406
+                                                    [shop_single-height] => 406
+                                                    [shop_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-8@2x-150x150.jpg
+                                                    [shop_thumbnail-width] => 150
+                                                    [shop_thumbnail-height] => 150
+                                                    [lorada_wc_gallery_thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/service-image-8@2x-150x150.jpg
+                                                    [lorada_wc_gallery_thumb-width] => 150
+                                                    [lorada_wc_gallery_thumb-height] => 150
+                                                )
+
+                                        )
+
+                                    [blurb_title] => Message Users
+                                    [blurb_content] => Skip the emails. Every detail in a simple messaging app
+                                )
+
+                        )
+
+                    [tab_features] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [heading] => Attract
+                                    [content] => External Users
+                                )
+
+                            [1] => Array
+                                (
+                                    [heading] => Free
+                                    [content] => To Internal Users
+                                )
+
+                        )
+
+                    [button_text] => Learn How it Works...
+                    [button_target] => same_tab
+                    [button_type] => page-link
+                    [button_link] => 
+                    [button_page] => https://meentadevleop.local/service-providers/
+                )
+
+        )
+
+    [solutions_heading] => Find the Solution that's Right for You
+    [solutions_intro] => At Meenta, we understand your unique needs as a researcher, service provider, and everything in between.
+    [groups] => Array
+        (
+            [0] => Array
+                (
+                    [title] => For Research Scientists…
+                    [cards] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [image] => 
+                                    [title] => working in Biotech
+                                    [button_text] => View Solutions
+                                    [button_target] => same_tab
+                                    [button_type] => page-link
+                                    [button_link] => 
+                                    [button_page] => https://meentadevleop.local/biotechs/
+                                )
+
+                            [1] => Array
+                                (
+                                    [image] => 
+                                    [title] => working in Academia
+                                    [button_text] => View Solutions
+                                    [button_target] => same_tab
+                                    [button_type] => page-link
+                                    [button_link] => 
+                                    [button_page] => https://meentadevleop.local/academia/
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [title] => For Service Providers…
+                    [cards] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [image] => 
+                                    [title] => managing an Academic Core
+                                    [button_text] => View Solutions
+                                    [button_target] => same_tab
+                                    [button_type] => page-link
+                                    [button_link] => 
+                                    [button_page] => https://meentadevleop.local/academic-core/
+                                )
+
+                            [1] => Array
+                                (
+                                    [image] => 
+                                    [title] => managing a CRO
+                                    [button_text] => View Solutions
+                                    [button_target] => same_tab
+                                    [button_type] => page-link
+                                    [button_link] => 
+                                    [button_page] => https://meentadevleop.local/cros/
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [testimonials_heading] => We're Changing How Scientists Work
+    [testimonials_content] => 
+Our customers are leading the way to a global connected lab making science accessible to all.
+
+
+
+    [testimonials] => Array
+        (
+            [0] => Array
+                (
+                    [image] => Array
+                        (
+                            [ID] => 1004
+                            [id] => 1004
+                            [title] => testimonial-image@2x
+                            [filename] => testimonial-image@2x.jpg
+                            [filesize] => 37348
+                            [url] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-image@2x.jpg
+                            [link] => https://meentadevleop.local/home/attachment/testimonial-image2x/
+                            [alt] => 
+                            [author] => 2
+                            [description] => 
+                            [caption] => 
+                            [name] => testimonial-image2x
+                            [status] => inherit
+                            [uploaded_to] => 860
+                            [date] => 2021-04-06 17:11:54
+                            [modified] => 2021-04-06 17:11:54
+                            [menu_order] => 0
+                            [mime_type] => image/jpeg
+                            [type] => image
+                            [subtype] => jpeg
+                            [icon] => https://meentadevleop.local/wp-includes/images/media/default.png
+                            [width] => 608
+                            [height] => 696
+                            [sizes] => Array
+                                (
+                                    [thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-image@2x-150x150.jpg
+                                    [thumbnail-width] => 150
+                                    [thumbnail-height] => 150
+                                    [medium] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-image@2x-262x300.jpg
+                                    [medium-width] => 262
+                                    [medium-height] => 300
+                                    [medium_large] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-image@2x.jpg
+                                    [medium_large-width] => 608
+                                    [medium_large-height] => 696
+                                    [large] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-image@2x.jpg
+                                    [large-width] => 608
+                                    [large-height] => 696
+                                    [1536x1536] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-image@2x.jpg
+                                    [1536x1536-width] => 608
+                                    [1536x1536-height] => 696
+                                    [2048x2048] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-image@2x.jpg
+                                    [2048x2048-width] => 608
+                                    [2048x2048-height] => 696
+                                    [yith-woocompare-image] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-image@2x-220x154.jpg
+                                    [yith-woocompare-image-width] => 220
+                                    [yith-woocompare-image-height] => 154
+                                    [lorada-blog-thumnail] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-image@2x-608x570.jpg
+                                    [lorada-blog-thumnail-width] => 608
+                                    [lorada-blog-thumnail-height] => 570
+                                    [lorada-blog-thumnail2] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-image@2x.jpg
+                                    [lorada-blog-thumnail2-width] => 608
+                                    [lorada-blog-thumnail2-height] => 696
+                                    [lorada-blog-thumnail-list] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-image@2x-608x370.jpg
+                                    [lorada-blog-thumnail-list-width] => 608
+                                    [lorada-blog-thumnail-list-height] => 370
+                                    [lorada-single-post] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-image@2x-608x670.jpg
+                                    [lorada-single-post-width] => 608
+                                    [lorada-single-post-height] => 670
+                                    [lorada-product-cat-thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-image@2x.jpg
+                                    [lorada-product-cat-thumb-width] => 608
+                                    [lorada-product-cat-thumb-height] => 696
+                                    [lorada-map-marker] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-image@2x-42x42.jpg
+                                    [lorada-map-marker-width] => 42
+                                    [lorada-map-marker-height] => 42
+                                    [lookbook] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-image@2x-349x400.jpg
+                                    [lookbook-width] => 349
+                                    [lookbook-height] => 400
+                                    [woocommerce_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-image@2x-350x350.jpg
+                                    [woocommerce_thumbnail-width] => 350
+                                    [woocommerce_thumbnail-height] => 350
+                                    [woocommerce_single] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-image@2x.jpg
+                                    [woocommerce_single-width] => 608
+                                    [woocommerce_single-height] => 696
+                                    [woocommerce_gallery_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-image@2x-150x150.jpg
+                                    [woocommerce_gallery_thumbnail-width] => 150
+                                    [woocommerce_gallery_thumbnail-height] => 150
+                                    [shop_catalog] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-image@2x-350x350.jpg
+                                    [shop_catalog-width] => 350
+                                    [shop_catalog-height] => 350
+                                    [shop_single] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-image@2x.jpg
+                                    [shop_single-width] => 608
+                                    [shop_single-height] => 696
+                                    [shop_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-image@2x-150x150.jpg
+                                    [shop_thumbnail-width] => 150
+                                    [shop_thumbnail-height] => 150
+                                    [lorada_wc_gallery_thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-image@2x-150x150.jpg
+                                    [lorada_wc_gallery_thumb-width] => 150
+                                    [lorada_wc_gallery_thumb-height] => 150
+                                )
+
+                        )
+
+                    [body] => Meenta is fundamentally changing how scientists can access equipment and their services. 
+                    [author] => Andy Wu, PhD Economics
+                    [title] => Assistant Professor, Harvard Business School
+                )
+
+            [1] => Array
+                (
+                    [image] => Array
+                        (
+                            [ID] => 1005
+                            [id] => 1005
+                            [title] => testimonial-buffalo-2
+                            [filename] => testimonial-buffalo-2.jpg
+                            [filesize] => 95640
+                            [url] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-buffalo-2.jpg
+                            [link] => https://meentadevleop.local/home/attachment/testimonial-buffalo-2/
+                            [alt] => 
+                            [author] => 2
+                            [description] => 
+                            [caption] => 
+                            [name] => testimonial-buffalo-2
+                            [status] => inherit
+                            [uploaded_to] => 860
+                            [date] => 2021-04-06 17:12:09
+                            [modified] => 2021-04-06 17:12:09
+                            [menu_order] => 0
+                            [mime_type] => image/jpeg
+                            [type] => image
+                            [subtype] => jpeg
+                            [icon] => https://meentadevleop.local/wp-includes/images/media/default.png
+                            [width] => 1266
+                            [height] => 1272
+                            [sizes] => Array
+                                (
+                                    [thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-buffalo-2-150x150.jpg
+                                    [thumbnail-width] => 150
+                                    [thumbnail-height] => 150
+                                    [medium] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-buffalo-2-300x300.jpg
+                                    [medium-width] => 300
+                                    [medium-height] => 300
+                                    [medium_large] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-buffalo-2-768x772.jpg
+                                    [medium_large-width] => 768
+                                    [medium_large-height] => 772
+                                    [large] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-buffalo-2-1019x1024.jpg
+                                    [large-width] => 1019
+                                    [large-height] => 1024
+                                    [1536x1536] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-buffalo-2.jpg
+                                    [1536x1536-width] => 1266
+                                    [1536x1536-height] => 1272
+                                    [2048x2048] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-buffalo-2.jpg
+                                    [2048x2048-width] => 1266
+                                    [2048x2048-height] => 1272
+                                    [yith-woocompare-image] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-buffalo-2-220x154.jpg
+                                    [yith-woocompare-image-width] => 220
+                                    [yith-woocompare-image-height] => 154
+                                    [lorada-blog-thumnail] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-buffalo-2-750x570.jpg
+                                    [lorada-blog-thumnail-width] => 750
+                                    [lorada-blog-thumnail-height] => 570
+                                    [lorada-blog-thumnail2] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-buffalo-2-750x1012.jpg
+                                    [lorada-blog-thumnail2-width] => 750
+                                    [lorada-blog-thumnail2-height] => 1012
+                                    [lorada-blog-thumnail-list] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-buffalo-2-1170x370.jpg
+                                    [lorada-blog-thumnail-list-width] => 1170
+                                    [lorada-blog-thumnail-list-height] => 370
+                                    [lorada-single-post] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-buffalo-2-1170x670.jpg
+                                    [lorada-single-post-width] => 1170
+                                    [lorada-single-post-height] => 670
+                                    [lorada-product-cat-thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-buffalo-2-760x760.jpg
+                                    [lorada-product-cat-thumb-width] => 760
+                                    [lorada-product-cat-thumb-height] => 760
+                                    [lorada-map-marker] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-buffalo-2-42x42.jpg
+                                    [lorada-map-marker-width] => 42
+                                    [lorada-map-marker-height] => 42
+                                    [lookbook] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-buffalo-2-398x400.jpg
+                                    [lookbook-width] => 398
+                                    [lookbook-height] => 400
+                                    [woocommerce_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-buffalo-2-350x350.jpg
+                                    [woocommerce_thumbnail-width] => 350
+                                    [woocommerce_thumbnail-height] => 350
+                                    [woocommerce_single] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-buffalo-2-900x904.jpg
+                                    [woocommerce_single-width] => 900
+                                    [woocommerce_single-height] => 904
+                                    [woocommerce_gallery_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-buffalo-2-150x150.jpg
+                                    [woocommerce_gallery_thumbnail-width] => 150
+                                    [woocommerce_gallery_thumbnail-height] => 150
+                                    [shop_catalog] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-buffalo-2-350x350.jpg
+                                    [shop_catalog-width] => 350
+                                    [shop_catalog-height] => 350
+                                    [shop_single] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-buffalo-2-900x904.jpg
+                                    [shop_single-width] => 900
+                                    [shop_single-height] => 904
+                                    [shop_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-buffalo-2-150x150.jpg
+                                    [shop_thumbnail-width] => 150
+                                    [shop_thumbnail-height] => 150
+                                    [lorada_wc_gallery_thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/testimonial-buffalo-2-150x150.jpg
+                                    [lorada_wc_gallery_thumb-width] => 150
+                                    [lorada_wc_gallery_thumb-height] => 150
+                                )
+
+                        )
+
+                    [body] => Meenta is the amazon of sequencing services. 
+                    [author] => Norma Nowak, PhD
+                    [title] => Executive Director, UB Genomics and Sequencing Services State University of New York at Buffalo
+                )
+
+        )
+
+    [institutions_heading] => Trusted by Leading Institutions
+    [institutions_logos] => Array
+        (
+            [0] => Array
+                (
+                    [image] => Array
+                        (
+                            [ID] => 1015
+                            [id] => 1015
+                            [title] => list-logo-1@2x (1)
+                            [filename] => list-logo-1@2x-1.png
+                            [filesize] => 7013
+                            [url] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-1@2x-1.png
+                            [link] => https://meentadevleop.local/home/attachment/list-logo-12x-1/
+                            [alt] => Logo - Harvard Medical School
+                            [author] => 2
+                            [description] => 
+                            [caption] => 
+                            [name] => list-logo-12x-1
+                            [status] => inherit
+                            [uploaded_to] => 860
+                            [date] => 2021-04-06 17:54:26
+                            [modified] => 2021-04-06 18:05:24
+                            [menu_order] => 0
+                            [mime_type] => image/png
+                            [type] => image
+                            [subtype] => png
+                            [icon] => https://meentadevleop.local/wp-includes/images/media/default.png
+                            [width] => 464
+                            [height] => 120
+                            [sizes] => Array
+                                (
+                                    [thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-1@2x-1-150x120.png
+                                    [thumbnail-width] => 150
+                                    [thumbnail-height] => 120
+                                    [medium] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-1@2x-1-300x78.png
+                                    [medium-width] => 300
+                                    [medium-height] => 78
+                                    [medium_large] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-1@2x-1.png
+                                    [medium_large-width] => 464
+                                    [medium_large-height] => 120
+                                    [large] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-1@2x-1.png
+                                    [large-width] => 464
+                                    [large-height] => 120
+                                    [1536x1536] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-1@2x-1.png
+                                    [1536x1536-width] => 464
+                                    [1536x1536-height] => 120
+                                    [2048x2048] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-1@2x-1.png
+                                    [2048x2048-width] => 464
+                                    [2048x2048-height] => 120
+                                    [yith-woocompare-image] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-1@2x-1-220x120.png
+                                    [yith-woocompare-image-width] => 220
+                                    [yith-woocompare-image-height] => 120
+                                    [lorada-blog-thumnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-1@2x-1.png
+                                    [lorada-blog-thumnail-width] => 464
+                                    [lorada-blog-thumnail-height] => 120
+                                    [lorada-blog-thumnail2] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-1@2x-1.png
+                                    [lorada-blog-thumnail2-width] => 464
+                                    [lorada-blog-thumnail2-height] => 120
+                                    [lorada-blog-thumnail-list] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-1@2x-1.png
+                                    [lorada-blog-thumnail-list-width] => 464
+                                    [lorada-blog-thumnail-list-height] => 120
+                                    [lorada-single-post] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-1@2x-1.png
+                                    [lorada-single-post-width] => 464
+                                    [lorada-single-post-height] => 120
+                                    [lorada-product-cat-thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-1@2x-1.png
+                                    [lorada-product-cat-thumb-width] => 464
+                                    [lorada-product-cat-thumb-height] => 120
+                                    [lorada-map-marker] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-1@2x-1-42x42.png
+                                    [lorada-map-marker-width] => 42
+                                    [lorada-map-marker-height] => 42
+                                    [lookbook] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-1@2x-1-400x103.png
+                                    [lookbook-width] => 400
+                                    [lookbook-height] => 103
+                                    [woocommerce_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-1@2x-1-350x120.png
+                                    [woocommerce_thumbnail-width] => 350
+                                    [woocommerce_thumbnail-height] => 120
+                                    [woocommerce_single] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-1@2x-1.png
+                                    [woocommerce_single-width] => 464
+                                    [woocommerce_single-height] => 120
+                                    [woocommerce_gallery_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-1@2x-1-150x120.png
+                                    [woocommerce_gallery_thumbnail-width] => 150
+                                    [woocommerce_gallery_thumbnail-height] => 120
+                                    [shop_catalog] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-1@2x-1-350x120.png
+                                    [shop_catalog-width] => 350
+                                    [shop_catalog-height] => 120
+                                    [shop_single] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-1@2x-1.png
+                                    [shop_single-width] => 464
+                                    [shop_single-height] => 120
+                                    [shop_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-1@2x-1-150x120.png
+                                    [shop_thumbnail-width] => 150
+                                    [shop_thumbnail-height] => 120
+                                    [lorada_wc_gallery_thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-1@2x-1-150x120.png
+                                    [lorada_wc_gallery_thumb-width] => 150
+                                    [lorada_wc_gallery_thumb-height] => 120
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [image] => Array
+                        (
+                            [ID] => 1018
+                            [id] => 1018
+                            [title] => list-logo-2@2x (1)
+                            [filename] => list-logo-2@2x-1.png
+                            [filesize] => 6620
+                            [url] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-2@2x-1.png
+                            [link] => https://meentadevleop.local/home/attachment/list-logo-22x-1/
+                            [alt] => Logo - Broad Institute
+                            [author] => 2
+                            [description] => 
+                            [caption] => 
+                            [name] => list-logo-22x-1
+                            [status] => inherit
+                            [uploaded_to] => 860
+                            [date] => 2021-04-06 18:04:44
+                            [modified] => 2021-04-06 18:05:33
+                            [menu_order] => 0
+                            [mime_type] => image/png
+                            [type] => image
+                            [subtype] => png
+                            [icon] => https://meentadevleop.local/wp-includes/images/media/default.png
+                            [width] => 452
+                            [height] => 114
+                            [sizes] => Array
+                                (
+                                    [thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-2@2x-1-150x114.png
+                                    [thumbnail-width] => 150
+                                    [thumbnail-height] => 114
+                                    [medium] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-2@2x-1-300x76.png
+                                    [medium-width] => 300
+                                    [medium-height] => 76
+                                    [medium_large] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-2@2x-1.png
+                                    [medium_large-width] => 452
+                                    [medium_large-height] => 114
+                                    [large] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-2@2x-1.png
+                                    [large-width] => 452
+                                    [large-height] => 114
+                                    [1536x1536] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-2@2x-1.png
+                                    [1536x1536-width] => 452
+                                    [1536x1536-height] => 114
+                                    [2048x2048] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-2@2x-1.png
+                                    [2048x2048-width] => 452
+                                    [2048x2048-height] => 114
+                                    [yith-woocompare-image] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-2@2x-1-220x114.png
+                                    [yith-woocompare-image-width] => 220
+                                    [yith-woocompare-image-height] => 114
+                                    [lorada-blog-thumnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-2@2x-1.png
+                                    [lorada-blog-thumnail-width] => 452
+                                    [lorada-blog-thumnail-height] => 114
+                                    [lorada-blog-thumnail2] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-2@2x-1.png
+                                    [lorada-blog-thumnail2-width] => 452
+                                    [lorada-blog-thumnail2-height] => 114
+                                    [lorada-blog-thumnail-list] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-2@2x-1.png
+                                    [lorada-blog-thumnail-list-width] => 452
+                                    [lorada-blog-thumnail-list-height] => 114
+                                    [lorada-single-post] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-2@2x-1.png
+                                    [lorada-single-post-width] => 452
+                                    [lorada-single-post-height] => 114
+                                    [lorada-product-cat-thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-2@2x-1.png
+                                    [lorada-product-cat-thumb-width] => 452
+                                    [lorada-product-cat-thumb-height] => 114
+                                    [lorada-map-marker] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-2@2x-1-42x42.png
+                                    [lorada-map-marker-width] => 42
+                                    [lorada-map-marker-height] => 42
+                                    [lookbook] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-2@2x-1-400x101.png
+                                    [lookbook-width] => 400
+                                    [lookbook-height] => 101
+                                    [woocommerce_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-2@2x-1-350x114.png
+                                    [woocommerce_thumbnail-width] => 350
+                                    [woocommerce_thumbnail-height] => 114
+                                    [woocommerce_single] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-2@2x-1.png
+                                    [woocommerce_single-width] => 452
+                                    [woocommerce_single-height] => 114
+                                    [woocommerce_gallery_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-2@2x-1-150x114.png
+                                    [woocommerce_gallery_thumbnail-width] => 150
+                                    [woocommerce_gallery_thumbnail-height] => 114
+                                    [shop_catalog] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-2@2x-1-350x114.png
+                                    [shop_catalog-width] => 350
+                                    [shop_catalog-height] => 114
+                                    [shop_single] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-2@2x-1.png
+                                    [shop_single-width] => 452
+                                    [shop_single-height] => 114
+                                    [shop_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-2@2x-1-150x114.png
+                                    [shop_thumbnail-width] => 150
+                                    [shop_thumbnail-height] => 114
+                                    [lorada_wc_gallery_thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-2@2x-1-150x114.png
+                                    [lorada_wc_gallery_thumb-width] => 150
+                                    [lorada_wc_gallery_thumb-height] => 114
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [image] => Array
+                        (
+                            [ID] => 1016
+                            [id] => 1016
+                            [title] => list-logo-3@2x (1)
+                            [filename] => list-logo-3@2x-1.png
+                            [filesize] => 7533
+                            [url] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-3@2x-1.png
+                            [link] => https://meentadevleop.local/home/attachment/list-logo-32x-1/
+                            [alt] => Logo - Rutgers New Jersey Medical School
+                            [author] => 2
+                            [description] => 
+                            [caption] => 
+                            [name] => list-logo-32x-1
+                            [status] => inherit
+                            [uploaded_to] => 860
+                            [date] => 2021-04-06 17:54:41
+                            [modified] => 2021-04-06 18:05:51
+                            [menu_order] => 0
+                            [mime_type] => image/png
+                            [type] => image
+                            [subtype] => png
+                            [icon] => https://meentadevleop.local/wp-includes/images/media/default.png
+                            [width] => 474
+                            [height] => 130
+                            [sizes] => Array
+                                (
+                                    [thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-3@2x-1-150x130.png
+                                    [thumbnail-width] => 150
+                                    [thumbnail-height] => 130
+                                    [medium] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-3@2x-1-300x82.png
+                                    [medium-width] => 300
+                                    [medium-height] => 82
+                                    [medium_large] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-3@2x-1.png
+                                    [medium_large-width] => 474
+                                    [medium_large-height] => 130
+                                    [large] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-3@2x-1.png
+                                    [large-width] => 474
+                                    [large-height] => 130
+                                    [1536x1536] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-3@2x-1.png
+                                    [1536x1536-width] => 474
+                                    [1536x1536-height] => 130
+                                    [2048x2048] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-3@2x-1.png
+                                    [2048x2048-width] => 474
+                                    [2048x2048-height] => 130
+                                    [yith-woocompare-image] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-3@2x-1-220x130.png
+                                    [yith-woocompare-image-width] => 220
+                                    [yith-woocompare-image-height] => 130
+                                    [lorada-blog-thumnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-3@2x-1.png
+                                    [lorada-blog-thumnail-width] => 474
+                                    [lorada-blog-thumnail-height] => 130
+                                    [lorada-blog-thumnail2] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-3@2x-1.png
+                                    [lorada-blog-thumnail2-width] => 474
+                                    [lorada-blog-thumnail2-height] => 130
+                                    [lorada-blog-thumnail-list] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-3@2x-1.png
+                                    [lorada-blog-thumnail-list-width] => 474
+                                    [lorada-blog-thumnail-list-height] => 130
+                                    [lorada-single-post] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-3@2x-1.png
+                                    [lorada-single-post-width] => 474
+                                    [lorada-single-post-height] => 130
+                                    [lorada-product-cat-thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-3@2x-1.png
+                                    [lorada-product-cat-thumb-width] => 474
+                                    [lorada-product-cat-thumb-height] => 130
+                                    [lorada-map-marker] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-3@2x-1-42x42.png
+                                    [lorada-map-marker-width] => 42
+                                    [lorada-map-marker-height] => 42
+                                    [lookbook] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-3@2x-1-400x110.png
+                                    [lookbook-width] => 400
+                                    [lookbook-height] => 110
+                                    [woocommerce_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-3@2x-1-350x130.png
+                                    [woocommerce_thumbnail-width] => 350
+                                    [woocommerce_thumbnail-height] => 130
+                                    [woocommerce_single] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-3@2x-1.png
+                                    [woocommerce_single-width] => 474
+                                    [woocommerce_single-height] => 130
+                                    [woocommerce_gallery_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-3@2x-1-150x130.png
+                                    [woocommerce_gallery_thumbnail-width] => 150
+                                    [woocommerce_gallery_thumbnail-height] => 130
+                                    [shop_catalog] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-3@2x-1-350x130.png
+                                    [shop_catalog-width] => 350
+                                    [shop_catalog-height] => 130
+                                    [shop_single] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-3@2x-1.png
+                                    [shop_single-width] => 474
+                                    [shop_single-height] => 130
+                                    [shop_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-3@2x-1-150x130.png
+                                    [shop_thumbnail-width] => 150
+                                    [shop_thumbnail-height] => 130
+                                    [lorada_wc_gallery_thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-3@2x-1-150x130.png
+                                    [lorada_wc_gallery_thumb-width] => 150
+                                    [lorada_wc_gallery_thumb-height] => 130
+                                )
+
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [image] => Array
+                        (
+                            [ID] => 1019
+                            [id] => 1019
+                            [title] => list-logo-4@2x (1)
+                            [filename] => list-logo-4@2x-1.png
+                            [filesize] => 7019
+                            [url] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-4@2x-1.png
+                            [link] => https://meentadevleop.local/home/attachment/list-logo-42x-1/
+                            [alt] => Logo - Dana Farber Cancer Institute
+                            [author] => 2
+                            [description] => 
+                            [caption] => 
+                            [name] => list-logo-42x-1
+                            [status] => inherit
+                            [uploaded_to] => 860
+                            [date] => 2021-04-06 18:04:59
+                            [modified] => 2021-04-06 18:06:02
+                            [menu_order] => 0
+                            [mime_type] => image/png
+                            [type] => image
+                            [subtype] => png
+                            [icon] => https://meentadevleop.local/wp-includes/images/media/default.png
+                            [width] => 516
+                            [height] => 92
+                            [sizes] => Array
+                                (
+                                    [thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-4@2x-1-150x92.png
+                                    [thumbnail-width] => 150
+                                    [thumbnail-height] => 92
+                                    [medium] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-4@2x-1-300x53.png
+                                    [medium-width] => 300
+                                    [medium-height] => 53
+                                    [medium_large] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-4@2x-1.png
+                                    [medium_large-width] => 516
+                                    [medium_large-height] => 92
+                                    [large] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-4@2x-1.png
+                                    [large-width] => 516
+                                    [large-height] => 92
+                                    [1536x1536] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-4@2x-1.png
+                                    [1536x1536-width] => 516
+                                    [1536x1536-height] => 92
+                                    [2048x2048] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-4@2x-1.png
+                                    [2048x2048-width] => 516
+                                    [2048x2048-height] => 92
+                                    [yith-woocompare-image] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-4@2x-1-220x92.png
+                                    [yith-woocompare-image-width] => 220
+                                    [yith-woocompare-image-height] => 92
+                                    [lorada-blog-thumnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-4@2x-1.png
+                                    [lorada-blog-thumnail-width] => 516
+                                    [lorada-blog-thumnail-height] => 92
+                                    [lorada-blog-thumnail2] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-4@2x-1.png
+                                    [lorada-blog-thumnail2-width] => 516
+                                    [lorada-blog-thumnail2-height] => 92
+                                    [lorada-blog-thumnail-list] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-4@2x-1.png
+                                    [lorada-blog-thumnail-list-width] => 516
+                                    [lorada-blog-thumnail-list-height] => 92
+                                    [lorada-single-post] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-4@2x-1.png
+                                    [lorada-single-post-width] => 516
+                                    [lorada-single-post-height] => 92
+                                    [lorada-product-cat-thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-4@2x-1.png
+                                    [lorada-product-cat-thumb-width] => 516
+                                    [lorada-product-cat-thumb-height] => 92
+                                    [lorada-map-marker] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-4@2x-1-42x42.png
+                                    [lorada-map-marker-width] => 42
+                                    [lorada-map-marker-height] => 42
+                                    [lookbook] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-4@2x-1-400x71.png
+                                    [lookbook-width] => 400
+                                    [lookbook-height] => 71
+                                    [woocommerce_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-4@2x-1-350x92.png
+                                    [woocommerce_thumbnail-width] => 350
+                                    [woocommerce_thumbnail-height] => 92
+                                    [woocommerce_single] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-4@2x-1.png
+                                    [woocommerce_single-width] => 516
+                                    [woocommerce_single-height] => 92
+                                    [woocommerce_gallery_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-4@2x-1-150x92.png
+                                    [woocommerce_gallery_thumbnail-width] => 150
+                                    [woocommerce_gallery_thumbnail-height] => 92
+                                    [shop_catalog] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-4@2x-1-350x92.png
+                                    [shop_catalog-width] => 350
+                                    [shop_catalog-height] => 92
+                                    [shop_single] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-4@2x-1.png
+                                    [shop_single-width] => 516
+                                    [shop_single-height] => 92
+                                    [shop_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-4@2x-1-150x92.png
+                                    [shop_thumbnail-width] => 150
+                                    [shop_thumbnail-height] => 92
+                                    [lorada_wc_gallery_thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-4@2x-1-150x92.png
+                                    [lorada_wc_gallery_thumb-width] => 150
+                                    [lorada_wc_gallery_thumb-height] => 92
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [publications_heading] => Featured in Major Publications
+    [publications_logos] => Array
+        (
+            [0] => Array
+                (
+                    [image] => Array
+                        (
+                            [ID] => 1010
+                            [id] => 1010
+                            [title] => list-logo-5@2x
+                            [filename] => list-logo-5@2x.png
+                            [filesize] => 4336
+                            [url] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-5@2x.png
+                            [link] => https://meentadevleop.local/home/attachment/list-logo-52x/
+                            [alt] => 
+                            [author] => 2
+                            [description] => 
+                            [caption] => 
+                            [name] => list-logo-52x
+                            [status] => inherit
+                            [uploaded_to] => 860
+                            [date] => 2021-04-06 17:14:03
+                            [modified] => 2021-04-06 17:14:03
+                            [menu_order] => 0
+                            [mime_type] => image/png
+                            [type] => image
+                            [subtype] => png
+                            [icon] => https://meentadevleop.local/wp-includes/images/media/default.png
+                            [width] => 438
+                            [height] => 90
+                            [sizes] => Array
+                                (
+                                    [thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-5@2x-150x90.png
+                                    [thumbnail-width] => 150
+                                    [thumbnail-height] => 90
+                                    [medium] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-5@2x-300x62.png
+                                    [medium-width] => 300
+                                    [medium-height] => 62
+                                    [medium_large] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-5@2x.png
+                                    [medium_large-width] => 438
+                                    [medium_large-height] => 90
+                                    [large] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-5@2x.png
+                                    [large-width] => 438
+                                    [large-height] => 90
+                                    [1536x1536] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-5@2x.png
+                                    [1536x1536-width] => 438
+                                    [1536x1536-height] => 90
+                                    [2048x2048] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-5@2x.png
+                                    [2048x2048-width] => 438
+                                    [2048x2048-height] => 90
+                                    [yith-woocompare-image] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-5@2x-220x90.png
+                                    [yith-woocompare-image-width] => 220
+                                    [yith-woocompare-image-height] => 90
+                                    [lorada-blog-thumnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-5@2x.png
+                                    [lorada-blog-thumnail-width] => 438
+                                    [lorada-blog-thumnail-height] => 90
+                                    [lorada-blog-thumnail2] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-5@2x.png
+                                    [lorada-blog-thumnail2-width] => 438
+                                    [lorada-blog-thumnail2-height] => 90
+                                    [lorada-blog-thumnail-list] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-5@2x.png
+                                    [lorada-blog-thumnail-list-width] => 438
+                                    [lorada-blog-thumnail-list-height] => 90
+                                    [lorada-single-post] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-5@2x.png
+                                    [lorada-single-post-width] => 438
+                                    [lorada-single-post-height] => 90
+                                    [lorada-product-cat-thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-5@2x.png
+                                    [lorada-product-cat-thumb-width] => 438
+                                    [lorada-product-cat-thumb-height] => 90
+                                    [lorada-map-marker] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-5@2x-42x42.png
+                                    [lorada-map-marker-width] => 42
+                                    [lorada-map-marker-height] => 42
+                                    [lookbook] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-5@2x-400x82.png
+                                    [lookbook-width] => 400
+                                    [lookbook-height] => 82
+                                    [woocommerce_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-5@2x-350x90.png
+                                    [woocommerce_thumbnail-width] => 350
+                                    [woocommerce_thumbnail-height] => 90
+                                    [woocommerce_single] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-5@2x.png
+                                    [woocommerce_single-width] => 438
+                                    [woocommerce_single-height] => 90
+                                    [woocommerce_gallery_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-5@2x-150x90.png
+                                    [woocommerce_gallery_thumbnail-width] => 150
+                                    [woocommerce_gallery_thumbnail-height] => 90
+                                    [shop_catalog] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-5@2x-350x90.png
+                                    [shop_catalog-width] => 350
+                                    [shop_catalog-height] => 90
+                                    [shop_single] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-5@2x.png
+                                    [shop_single-width] => 438
+                                    [shop_single-height] => 90
+                                    [shop_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-5@2x-150x90.png
+                                    [shop_thumbnail-width] => 150
+                                    [shop_thumbnail-height] => 90
+                                    [lorada_wc_gallery_thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-5@2x-150x90.png
+                                    [lorada_wc_gallery_thumb-width] => 150
+                                    [lorada_wc_gallery_thumb-height] => 90
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [image] => Array
+                        (
+                            [ID] => 1011
+                            [id] => 1011
+                            [title] => list-logo-6@2x
+                            [filename] => list-logo-6@2x.png
+                            [filesize] => 2629
+                            [url] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-6@2x.png
+                            [link] => https://meentadevleop.local/home/attachment/list-logo-62x/
+                            [alt] => 
+                            [author] => 2
+                            [description] => 
+                            [caption] => 
+                            [name] => list-logo-62x
+                            [status] => inherit
+                            [uploaded_to] => 860
+                            [date] => 2021-04-06 17:14:04
+                            [modified] => 2021-04-06 17:14:04
+                            [menu_order] => 0
+                            [mime_type] => image/png
+                            [type] => image
+                            [subtype] => png
+                            [icon] => https://meentadevleop.local/wp-includes/images/media/default.png
+                            [width] => 452
+                            [height] => 120
+                            [sizes] => Array
+                                (
+                                    [thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-6@2x-150x120.png
+                                    [thumbnail-width] => 150
+                                    [thumbnail-height] => 120
+                                    [medium] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-6@2x-300x80.png
+                                    [medium-width] => 300
+                                    [medium-height] => 80
+                                    [medium_large] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-6@2x.png
+                                    [medium_large-width] => 452
+                                    [medium_large-height] => 120
+                                    [large] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-6@2x.png
+                                    [large-width] => 452
+                                    [large-height] => 120
+                                    [1536x1536] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-6@2x.png
+                                    [1536x1536-width] => 452
+                                    [1536x1536-height] => 120
+                                    [2048x2048] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-6@2x.png
+                                    [2048x2048-width] => 452
+                                    [2048x2048-height] => 120
+                                    [yith-woocompare-image] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-6@2x-220x120.png
+                                    [yith-woocompare-image-width] => 220
+                                    [yith-woocompare-image-height] => 120
+                                    [lorada-blog-thumnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-6@2x.png
+                                    [lorada-blog-thumnail-width] => 452
+                                    [lorada-blog-thumnail-height] => 120
+                                    [lorada-blog-thumnail2] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-6@2x.png
+                                    [lorada-blog-thumnail2-width] => 452
+                                    [lorada-blog-thumnail2-height] => 120
+                                    [lorada-blog-thumnail-list] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-6@2x.png
+                                    [lorada-blog-thumnail-list-width] => 452
+                                    [lorada-blog-thumnail-list-height] => 120
+                                    [lorada-single-post] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-6@2x.png
+                                    [lorada-single-post-width] => 452
+                                    [lorada-single-post-height] => 120
+                                    [lorada-product-cat-thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-6@2x.png
+                                    [lorada-product-cat-thumb-width] => 452
+                                    [lorada-product-cat-thumb-height] => 120
+                                    [lorada-map-marker] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-6@2x-42x42.png
+                                    [lorada-map-marker-width] => 42
+                                    [lorada-map-marker-height] => 42
+                                    [lookbook] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-6@2x-400x106.png
+                                    [lookbook-width] => 400
+                                    [lookbook-height] => 106
+                                    [woocommerce_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-6@2x-350x120.png
+                                    [woocommerce_thumbnail-width] => 350
+                                    [woocommerce_thumbnail-height] => 120
+                                    [woocommerce_single] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-6@2x.png
+                                    [woocommerce_single-width] => 452
+                                    [woocommerce_single-height] => 120
+                                    [woocommerce_gallery_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-6@2x-150x120.png
+                                    [woocommerce_gallery_thumbnail-width] => 150
+                                    [woocommerce_gallery_thumbnail-height] => 120
+                                    [shop_catalog] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-6@2x-350x120.png
+                                    [shop_catalog-width] => 350
+                                    [shop_catalog-height] => 120
+                                    [shop_single] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-6@2x.png
+                                    [shop_single-width] => 452
+                                    [shop_single-height] => 120
+                                    [shop_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-6@2x-150x120.png
+                                    [shop_thumbnail-width] => 150
+                                    [shop_thumbnail-height] => 120
+                                    [lorada_wc_gallery_thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-6@2x-150x120.png
+                                    [lorada_wc_gallery_thumb-width] => 150
+                                    [lorada_wc_gallery_thumb-height] => 120
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [image] => Array
+                        (
+                            [ID] => 1012
+                            [id] => 1012
+                            [title] => list-logo-7@2x
+                            [filename] => list-logo-7@2x.png
+                            [filesize] => 3439
+                            [url] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-7@2x.png
+                            [link] => https://meentadevleop.local/home/attachment/list-logo-72x/
+                            [alt] => 
+                            [author] => 2
+                            [description] => 
+                            [caption] => 
+                            [name] => list-logo-72x
+                            [status] => inherit
+                            [uploaded_to] => 860
+                            [date] => 2021-04-06 17:14:05
+                            [modified] => 2021-04-06 17:14:05
+                            [menu_order] => 0
+                            [mime_type] => image/png
+                            [type] => image
+                            [subtype] => png
+                            [icon] => https://meentadevleop.local/wp-includes/images/media/default.png
+                            [width] => 462
+                            [height] => 68
+                            [sizes] => Array
+                                (
+                                    [thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-7@2x-150x68.png
+                                    [thumbnail-width] => 150
+                                    [thumbnail-height] => 68
+                                    [medium] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-7@2x-300x44.png
+                                    [medium-width] => 300
+                                    [medium-height] => 44
+                                    [medium_large] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-7@2x.png
+                                    [medium_large-width] => 462
+                                    [medium_large-height] => 68
+                                    [large] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-7@2x.png
+                                    [large-width] => 462
+                                    [large-height] => 68
+                                    [1536x1536] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-7@2x.png
+                                    [1536x1536-width] => 462
+                                    [1536x1536-height] => 68
+                                    [2048x2048] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-7@2x.png
+                                    [2048x2048-width] => 462
+                                    [2048x2048-height] => 68
+                                    [yith-woocompare-image] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-7@2x-220x68.png
+                                    [yith-woocompare-image-width] => 220
+                                    [yith-woocompare-image-height] => 68
+                                    [lorada-blog-thumnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-7@2x.png
+                                    [lorada-blog-thumnail-width] => 462
+                                    [lorada-blog-thumnail-height] => 68
+                                    [lorada-blog-thumnail2] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-7@2x.png
+                                    [lorada-blog-thumnail2-width] => 462
+                                    [lorada-blog-thumnail2-height] => 68
+                                    [lorada-blog-thumnail-list] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-7@2x.png
+                                    [lorada-blog-thumnail-list-width] => 462
+                                    [lorada-blog-thumnail-list-height] => 68
+                                    [lorada-single-post] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-7@2x.png
+                                    [lorada-single-post-width] => 462
+                                    [lorada-single-post-height] => 68
+                                    [lorada-product-cat-thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-7@2x.png
+                                    [lorada-product-cat-thumb-width] => 462
+                                    [lorada-product-cat-thumb-height] => 68
+                                    [lorada-map-marker] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-7@2x-42x42.png
+                                    [lorada-map-marker-width] => 42
+                                    [lorada-map-marker-height] => 42
+                                    [lookbook] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-7@2x-400x59.png
+                                    [lookbook-width] => 400
+                                    [lookbook-height] => 59
+                                    [woocommerce_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-7@2x-350x68.png
+                                    [woocommerce_thumbnail-width] => 350
+                                    [woocommerce_thumbnail-height] => 68
+                                    [woocommerce_single] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-7@2x.png
+                                    [woocommerce_single-width] => 462
+                                    [woocommerce_single-height] => 68
+                                    [woocommerce_gallery_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-7@2x-150x68.png
+                                    [woocommerce_gallery_thumbnail-width] => 150
+                                    [woocommerce_gallery_thumbnail-height] => 68
+                                    [shop_catalog] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-7@2x-350x68.png
+                                    [shop_catalog-width] => 350
+                                    [shop_catalog-height] => 68
+                                    [shop_single] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-7@2x.png
+                                    [shop_single-width] => 462
+                                    [shop_single-height] => 68
+                                    [shop_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-7@2x-150x68.png
+                                    [shop_thumbnail-width] => 150
+                                    [shop_thumbnail-height] => 68
+                                    [lorada_wc_gallery_thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-7@2x-150x68.png
+                                    [lorada_wc_gallery_thumb-width] => 150
+                                    [lorada_wc_gallery_thumb-height] => 68
+                                )
+
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [image] => Array
+                        (
+                            [ID] => 1013
+                            [id] => 1013
+                            [title] => list-logo-8@2x
+                            [filename] => list-logo-8@2x.png
+                            [filesize] => 6586
+                            [url] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-8@2x.png
+                            [link] => https://meentadevleop.local/home/attachment/list-logo-82x/
+                            [alt] => 
+                            [author] => 2
+                            [description] => 
+                            [caption] => 
+                            [name] => list-logo-82x
+                            [status] => inherit
+                            [uploaded_to] => 860
+                            [date] => 2021-04-06 17:14:06
+                            [modified] => 2021-04-06 17:14:06
+                            [menu_order] => 0
+                            [mime_type] => image/png
+                            [type] => image
+                            [subtype] => png
+                            [icon] => https://meentadevleop.local/wp-includes/images/media/default.png
+                            [width] => 282
+                            [height] => 124
+                            [sizes] => Array
+                                (
+                                    [thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-8@2x-150x124.png
+                                    [thumbnail-width] => 150
+                                    [thumbnail-height] => 124
+                                    [medium] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-8@2x.png
+                                    [medium-width] => 282
+                                    [medium-height] => 124
+                                    [medium_large] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-8@2x.png
+                                    [medium_large-width] => 282
+                                    [medium_large-height] => 124
+                                    [large] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-8@2x.png
+                                    [large-width] => 282
+                                    [large-height] => 124
+                                    [1536x1536] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-8@2x.png
+                                    [1536x1536-width] => 282
+                                    [1536x1536-height] => 124
+                                    [2048x2048] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-8@2x.png
+                                    [2048x2048-width] => 282
+                                    [2048x2048-height] => 124
+                                    [yith-woocompare-image] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-8@2x-220x124.png
+                                    [yith-woocompare-image-width] => 220
+                                    [yith-woocompare-image-height] => 124
+                                    [lorada-blog-thumnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-8@2x.png
+                                    [lorada-blog-thumnail-width] => 282
+                                    [lorada-blog-thumnail-height] => 124
+                                    [lorada-blog-thumnail2] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-8@2x.png
+                                    [lorada-blog-thumnail2-width] => 282
+                                    [lorada-blog-thumnail2-height] => 124
+                                    [lorada-blog-thumnail-list] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-8@2x.png
+                                    [lorada-blog-thumnail-list-width] => 282
+                                    [lorada-blog-thumnail-list-height] => 124
+                                    [lorada-single-post] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-8@2x.png
+                                    [lorada-single-post-width] => 282
+                                    [lorada-single-post-height] => 124
+                                    [lorada-product-cat-thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-8@2x.png
+                                    [lorada-product-cat-thumb-width] => 282
+                                    [lorada-product-cat-thumb-height] => 124
+                                    [lorada-map-marker] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-8@2x-42x42.png
+                                    [lorada-map-marker-width] => 42
+                                    [lorada-map-marker-height] => 42
+                                    [lookbook] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-8@2x.png
+                                    [lookbook-width] => 282
+                                    [lookbook-height] => 124
+                                    [woocommerce_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-8@2x.png
+                                    [woocommerce_thumbnail-width] => 282
+                                    [woocommerce_thumbnail-height] => 124
+                                    [woocommerce_single] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-8@2x.png
+                                    [woocommerce_single-width] => 282
+                                    [woocommerce_single-height] => 124
+                                    [woocommerce_gallery_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-8@2x-150x124.png
+                                    [woocommerce_gallery_thumbnail-width] => 150
+                                    [woocommerce_gallery_thumbnail-height] => 124
+                                    [shop_catalog] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-8@2x.png
+                                    [shop_catalog-width] => 282
+                                    [shop_catalog-height] => 124
+                                    [shop_single] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-8@2x.png
+                                    [shop_single-width] => 282
+                                    [shop_single-height] => 124
+                                    [shop_thumbnail] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-8@2x-150x124.png
+                                    [shop_thumbnail-width] => 150
+                                    [shop_thumbnail-height] => 124
+                                    [lorada_wc_gallery_thumb] => https://meentadevleop.local/wp-content/uploads/2021/04/list-logo-8@2x-150x124.png
+                                    [lorada_wc_gallery_thumb-width] => 150
+                                    [lorada_wc_gallery_thumb-height] => 124
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [testimonials_cta_heading] => Start using Meenta Now
+    [testimonials_cta_content] => No payment required until you book an instrument.
+    [testimonials_cta_button] => Array
+        (
+            [button_text] => 
+            [button_target] => 
+            [button_type] => 
+            [button_link] => 
+            [button_page] => 
+        )
+
+    [explore_heading] => Explore the NGS Instrument Map
+    [explore_content] => 
+View over 550 live instruments mapped and available across the United States.
+
+
+
+    [explore_button] => Array
+        (
+            [button_text] => 
+            [button_target] => 
+            [button_type] => 
+            [button_link] => 
+            [button_page] => 
+        )
+
+)
+1
