@@ -16,7 +16,7 @@
   }
 
   var applicationId = 'SV1FR11FH0';
-  var apiKey = '1f2750a97bc69f7ef43a4b65b88363fd';
+  var apiKey = 'd364d48f0624fb45e4220fefaf7dd1c1';
   var client = algoliasearch(applicationId, apiKey);
 
   // Expose the helper
@@ -155,12 +155,15 @@
   $doc.ready(function() {
     // Set the global so we do not need to find again.
     $search = $('.search');
+    
     $searchField = $search.find('.search__field');
     $searchResults = $search.find('.search__results');
     $searchClose = $('.js--closeSearch');
     $loader = $('<span class="loader"></span>');
     $searchForm = $search.find('#searchForm');
-
+    
+    
+    if(!$searchForm[0]) return false;
     // This will ensure that on return will force a search.
     $searchForm[0].addEventListener('submit', function() {
       loadInstruments()

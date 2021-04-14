@@ -1,4 +1,6 @@
-<?php get_header(); ?>
+<?php 
+/* Template Name: Flexible Content (ACF) */
+get_header(); ?>
 
 <main id="content" class="page-template">
 

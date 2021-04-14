@@ -16,3 +16,17 @@ Make the unit label and price sit next to each other
 }
 
 
+#lorada-full-screen-search {
+  .form-close {
+      left: 5px;
+      right: auto;
+  }
+}
+
+.back-to-top {
+  bottom: 7rem;
+  right: 1.875rem;
+  border-radius: 100%;
+  background-color: var(--green);
+  color: var(--dark);
+}

@@ -6,7 +6,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 function lorada_child_theme() {
   wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
-  wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/assets/css/style.css', array( 'parent-style', 'lorada-theme-style' ), wp_get_theme()->get('Version') );
+  wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/dist/css/style.css', array( 'parent-style', 'lorada-theme-style' ), wp_get_theme()->get('Version') );
 }
 
 add_action( 'wp_enqueue_scripts', 'lorada_child_theme' );
@@ -15,16 +15,65 @@ function meenta_remove_scripts() {
   // eliminate the parent theme's bootstrap, we will import it into our child theme stylesheet. This will allow us to use all of bootstrap's functions and customize its variables
   wp_dequeue_style( 'bootstrap-style' );
   wp_deregister_style( 'bootstrap-style' );
+  wp_enqueue_script( 'algoliasearch', get_stylesheet_directory_uri() . '/assets/vendor/algoliasearch.min.js', false, false );
+  wp_enqueue_script( 'algoliasearch-helper', get_stylesheet_directory_uri() . '/assets/vendor/algoliasearch.helper.min.js', false, false );
+  wp_enqueue_script( 'algoliasearch-script', get_stylesheet_directory_uri() . '/assets/js/search/index.js', false, false );
+  wp_enqueue_script( 'site-global-scripts', get_stylesheet_directory_uri() . '/assets/js/site.js', false, false );
 
   // Now register your styles and scripts here
 }
 add_action( 'wp_enqueue_scripts', 'meenta_remove_scripts', 20 );
+
+
+
+/**
+ * USED TO DEBUG THE DEPENDENCY QUEUE.... This is used to see which scripts and styles have been loaded on a page
+ */
+function crunchify_print_scripts_styles() {
+
+  $result = [];
+  $result['scripts'] = [];
+  $result['styles'] = [];
+
+  // Print all loaded Scripts
+  global $wp_scripts;
+  foreach( $wp_scripts->queue as $script ) :
+     $result['scripts'][] =  $wp_scripts->registered[$script]->src . ";";
+  endforeach;
+
+  // Print all loaded Styles (CSS)
+  global $wp_styles;
+  foreach( $wp_styles->queue as $style ) :
+     $result['styles'][] =  $wp_styles->registered[$style]->src . ";";
+  endforeach;
+
+  return $result;
+}
+add_action( 'wp_enqueue_scripts', 'crunchify_print_scripts_styles');
+
 
 function dd($arr){
   echo "<pre>";
   die(print_r($arr));
   echo "</pre>";
 }
+
+/**
+ * Add GTM to <head>
+ */
+function meenta_hook_google_tag_manager() {
+  get_template_part('partials/tagmanager');
+}
+add_action('wp_head', 'meenta_hook_google_tag_manager');
+
+/**
+ * Add GTM noscript to opening body
+ */
+add_action( 'wp_body_open', 'meenta_add_gtag_noscript_into_opening_body_tag' );
+function meenta_add_gtag_noscript_into_opening_body_tag() {
+    echo '<!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5B6SCNB"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) -->';
+}
+
 
 /**
  * Output the "per XXX" label -- an ACF Custom Field -- for a product
@@ -70,7 +119,7 @@ function meenta_template_brand_badge(){
   $brands = wp_get_post_terms( $product->get_id(), 'pa_brand', 'all' );
   if(!is_array($brands)) return false;
   ?>
-  <div class="badge badge-primary mb-3 p-2">
+  <div class="meenta-brand-badge badge badge-primary mb-3 p-2">
     <?php echo $brands[0]->name; ?>
   </div>
   <?php 
@@ -83,10 +132,16 @@ add_action( 'woocommerce_single_product_summary', 'meenta_template_brand_badge',
 add_action( 'woocommerce_after_shop_loop_item_title', 'meenta_price_unit_label', 12 );
 
 
-function fooTab(){
-  ?>
-  <h2>Additional</h2>
-  <?php
+if( function_exists('acf_add_options_page') ) {
+	
+	acf_add_options_page(array(
+		'page_title' 	=> 'Child Theme Settings',
+		'menu_title'	=> 'Child Theme Settings',
+		'menu_slug' 	=> 'child-theme-settings',
+		'capability'	=> 'edit_posts',
+		'redirect'		=> false
+	));
+
 }
 
 add_filter( 'woocommerce_product_tabs', 'meenta_product_additional_tabs' );
@@ -243,11 +298,16 @@ function acf_img_alt($image){
  */
 function acf_btn($button){
   if(!isset($button['button_text']) || empty($button['button_text'])){ return false; }
+    $chatTrigger = isset($button['chat_trigger']) && $button['chat_trigger'] === true;
+    $modalTrigger = isset($button['modal_trigger']) && $button['modal_trigger'] === true;
     $link = get_acf_button_link($button);
   ?>
   <a 
     href="<?php echo $link; ?>" 
     class="btn btn-primary"
+    <?php if($chatTrigger): echo 'onclick="window.fcWidget.open();window.fcWidget.show();"'; ?>
+    <?php elseif($modalTrigger): echo 'data-toggle="modal"'; ?>
+    <?php endif; ?>
     <?php acf_button_target($button); ?>
   >
     <?php if(isset($button['button_text'])): ?>
@@ -255,4 +315,11 @@ function acf_btn($button){
     <?php endif; ?>
   </a>
   <?php
+}
+
+add_shortcode( 'search-instruments', 'meenta_instruments_search' );
+function meenta_instruments_search( $atts ) {
+  echo "<div class='search-widget-wrapper'>";
+  get_template_part('partials/search/widget', 'form');
+  echo "</div>";
 }

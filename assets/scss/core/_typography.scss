@@ -1,7 +1,11 @@
+.meenta-kerning {
+  letter-spacing: $meenta-headings-letter-spacing;
+}
+
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
-  letter-spacing: .1825em;
-  font-weight: 600;
+  @extend .meenta-kerning;
+  font-weight: 700;
 }
 
 // https://type-scale.com/
@@ -21,7 +25,7 @@ h6 { font-size: 1rem }
 .text-sm { font-size: .875rem !important; }
 .text-xs { font-size: .75rem !important; }
 
-@media screen and (min-width: 768px){
+@include media-breakpoint-up(md){
   .text-md-4xl { font-size: 3.052rem !important; }
   .text-md-3xl { font-size: 2.441rem !important; }
   .text-md-2xl { font-size: 1.953rem !important; }
@@ -32,7 +36,7 @@ h6 { font-size: 1rem }
   .text-md-xs { font-size: .75rem !important; }
 }
 
-@media screen and (min-width: 992px){
+@include media-breakpoint-up(lg){
   .text-lg-4xl { font-size: 3.052rem !important; }
   .text-lg-3xl { font-size: 2.441rem !important; }
   .text-lg-2xl { font-size: 1.953rem !important; }
@@ -41,6 +45,16 @@ h6 { font-size: 1rem }
   .text-lg-base { font-size: 1rem !important; }
   .text-lg-sm { font-size: .875rem !important; }
   .text-lg-xs { font-size: .75rem !important; }
+}
+@include media-breakpoint-up(xl){
+  .text-xl-4xl { font-size: 3.052rem !important; }
+  .text-xl-3xl { font-size: 2.441rem !important; }
+  .text-xl-2xl { font-size: 1.953rem !important; }
+  .text-xl-xl { font-size: 1.563rem !important; }
+  .text-xl-lg { font-size: 1.25rem !important; }
+  .text-xl-base { font-size: 1rem !important; }
+  .text-xl-sm { font-size: .875rem !important; }
+  .text-xl-xs { font-size: .75rem !important; }
 }
 
 h1, h2, h3 {
@@ -65,5 +79,16 @@ a {
     height: .25rem;
     background-color: var(--dark);
     margin: 0 auto 1em;
+  }
+}
+
+.meenta-main-nav-heading {
+  pointer-events: none;
+  .menu-title {
+    @extend .meenta-kerning;
+    @extend .text-sm;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $dark;
   }
 }

@@ -1,0 +1,23 @@
+.meenta-modal {
+  &--wide {
+    .modal-dialog {
+      max-width: 50rem;
+    }
+  }
+  &--sign-up {
+    @extend .meenta-modal--wide;
+    .modal-body {
+      padding: 2rem 1rem;
+    }
+    .elementor-column-gap-default {
+
+      > .elementor-column {
+        > .elementor-element-populated {
+          padding-left: 30px;
+          padding-right: 30px;
+        }
+      }
+      
+    }
+  }
+}

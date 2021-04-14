@@ -26,3 +26,13 @@
   width: auto !important;
   height: auto !important;
 }
+
+
+.lorada-elementor-special-products .product-view-full .product-thumbs  {
+  flex: 1 1 33%;
+  max-width: 33%;
+}
+.lorada-elementor-special-products .product-view-full .product-infobox  {
+  flex: 1 1 66%;
+  max-width: 66%;
+}

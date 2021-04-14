@@ -1,54 +1,276 @@
-.module-accordion_sections {
-  @extend .content-section;
-}
-
-.module-section ~ .module-section {
-  margin-top: 4rem;
+body.page-template-template-flexible-content {
+  #lorada-footer {
+    margin-top: 0;
+  }
 }
 
 section.module {
-  &:nth-child(even){
-  
+  @extend .content-section;
+  &:nth-child(even) {
   }
+
+  &--cta_bar {
+    text-align: center;
+    text-align: center;
+    @extend .content-section;
+    text-align: center;
+    // @extend .deep-blue-gradient;
+    // @extend .brand-gradient-vertical;
+
+    .section__title {
+      margin-bottom: 1rem;
+      @extend .text-lg-3xl;
+      color: $dark;
+      &:before {
+        background-color: var(--dark);
+      }
+    }
+    p {
+      color: $dark;
+      text-align: center;
+      margin-bottom: 2rem;
+      @extend .text-lg-lg;
+    }
+    .btn {
+      margin: 0 auto;
+      background-color: white;
+      border-color: white;
+      color: var(--dark);
+      &:hover {
+        color: white;
+        background-color: var(--dark);
+        border-color: var(--dark);
+      }
+    }
+
+    &.module--dark {
+      .section__title,
+      p, a:not(.btn) {
+        color: $light;
+      }
+      .section__title {
+        &:before {
+          background-color: $yellow;
+        }
+      }
+    }
+    
+  }
+  
+  &--accordion_sections {
+    padding-top: 0;
+    padding-bottom: 0;
+    
+    .module-section {
+      &__heading {
+        @include media-breakpoint-up(lg){
+          margin-bottom: 2rem;
+        }
+      }
+      &__link {
+        @extend .text-sm;
+        display: inline-block;
+        font-weight: 700;
+        margin-top: 1rem;
+        text-transform: uppercase;
+        @extend .meenta-kerning;
+        color: $dark;
+      }
+      &.even {
+        .module-section {
+          &__content {
+            @include media-breakpoint-up(md) {
+              padding-right: 3rem;
+            }
+          }
+        }
+      }
+      &.odd {
+        .module-section {
+          &__content {
+            @include media-breakpoint-up(md) {
+              padding-left: 3rem;
+            }
+          }
+        }
+      }
+    }
+    .accordion-body {
+      ol {
+        > li {
+          font-weight: 700;
+          li {
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+
+  &--timeline {
+    .list-timeline {
+      position: relative;
+      display: flex;
+      align-items: center;
+      height: 85px;
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      margin: 2rem 0 3rem;
+      @include media-breakpoint-up(lg){
+        margin: 3rem 0 5rem;
+      }
+
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: 8px;
+        left: 0;
+        width: 100%;
+        height: 6px;
+        background-color: #3c92f6
+      }
+
+      &__item {
+        position: absolute;
+        bottom: 0;
+        z-index: 5;
+        padding: 0 0 26px;
+        text-align: center;
+        white-space: nowrap;
+        &:hover h4 {
+          color: #3c92f6
+        }
+        &:hover:after {
+          bottom: -1px;
+          width: 25px;
+          height: 25px;
+          background: linear-gradient(180deg, #b5ff8f 0, #62a24a);
+          box-shadow: 0 2px 4px 0 rgba(64, 64, 64, .2)
+        }
+        &:after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          width: 22px;
+          height: 22px;
+          border: 4px solid #fff;
+          border-radius: 50%;
+          background-color: #3c92f6;
+          transform: translateX(-50%);
+          box-shadow: 0 4px 8px 0 rgba(64, 64, 64, .3);
+          transition: -webkit-box-shadow .4s;
+          transition: box-shadow .4s;
+          transition: box-shadow .4s, -webkit-box-shadow .4s
+        }
+      }
+
+      &__heading,
+      &__sub-heading {
+        @extend .meenta-kerning;
+      }
+
+      &__heading {
+        @extend .text-sm;
+      }
+      &__sub-heading {
+        @extend .text-lg;
+        @extend .text-lg-sm;
+        @extend .text-xl-base;
+      }  
+    }
+    .section__sub-title {
+      @extend .text-lg;
+      margin-bottom: 2rem;
+    }
+
+    
+    @media (max-width:1023px) {
+      .list-timeline {
+        height: auto;
+        display: block
+      }
+      .list-timeline li {
+        position: relative;
+        top: 0;
+        left: 0!important
+      }
+      .list-timeline li+li {
+        padding-top: 70px
+      }
+      .list-timeline li+li:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        z-index: -5;
+        width: 6px;
+        height: 50px;
+        background-color: #3c92f6;
+        transform: translateX(-50%)
+      }
+      .list-timeline:after {
+        display: none
+      }
+    }
+  }
+
+  &--magenta { background-color: var(--magenta); }
+  &--orange { background-color: $orange; }
+  &--yellow { background-color: $yellow; }
+  &--secondary { background-color: $secondary; }
+  &--primary { background-color: $primary; }
+  &--light { background-color: $light; }
+  &--dark { background-color: $dark; }
+
+  &--logos_grid {
+    .section__intro {
+      margin-bottom: 5rem;
+      text-align: center;
+
+      .section__title {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  
 }
 
 .module-section {
   @extend .content-section;
   > .container {
-    @include media-breakpoint-up(md){
+    @include media-breakpoint-up(md) {
       display: flex;
     }
   }
-  &:nth-child(even){
+  &:nth-child(even) {
     background-color: $light;
     > .container {
       flex-direction: row-reverse;
-    }
-    .module-section__content {
-      @include media-breakpoint-up(md){
-        padding-right: 3rem;
-      }
     }
   }
   &__heading {
     &:before {
       display: block;
       position: relative;
-      content: '';
+      content: "";
       width: 3rem;
-      height: .25rem;
+      height: 0.25rem;
       background-color: var(--orange);
       margin: 0 0 1em;
     }
   }
   &__content {
-    @include media-breakpoint-up(md){
+    p {
+      line-height: 1.7;
+    }
+    @include media-breakpoint-up(md) {
       flex: 0 0 70%;
-      padding-left: 3rem;
     }
   }
   &__img-wrapper {
-    @include media-breakpoint-up(md){
+    @include media-breakpoint-up(md) {
       flex: 0 0 30%;
       display: flex;
       justify-content: center;
@@ -58,9 +280,21 @@ section.module {
       height: 14rem;
       border-radius: 100%;
       margin: 0 auto 2rem;
-      @include media-breakpoint-up(md){
+      @include media-breakpoint-up(md) {
         margin: 0;
       }
+    }
+  }
+
+  ol,
+  ul {
+    padding-left: 1rem;
+    ul,
+    ol {
+      margin: 0.5rem 0;
+    }
+    li {
+      margin-bottom: 1rem;
     }
   }
 }

@@ -1,21 +1,15 @@
 .hero-section {
   padding: 4rem 0;
   position: relative;
+  &:not(.hero-section--has-bg){
+    background-color: $primary;
+  }
+
   @media screen and (min-width: 768px) {
     padding: 8rem 0 10rem;
   }
 
-  &:before {
-    @include pseudo;
-    background-color: rgba(255, 255, 255, 0.9);
-    width: 100%;
-    height: 100%;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-  }
+  
 
   > .container {
     padding: 0 2rem;
@@ -52,4 +46,30 @@
       @extend .text-md-lg;
     }
   }
+
+  &--has-bg {
+    &:before {
+      @include pseudo;
+      // background-color: rgba(255, 255, 255, 0.9);
+      // background-color: rgba(0, 0, 0, 0.4);
+      background: rgb(0,0,0);
+background: linear-gradient(97deg, rgba(0,0,0,.9) 00%, rgba(0,0,0,.7) 50%,  rgba(98,98,98,0.006039915966386533) 100%);
+      width: 100%;
+      height: 100%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 1;
+    }
+    .hero-section {
+      &__main-heading,
+      &__sub-heading,
+      &__sub-heading-wrapper p {
+        color: white;
+        text-shadow: 3px 3px 5px rgba(0,0,0,.1);
+      }
+    }
+  }
+  
 }

@@ -8,7 +8,7 @@
 <?php //dd(get_fields()); ?>
   <?php get_template_part('partials/components/hero', 'section'); ?>
 
-  <section id="search-section" class="section section--search">
+  <section id="search-section" class="section section--search" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/globe-section-bg.jpeg);">
     <div class="container">
 
       <?php if(get_field('intro_cards')): ?>
@@ -67,6 +67,9 @@
 
             <?php foreach($cards as $key => $card): ?>
               <div class="hiw-card card card-<?php echo $card['card_color_scheme']; ?>">
+                <?php if(isset($card['icon']) && isset($card['icon']['sizes']) && isset($card['icon']['sizes']['large'])): ?>
+                  <div class="hiw-card__icon" style="background: url(<?php echo $card['icon']['sizes']['large']; ?>) no-repeat center; background-size: cover;"></div>
+                <?php endif; ?>
                 <?php if(isset($card['card_title'])&& !empty($card['card_title'])): ?>
                   <h3 class="hiw-card__title card-title"><?php echo $card['card_title']; ?></h3>
                 <?php endif; ?>
@@ -164,6 +167,8 @@
       </div>
   </section>
 
+  <?php /*
+  
   <section class="section section--solution">
       <div class="container">
         <div class="section__intro">
@@ -205,6 +210,8 @@
         
       </div>
   </section>
+
+  */ ?>
 
   <section class="section section--changing">
       <div class="container">
@@ -291,12 +298,32 @@
   </section>
 <?php endwhile; endif; ?>
 
+<!-- Modal -->
+<div class="meenta-modal meenta-modal--sign-up modal modal-wide fade" id="cta-modal" tabindex="-1" role="dialog" aria-labelledby="cta-modal-label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="cta-modal-label">Meenta.io</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <?php echo do_shortcode("[lorada_html_block block_id='1084']"); ?>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">
+          <i class="fas fa-times"></i>
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
 </main>
 <?php //end content ?>
-<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/algoliasearch.min.js"></script>
-<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/algoliasearch.helper.min.js"></script>
-<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/search/index.js"></script>
 
 <?php get_footer(); ?>
