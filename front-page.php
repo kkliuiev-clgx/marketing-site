@@ -126,15 +126,15 @@
                 aria-labelledby="<?php echo "how-works-tab-toggle-{$key}";?>"
               >
                   <div class="tab-pane__inner">
-                    <div class="tab-blurbs">
+                    <div class="line-blurbs">
                       <?php foreach($tab['tab_blurbs'] as $key => $blurb): ?>
-                        <div class="tab-blurb">
+                        <div class="line-blurb">
                           <?php if(isset($blurb['blurb_image']) && isset($blurb['blurb_image']['sizes']) && isset($blurb['blurb_image']['sizes']['medium'])): ?>
-                            <div class="tab-blurb__img-wrapper">
-                              <img class="tab-blurb__img" src="<?php echo $blurb['blurb_image']['sizes']['medium']; ?>" <?php acf_img_alt($blurb['blurb_image']); ?>>
+                            <div class="line-blurb__img-wrapper">
+                              <img class="line-blurb__img" src="<?php echo $blurb['blurb_image']['sizes']['medium']; ?>" <?php acf_img_alt($blurb['blurb_image']); ?>>
                             </div>
                           <?php endif; ?>
-                          <h4 class="tab-blurb__title"><?php echo $blurb['blurb_title']; ?></h4>
+                          <h4 class="line-blurb__title"><?php echo $blurb['blurb_title']; ?></h4>
                           <p><?php echo $blurb['blurb_content']; ?></p>
                         </div>
                       <?php endforeach; ?>
@@ -167,7 +167,6 @@
       </div>
   </section>
 
-  <?php /*
   
   <section class="section section--solution">
       <div class="container">
@@ -211,7 +210,6 @@
       </div>
   </section>
 
-  */ ?>
 
   <section class="section section--changing">
       <div class="container">
