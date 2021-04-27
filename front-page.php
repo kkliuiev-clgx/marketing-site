@@ -207,12 +207,15 @@
           <?php endforeach; ?>
         </div>
         
+        <?php get_template_part('partials/components/pricing-table', 'section'); ?>
       </div>
   </section>
 
 
   <section class="section section--changing">
       <div class="container">
+      
+      
         <div class="section__intro">
             <h2 class="section__title"><?php echo get_field('testimonials_heading'); ?></h2>
             <p>

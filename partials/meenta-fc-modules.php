@@ -4,7 +4,7 @@ $modules = get_field('meenta_fc_modules');
 ?>
 
 
-<?php foreach($modules as $key => $module): ?>
+<?php if(isset($modules) && !empty($modules)): foreach($modules as $key => $module): ?>
 
   <?php 
     $layoutType = $module['acf_fc_layout']; 
@@ -22,11 +22,18 @@ $modules = get_field('meenta_fc_modules');
     else: 
     ?>
 
-      <div class="container">
-        <p><strong>Hmmm... Looks like something has gone awry...</strong></p>
-        <p>Please <a href="/contact">contact support</a> if you are seeing this message.</p>
+      <div class="container py-6">
+        <p><strong>Hmmm... Looks like something is missing here...</strong></p>
+        <p>Please <a href="/contact">contact support</a>.</p>
       </div>
 
     <?php endif; ?>
   </section>
-<?php endforeach; ?>
+<?php endforeach; else: ?>
+
+  <div class="container py-6">
+    <p><strong>Hmmm... Looks like something is missing here...</strong></p>
+    <p>Please <a href="/contact">contact support</a>.</p>
+  </div>
+
+<?php endif; ?>

@@ -1,0 +1,111 @@
+.pricing-table-widget {
+  @extend .content-section;
+  text-align: center;
+  &__heading {
+    
+  }
+  &__table-wrapper {
+    position: relative;
+    &:before {
+      content: '';
+      display: block;
+      height: 100%;
+      right: 0;
+      width: 15%;
+      pointer-events: none;
+      background: rgb(255,255,255);
+      background: linear-gradient(267deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.006039915966386533) 100%);
+      z-index: 2;
+      top: 0;
+      position: absolute;
+      @include media-breakpoint-up(md){
+        display: none;
+      }
+    }
+    .table-responsive {
+      positon: relative;
+      z-index: 1;
+      @include media-breakpoint-up(lg){
+        overflow: hidden;
+      }
+      &::-webkit-scrollbar-track
+      {
+          // -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+          border-radius: 100em;
+          background-color: rgba(255,255,255,.05);
+      }
+
+      &::-webkit-scrollbar
+      {
+          width: 6px;
+          border-radius: 100em;
+          background-color: rgba(255,255,255,.05);
+      }
+
+      &::-webkit-scrollbar-thumb
+      {
+          background-color: rgba(0,0,0,.05);
+          border: none;
+      }
+     
+    }
+  }
+  th, td {
+    padding: 1rem 1.5rem;
+    vertical-align: middle;
+    &:first-child {
+      padding-left: .5rem;
+    }
+    h4 {
+      margin-bottom: .5rem;
+    }
+    .text-small {
+      margin-bottom: 0;
+      display: block;
+    }
+    p {
+      font-weight: 400;
+      line-height: 1.1;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  th {
+    padding-top: 1.5rem;
+    p {
+      @extend .text-sm;
+    }
+  }
+  td {
+    border-right: 1px solid #e7e7e7;
+    &:first-child {
+      padding-right: 1rem;
+      text-align: left;
+      border-right: 1px solid $dark;
+    }
+    h4 {
+      @extend .text-base;
+    }
+    .fa-check-circle {
+      &:before {
+        color: $green !important;
+        font-size: 1.4em;
+      }
+    }
+    .fa-circle {
+      &:before {
+        color: gray !important;
+        font-size: .875em;
+      }
+    }
+  }
+  table {
+    th {
+      white-space: nowrap;
+      h4 {
+          font-size: 1rem;
+      }
+  }
+  }
+}

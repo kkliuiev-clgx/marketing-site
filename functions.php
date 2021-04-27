@@ -142,6 +142,12 @@ if( function_exists('acf_add_options_page') ) {
 		'redirect'		=> false
 	));
 
+  acf_add_options_sub_page(array(
+		'page_title' 	=> 'Pricing Table',
+		'menu_title'	=> 'Pricing Table',
+		'parent_slug'	=> 'child-theme-settings',
+	));
+
 }
 
 add_filter( 'woocommerce_product_tabs', 'meenta_product_additional_tabs' );
