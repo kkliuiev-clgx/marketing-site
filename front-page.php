@@ -140,11 +140,11 @@
                       <?php endforeach; ?>
                     </div>
 
-                    <div class="tab-features">
+                    <div class="feature-blocks">
                       <?php foreach($tab['tab_features'] as $key => $feature): ?>
-                        <div class="tab-feature">
-                          <h4 class="tab-feature__heading"><?php echo $feature['heading']; ?></h4>
-                          <p class="tab-feature__content"><?php echo $feature['content']; ?></p>
+                        <div class="feature-block">
+                          <h4 class="feature-block__heading"><?php echo $feature['heading']; ?></h4>
+                          <p class="feature-block__content"><?php echo $feature['content']; ?></p>
                         </div>
                       <?php endforeach; ?>
                     </div>
@@ -188,9 +188,9 @@
                 
                 <div class="group-cards">
                   <?php foreach($groupCards as $key => $groupCard): ?>
+                    <?php $link = get_acf_button_link($groupCard); ?>
                     <a href="<?php echo $link; ?>" class="group-card card" <?php acf_button_target($button); ?>>
                       <div class="group-card__body">
-                        <?php $link = get_acf_button_link($groupCard); ?>
                         <h4 class="group-card__title"><?php echo $groupCard['title']; ?></h4>
                       </div>
                       <div class="group-card__footer">
@@ -206,8 +206,7 @@
             </div>
           <?php endforeach; ?>
         </div>
-        
-        <?php get_template_part('partials/components/pricing-table', 'section'); ?>
+      
       </div>
   </section>
 

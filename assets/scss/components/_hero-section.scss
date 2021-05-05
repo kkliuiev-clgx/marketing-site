@@ -21,7 +21,10 @@
     margin-bottom: 1rem;
     @extend .text-2xl;
     @extend .text-md-3xl;
+    @extend .text-lg-4xl;
     // color: white;
+    text-transform: uppercase;
+    @extend .meenta-kerning;
   }
   &__sub-heading {
     margin-bottom: 1rem;
@@ -70,6 +73,25 @@ background: linear-gradient(97deg, rgba(0,0,0,.9) 00%, rgba(0,0,0,.7) 50%,  rgba
         text-shadow: 3px 3px 5px rgba(0,0,0,.1);
       }
     }
+  }
+  
+  &--theme {
+    &-dark,
+    &-magenta {
+      @extend .text-light;
+      h1, h2, h3, h4, h5, h6, p, li {
+        @extend .text-light;
+      }
+    }
+    &-dark { @extend .bg-dark; }
+    &-light { @extend .bg-light; }
+    &-magenta { @extend .bg-danger; }
+    &-orange { 
+      background-color: $orange;
+    }
+    &-yellow { @extend .bg-warning; }
+    &-secondary { @extend .bg-secondary; }
+    &-primary { @extend .bg-primary; }
   }
   
 }

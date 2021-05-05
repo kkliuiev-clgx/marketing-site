@@ -1,0 +1,15 @@
+body.post-type-archive-meenta_jobs {
+  .intro-cards {
+    @include media-breakpoint-up(xl){
+      gap: 2rem;
+    }
+  }
+  .intro-card {
+    padding-bottom: 0;
+    .card-footer {
+      margin-top: auto;
+      margin-left: -2rem;
+      margin-right: -2rem;
+    }
+  }
+}

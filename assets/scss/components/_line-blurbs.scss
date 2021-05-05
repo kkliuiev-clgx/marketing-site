@@ -22,6 +22,7 @@
     display: none;
     @media screen and (min-width: 1200px) {
       display: block;
+      top: 6rem;
     }
   }
 }
@@ -50,8 +51,8 @@
     position: relative;
     z-index: 2;
     @media screen and (min-width: 1200px) {
-      width: 8rem;
-      height: 8rem;
+      width: 12rem;
+      height: 12rem;
     }
   }
   &__title {
@@ -63,5 +64,8 @@
   }
   p {
     text-align: center;
+    @include media-breakpoint-up(lg){
+      padding: 0 1rem;
+    }
   }
 }

@@ -287,8 +287,12 @@ function get_acf_button_link($button){
 /**
  * Outputs the target attribute for an ACF button
  */
-function acf_button_target($button){
-  if($button['button_target'] == 'new_tab'){ 
+function acf_button_target($button, $prefix = ''){
+  $prefixName = '';
+  if($prefix){
+    $prefixName = $prefix . '_';
+  }
+  if($button[$prefixName . 'button_target'] == 'new_tab'){ 
     echo "target='blank'"; 
   }
 }
@@ -302,10 +306,14 @@ function acf_img_alt($image){
 /**
  * Prints an ACF button
  */
-function acf_btn($button){
-  if(!isset($button['button_text']) || empty($button['button_text'])){ return false; }
-    $chatTrigger = isset($button['chat_trigger']) && $button['chat_trigger'] === true;
-    $modalTrigger = isset($button['modal_trigger']) && $button['modal_trigger'] === true;
+function acf_btn($button, $prefix = ''){
+  $prefixName = '';
+  if($prefix){
+    $prefixName = $prefix . '_';
+  }
+  if(!isset($button[$prefixName . 'button_text']) || empty($button[$prefixName . 'button_text'])){ return false; }
+    $chatTrigger = isset($button[$prefixName . 'chat_trigger']) && $button[$prefixName . 'chat_trigger'] === true;
+    $modalTrigger = isset($button[$prefixName . 'modal_trigger']) && $button[$prefixName . 'modal_trigger'] === true;
     $link = get_acf_button_link($button);
   ?>
   <a 
@@ -316,8 +324,8 @@ function acf_btn($button){
     <?php endif; ?>
     <?php acf_button_target($button); ?>
   >
-    <?php if(isset($button['button_text'])): ?>
-      <?php echo $button['button_text']; ?>
+    <?php if(isset($button[$prefixName . 'button_text'])): ?>
+      <?php echo $button[$prefixName . 'button_text']; ?>
     <?php endif; ?>
   </a>
   <?php
@@ -329,3 +337,75 @@ function meenta_instruments_search( $atts ) {
   get_template_part('partials/search/widget', 'form');
   echo "</div>";
 }
+
+
+/**
+ * Register a FAQ.
+ */
+function meenta_faq_cpt_init() {
+  $args = array(
+      'public' => true,
+      'label'  => __( 'FAQs', 'textdomain' ),
+      'supports' => ['page-attributes']
+  );
+  register_post_type( 'meenta_faqs', $args );
+}
+add_action( 'init', 'meenta_faq_cpt_init' );
+
+/**
+ * Register a 'group' taxonomy for post type 'meenta_faqs'.
+ *
+ * @see register_post_type for registering post types.
+ */
+function meenta_faq_type_register_tax() {
+  register_taxonomy( 'faq_group', 'meenta_faqs', array(
+      'label'        => __( 'Group', 'textdomain' ),
+      'rewrite'      => array( 'slug' => 'group' ),
+      'hierarchical' => true,
+  ) );
+}
+add_action( 'init', 'meenta_faq_type_register_tax', 0 );
+
+/**
+ * Register a Job CPT.
+ */
+function meenta_job_cpt_init() {
+  $args = array(
+      'public' => true,
+      'label'  => __( 'Jobs', 'textdomain' ),
+      'has_archive' => true,
+      'supports' => ['title', 'excerpt', 'editor', 'page-attributes'],
+      'rewrite' => array('slug' => 'jobs','with_front' => false),
+  );
+  register_post_type( 'meenta_jobs', $args );
+}
+add_action( 'init', 'meenta_job_cpt_init' );
+
+/**
+ * Register a 'group' taxonomy for post type 'meenta_faqs'.
+ *
+ * @see register_post_type for registering post types.
+ */
+function meenta_job_tag_register_tax() {
+  register_taxonomy( 'job_tag', 'meenta_jobs', array(
+      'label'        => __( 'Tag', 'textdomain' ),
+      'rewrite'      => array( 'slug' => 'tag' ),
+      'hierarchical' => false,
+  ) );
+}
+add_action( 'init', 'meenta_job_tag_register_tax', 0 );
+
+/**
+ * Register a PR Custom Post Type.
+ */
+function meenta_pr_cpt_init() {
+  $args = array(
+      'public' => true,
+      'label'  => __( 'PR', 'textdomain' ),
+      'has_archive' => true,
+      'supports' => ['title', 'excerpt', 'editor', 'thumbnail', 'page-attributes'],
+      'rewrite' => array('slug' => 'pr','with_front' => false),
+  );
+  register_post_type( 'meenta_pr', $args );
+}
+add_action( 'init', 'meenta_pr_cpt_init' );

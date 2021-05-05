@@ -1,0 +1,12 @@
+body.single-meenta_jobs {
+  .post-inner-content {
+    @include media-breakpoint-up(lg){
+      padding-right: 7rem;
+    }
+  }
+  .sidebar-container {
+    @include media-breakpoint-up(lg){
+      margin-top: 7rem !important;
+    }
+  }
+}

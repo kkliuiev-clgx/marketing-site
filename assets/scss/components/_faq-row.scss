@@ -1,0 +1,30 @@
+.faq-row-group {
+  margin-bottom: 3rem;
+  @include media-breakpoint-up(xl){
+    margin-bottom: 7rem;
+  }
+}
+
+.faq-row {
+  margin-bottom: 1rem;
+  @include media-breakpoint-up(lg){
+    margin-bottom: 2rem;
+  }
+  &__toggle {
+    @extend .text-lg;
+  }
+  &__body {
+    p {
+      font-size: 1.125rem;
+      line-height: 1.7;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    .card-body {
+      @include media-breakpoint-up(xl){
+        padding: 2rem;
+      }
+    }
+  }
+}

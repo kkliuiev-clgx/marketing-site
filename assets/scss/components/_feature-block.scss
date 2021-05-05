@@ -1,0 +1,41 @@
+.feature-blocks {
+  @include media-breakpoint-up(md){
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.feature-block {
+  border: 1px solid #e7e7e7;
+  padding: 2rem;
+
+  &:not(:last-child) {
+    @include media-breakpoint-up(md){
+      border-right: 0;
+    }
+  }
+
+  &:first-child {
+    border-radius: 10px 10px 0 0;
+    @include media-breakpoint-up(md){
+      border-radius: 10px 0 0 10px;
+    }
+  }
+  &:last-child {
+    border-radius: 0 0 10px 10px;
+    @include media-breakpoint-up(md){
+      border-radius: 0 10px 10px 0;
+    }
+  }
+
+  &__heading {
+    @extend .text-lg;
+    @extend .text-md-xl;
+    text-align: center;
+    font-weight: 700;
+  }
+  &__content {
+    text-align: center;
+    margin-bottom: 0;
+  }
+}

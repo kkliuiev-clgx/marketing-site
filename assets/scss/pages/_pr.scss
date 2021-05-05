@@ -1,0 +1,54 @@
+body.post-type-archive-meenta_pr {
+  .pr-cards {
+    @include media-breakpoint-up(md){
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+  }
+  article.meenta_pr {
+    padding: 2rem !important;
+    max-width: 100%;
+    width: auto;
+    @extend .white-panel;
+    margin-bottom: 3rm;
+    @include media-breakpoint-up(md){
+      flex: 0 0 47% !important; // overwriting default css
+    }
+    @include media-breakpoint-up(xl){
+      flex: 0 0 31% !important; // overwriting default css
+    }
+    .post-title {
+      position: relative;
+      margin-bottom: 1rem;
+      @extend .text-lg;
+      line-height: 1.3;
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: -2.25rem;
+        width: .45rem;
+        height: 2rem;
+        background-color: orange;
+      }
+    }
+    .post-date {
+      margin-bottom: 1rem;
+    }
+    .post-info-part {
+      .joint {
+        display: none;
+      }
+    }
+    .post-continue {
+      display: block;
+      margin-top: 3rem;
+    }
+  }
+}
+
+body.single-post article.post {
+ 
+}

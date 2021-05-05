@@ -13,15 +13,17 @@
       }
     }
   });
+
+  
   
   
 }())
 
-
-// jQuery(document).ready(function($){
-//   $('.meenta-chat-trigger').on('click', function(e){
-//     e.preventDefault();
-//     window.fcWidget.open();
-//     window.fcWidget.show();
-//   })
-// })
+/**
+ * Jquery zone..avoiding this wherever possible......
+ */
+jQuery(document).ready(function($){
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+})

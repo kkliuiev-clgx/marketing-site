@@ -73,7 +73,12 @@
   }
   th {
     padding-top: 1.5rem;
+    color: $primary;
+    h4 {
+      color: darken($primary, 10%);
+    }
     p {
+      color: $dark;
       @extend .text-sm;
     }
   }

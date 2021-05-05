@@ -2,6 +2,7 @@
 $heading = $module['heading'];
 $logos = get_field('logos', 'option');
 $intro_paragraph = $module['intro_paragraph'];
+$logos = $module['logos'];
 ?>
 
 <div class="container">

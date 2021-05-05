@@ -8,10 +8,14 @@ $modules = get_field('meenta_fc_modules');
 
   <?php 
     $layoutType = $module['acf_fc_layout']; 
+    $noPaddingTop = isset($module['no_padding_top']) && $module['no_padding_top'] == 1; 
+    $noPaddingBottom = isset($module['no_padding_bottom']) && $module['no_padding_bottom'] == 1; 
     $moduleName = 'partials/fc-modules/module-' . $layoutType . '.php';
     $modulePath = locate_template( $moduleName, false, false );
     $moduleClasses = ['module--' . $layoutType];
     if(!$modulePath){ $moduleClasses[] = 'module--not-found'; }
+    if($noPaddingTop){ $moduleClasses[] = 'pt-0'; }
+    if($noPaddingBottom){ $moduleClasses[] = 'pb-0'; }
     if(isset($module['card_color_scheme']) && !empty($module['card_color_scheme'])){ $moduleClasses[] = 'module--' . $module['card_color_scheme']; }
   ?>
   

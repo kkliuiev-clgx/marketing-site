@@ -1,7 +1,7 @@
 <div class="pricing-table-widget">
   <div class="pricing-table-widget__intro mb-5">
     <?php if(get_field('pricing_table_heading', 'option')): ?>
-      <h2 class="text-2xl"><?php echo get_field('pricing_table_heading', 'option'); ?></h2>
+      <h2 class="module-section__heading text-2xl"><?php echo get_field('pricing_table_heading', 'option'); ?></h2>
     <?php endif; ?>
     <?php if(get_field('pricing_table_sub_heading', 'option')): ?>
       <?php echo get_field('pricing_table_sub_heading', 'option'); ?>
