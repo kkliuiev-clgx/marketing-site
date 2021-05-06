@@ -315,6 +315,11 @@ function acf_btn($button, $prefix = ''){
     $chatTrigger = isset($button[$prefixName . 'chat_trigger']) && $button[$prefixName . 'chat_trigger'] === true;
     $modalTrigger = isset($button[$prefixName . 'modal_trigger']) && $button[$prefixName . 'modal_trigger'] === true;
     $link = get_acf_button_link($button);
+
+    if(strpos($link, '#') == 0){
+      
+    }
+    
   ?>
   <a 
     href="<?php echo $link; ?>" 
