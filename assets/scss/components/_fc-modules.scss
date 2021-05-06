@@ -13,7 +13,8 @@ section.module {
   &--basic_content,
   &--feature_blocks_section,
   &--faqs_section,
-  &--image_cards {
+  &--image_cards,
+  &--tabs {
     .module {
       &__intro {
         text-align: center;
@@ -37,6 +38,29 @@ section.module {
       }
     }
   }
+
+  &--basic_content {
+    .module {
+      &__columns {
+        @include media-breakpoint-up(md){
+          display: flex;
+          gap: 2rem;
+        }
+      }
+      &__column {
+        @include media-breakpoint-up(md){
+          flex-basis: 0;
+          flex-grow: 1;
+        }
+        .section__title {
+          &:before {
+            margin-left: 0;
+            margin-right: 0
+          }
+        }
+      }
+    }
+  } 
 
   &--cta_bar {
     text-align: center;
@@ -62,9 +86,9 @@ section.module {
     }
     .btn {
       margin: 0 auto;
-      @extend .btn-light;
+      // @extend .btn-light;
       &:hover {
-        color: white;
+        // color: white;
       }
     }
 
@@ -160,6 +184,12 @@ section.module {
 
   &--timeline {
 
+    .narrow {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
     .list-timeline {
       position: relative;
       display: flex;
@@ -189,7 +219,7 @@ section.module {
         z-index: 5;
         padding: 0 0 26px;
         text-align: center;
-        white-space: nowrap;
+        // white-space: nowrap;
         &:hover h4 {
           color: #3c92f6
         }
@@ -220,11 +250,13 @@ section.module {
 
       &__heading,
       &__sub-heading {
-        @extend .meenta-kerning;
       }
-
+      
       &__heading {
-        @extend .text-sm;
+        &:not(.text-lg) {
+          @extend .meenta-kerning;
+          @extend .text-sm;
+        }
       }
       &__sub-heading {
         @extend .text-lg;
@@ -275,6 +307,7 @@ section.module {
   &--primary { background-color: $primary; }
   &--light { background-color: $light; }
   &--dark { background-color: $dark; }
+  &--white { background-color: white; }
 
   &--logos_grid {
     .section__intro {
@@ -312,6 +345,55 @@ section.module {
       &__heading {
         &:before {
           @extend .mx-auto;
+        }
+      }
+    }
+  }
+  &--tabs {
+    background-color: #f9f9f9;
+    .nav-tabs {
+      position: relative;
+      z-index: 2;
+      justify-content: center;
+      margin-top: 3rem;
+      @include media-breakpoint-up(lg){
+        margin-top: 5rem;
+      }
+    }
+    .nav-item {
+    }
+    .nav-link {
+      font-weight: 700;
+      color: gray;
+      @extend .text-lg-base;
+
+      @include media-breakpoint-up(lg){
+        padding: 1rem 2rem;
+      }
+
+      &.active {
+        color: $primary;
+      }
+    }
+
+    .tab-pane {
+      position: relative;
+      z-index: 2;
+      &__inner {
+        padding: 3rem;
+        @extend .white-panel;
+        border-radius: 0 0 var(--white-panel-border-radius) var(--white-panel-border-radius);
+        @media screen and (min-width: 1200px) {
+          padding: 4rem 3rem;
+        }
+      }
+      &__columns {
+        gap: 2rem;
+      }
+      &__column {
+        @include media-breakpoint-up(md){
+          flex-grow: 1;
+          flex-basis: 0;
         }
       }
     }
