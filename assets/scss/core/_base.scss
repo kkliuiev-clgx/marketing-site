@@ -16,6 +16,17 @@ Make the unit label and price sit next to each other
 }
 
 
+/**
+Make the footer stick to the bottom of the page when viewed on a screen that is taller than the page 
+*/
+#page-wrapper {
+  @include media-breakpoint-up(lg){
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 #lorada-full-screen-search {
   .form-close {
       left: 5px;

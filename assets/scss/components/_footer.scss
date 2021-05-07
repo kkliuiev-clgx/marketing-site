@@ -2,6 +2,9 @@
 // FOoter
 
 #lorada-footer {
+  @include media-breakpoint-up(lg){
+    margin-top: auto;
+  }
   .footer-main {
     background-color: black !important;
     a,
