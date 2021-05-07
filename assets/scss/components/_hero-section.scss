@@ -40,6 +40,9 @@
     line-height: 1.5;
     margin-bottom: 2rem;
   }
+  a:not(.btn){
+    text-decoration: underline;
+  }
   .btn {
     margin-top: 2rem;
   }
@@ -92,6 +95,16 @@ background: linear-gradient(97deg, rgba(0,0,0,.9) 00%, rgba(0,0,0,.7) 50%,  rgba
     &-yellow { @extend .bg-warning; }
     &-secondary { @extend .bg-secondary; }
     &-primary { @extend .bg-primary; }
+
+    &-secondary,
+    &-yellow,
+    &-orange,
+    &-primary {
+      .btn-primary {
+        @extend .btn-dark; // make the blue-green button black on these colored modules
+      }
+    }
+    
   }
   
 }

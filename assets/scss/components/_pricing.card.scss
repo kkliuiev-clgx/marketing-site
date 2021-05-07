@@ -1,12 +1,17 @@
 .pricing-cards {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1rem;
+  @include media-breakpoint-up(md){
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
   @include media-breakpoint-up(xl){
     gap: 2rem
   }
   .pricing-card {
+    @include media-breakpoint-down(sm){
+      margin-bottom: 2rem;
+    }
     &:nth-child(1) {
       &:before {
         background-color: $blue;

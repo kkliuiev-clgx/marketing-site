@@ -19,7 +19,10 @@ $disclaimer = $module['disclaimer'];
     <ul class="list-timeline">
       <?php foreach($timeline as $key => $item): ?>
         <li class="list-timeline__item current" data-toggle="tooltip" data-placement="bottom" title="<?php echo $item['tooltip']; ?>" style="left: <?php echo $item['timeline_position']; ?>%;">
-          <h4 class="list-timeline__heading <?php if(empty($item['sub_heading'])){ ?> text-lg <?php } ?>"><?php echo $item['heading']; ?></h4>
+          <?php if(isset($item['icon']) && !empty($item['icon'])){ ?>
+            <img class="img-fluid mb-3" src="<?php echo $item['icon']['sizes']['medium']; ?>" alt="Icon for the timeline item">
+          <?php } ?>
+          <h4 class="list-timeline__heading <?php if(empty($item['sub_heading'])){ ?> <?php } ?>"><?php echo $item['heading']; ?></h4>
           <h5 class="list-timeline__sub-heading"><?php echo $item['sub_heading']; ?></h5>
         </li>
       <?php endforeach; ?>

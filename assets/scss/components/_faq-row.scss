@@ -14,6 +14,9 @@
     @extend .text-lg;
   }
   &__body {
+    a:not(.btn){
+      text-decoration: underline;
+    }
     p {
       font-size: 1.125rem;
       line-height: 1.7;

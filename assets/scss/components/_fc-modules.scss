@@ -109,6 +109,14 @@ section.module {
         }
       }
     }
+    &.module--secondary,
+    &.module--yellow,
+    &.module--orange,
+    &.module--primary {
+      .btn-primary {
+        @extend .btn-dark; // make the blue-green button black on these colored modules
+      }
+    }
     
   }
   
@@ -200,7 +208,7 @@ section.module {
       list-style-type: none;
       margin: 2rem 0 3rem;
       @include media-breakpoint-up(lg){
-        margin: 3rem 0 5rem;
+        margin: 6rem 0 5rem;
       }
 
       &:after {
@@ -220,6 +228,7 @@ section.module {
         padding: 0 0 26px;
         text-align: center;
         // white-space: nowrap;
+        
         &:hover h4 {
           color: #3c92f6
         }
@@ -246,6 +255,14 @@ section.module {
           transition: box-shadow .4s;
           transition: box-shadow .4s, -webkit-box-shadow .4s
         }
+
+        .img-fluid {
+          max-width: 80px;
+          @include media-breakpoint-up(lg){
+            max-width: 50px;
+          }
+        }
+        
       }
 
       &__heading,
@@ -254,8 +271,8 @@ section.module {
       
       &__heading {
         &:not(.text-lg) {
-          @extend .meenta-kerning;
-          @extend .text-sm;
+          // @extend .meenta-kerning;
+          @extend .text-base;
         }
       }
       &__sub-heading {

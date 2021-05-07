@@ -42,6 +42,12 @@
       letter-spacing: 2px !important;
     }
   }
+
+  [data-id="ee7ee9a"]{
+    @include media-breakpoint-down(md){
+      margin-bottom: 2rem;
+    }
+  }
 }
 
 
