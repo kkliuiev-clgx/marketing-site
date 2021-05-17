@@ -44,8 +44,11 @@
 }
 
 .main-header .site-logo img.normal-logo {
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 960px){
     max-height: none !important;
+    max-width: 220px;
+  }
+  @media screen and (min-width: 1200px){
     max-width: 300px;
   }
 }

@@ -4,6 +4,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+require_once( get_stylesheet_directory() . '/templates/header/element-functions.php' );
+
 function lorada_child_theme() {
   wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
   wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/dist/css/style.css', array( 'parent-style', 'lorada-theme-style' ), wp_get_theme()->get('Version') );

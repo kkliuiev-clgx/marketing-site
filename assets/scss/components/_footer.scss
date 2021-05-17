@@ -6,16 +6,16 @@
     margin-top: auto;
   }
   .footer-main {
-    background-color: black !important;
+    // background-color: black !important;
     a,
     p,
     li,
     span,
     .elementor-widget-icon-list .elementor-icon-list-text {
-      color: white;
+      // color: white;
     }
     .elementor-widget-icon-list .elementor-icon-list-icon i[class^="fa"] {
-      color: white !important;
+      // color: white !important;
       opacity: .35;
     }
     .footer-widget-content {
@@ -27,7 +27,7 @@
     font-weight: 700;
     margin-bottom: .875rem;
     font-size: .875rem;
-    color: white;
+    // color: white;
     opacity: .35;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -58,21 +58,21 @@
   padding-top: 2rem;
 }
 
+.meenta-footer__logo-bar img.light-logo {
+  display: none !important;
+}
 .meenta-footer__logo-bar img.sticky-logo {
   display: none !important;
 }
 .meenta-footer__logo-bar img.normal-logo {
-  display: none !important;
+  // display: none !important;
 }
 
 .meenta-footer__logo-bar .site-logo {
   display: block;
   max-width: 200px;
 }
-.meenta-footer__logo-bar .normal-logo,
-.meenta-footer__logo-bar .sticky-logo, {
-  display: none;
-}
+
 .meenta-special-product__price-wrapper .meenta-price__unit-label {
   margin-top: 10px;
 }

@@ -67,14 +67,7 @@ body.home {
     @media screen and (min-width: 1200px) {
     }
 
-    > .container {
-      margin-top: -8rem;
-      position: relative;
-      z-index: 3;
-      @include media-breakpoint-up(md){
-        margin-top: -8rem;
-      }
-    }
+    
 
     .section__intro,
     .search-wrapper {
@@ -392,9 +385,17 @@ body.home {
     background: rgb(22, 22, 22);
     background: linear-gradient(180deg, rgba(22, 22, 22, 1) 0%, rgba(73, 73, 73, 1) 100%, rgba(0, 212, 255, 1) 161616%);
 
+    
     > .container {
       padding: 0 2rem;
+      margin-top: -8rem;
+      position: relative;
+      z-index: 3;
+      @include media-breakpoint-up(md){
+        margin-top: -8rem;
+      }
     }
+    
     .section__title {
       @extend .text-xl;
       text-align: center;
@@ -582,6 +583,19 @@ body.home {
   .intro-card {
     &:nth-child(2) {
       &:before {
+        background-color: var(--secondary);
+      }
+      &:hover {
+        .intro-card__btn {
+          background-color: transparent;
+          border-color: var(--secondary);
+          i[class^="fa"] {
+            color: var(--secondary);
+          }
+        }
+      }
+      .intro-card__btn {
+        border: 2px solid var(--secondary);
         background-color: var(--secondary);
       }
     }
