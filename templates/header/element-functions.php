@@ -141,3 +141,47 @@ if ( ! function_exists( 'lorada_generate_header' ) ) {
 		return $header_config[$header_layout];
 	}
 }
+
+
+/**
+ * 
+ * This is all here so that we can re-arrange the icons in the header. 
+ * This was copied from the parent theme and modified slightly (put search before account in the config arrays)
+ * 
+ */
+/* Sticky Header Clone */
+if ( ! function_exists( 'lorada_sticky_header_clone' ) ) {
+	function lorada_sticky_header_clone( $header_layout = 'header_default' ) {
+		$mobile_layout = lorada_get_opt( 'header_mobile_layout' );
+		$mobile_layout = ( empty( $mobile_layout ) ) ? 'logo_center' : $mobile_layout;
+		$sticky_header = ( empty( lorada_get_opt( 'sticky_header_setting' ) ) ) ? ' sticky-disabled' : '';
+		$sticky_header_on_scroll = ( ! empty( lorada_get_opt( 'sticky_header_on_scroll' ) ) ) ? ' hide_sticky_scrolldown' : '';
+		$header_layout = apply_filters( 'lorada_header_layout', lorada_get_opt( 'header_layout' ) );
+
+		?>
+		<div class="sticky-header-enable header-clone mobile-layout-<?php echo esc_attr( $mobile_layout ) ?> <?php echo esc_attr( $header_layout ) . esc_attr( $sticky_header ) . esc_attr( $sticky_header_on_scroll ); ?>">
+			<div class="header-container">
+				<div class="header-clone-wrapper">
+					<?php
+						echo lorada_header_block_header_mobile_nav();
+						echo lorada_header_block_logo();
+					?>
+
+					<div class="header-clone-menu-wrap">
+						<?php echo lorada_header_block_main_nav_menu(); ?>
+					</div>
+
+					<div class="right-column">
+						<?php
+							echo lorada_header_block_search();
+							echo lorada_header_block_account();
+							echo lorada_header_block_wishlist();
+							echo lorada_header_block_cart( 'sticky' );
+						?>
+					</div>
+				</div>
+			</div>
+		</div>
+		<?php
+	}
+}

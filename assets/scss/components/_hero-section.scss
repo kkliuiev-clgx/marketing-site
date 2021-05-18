@@ -1,12 +1,12 @@
 .hero-section {
-  padding: 4rem 0;
+  padding: 2rem 0;
   position: relative;
   &:not(.hero-section--has-bg){
     background-color: $primary;
   }
 
   @media screen and (min-width: 768px) {
-    padding: 8rem 0 10rem;
+    padding: 4rem 0 4rem;
   }
 
   
@@ -25,20 +25,22 @@
     // color: white;
     text-transform: uppercase;
     @extend .meenta-kerning;
+    text-align: center;
   }
   &__sub-heading {
     margin-bottom: 1rem;
     @extend .text-lg;
     @extend .text-md-2xl;
+    text-align: center;
     // color: white;
-  }
-
-  &__sub-heading {
     text-transform: none;
     letter-spacing: 0px;
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: 2rem;
+  }
+
+  &__sub-heading {
   }
   a:not(.btn){
     text-decoration: underline;
