@@ -6,7 +6,8 @@
     if(chatTriggers.length){
       // browser support <3
       for(var i = 0; i < chatTriggers.length; i++){
-        chatTriggers[i].addEventListener('click', function(){
+        chatTriggers[i].addEventListener('click', function(e){
+          e.preventDefault();
           window.fcWidget.open();
           window.fcWidget.show();
         });

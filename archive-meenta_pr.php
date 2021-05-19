@@ -24,7 +24,7 @@ lorada_page_heading();
 <section class="hero-section hero-section--theme-light">
   <div class="container">
     <div class="hero-section__content">
-      <h1 class="hero-section__main-heading">News & PR</h1>
+      <h1 class="hero-section__main-heading"><?php the_title(); ?></h1>
     </div>
   </div>
 </section>
