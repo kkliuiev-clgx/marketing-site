@@ -28,6 +28,8 @@ add_action( 'wp_enqueue_scripts', 'meenta_remove_scripts', 20 );
 
 
 
+
+
 /**
  * USED TO DEBUG THE DEPENDENCY QUEUE.... This is used to see which scripts and styles have been loaded on a page
  */
@@ -416,3 +418,60 @@ function meenta_pr_cpt_init() {
   register_post_type( 'meenta_pr', $args );
 }
 add_action( 'init', 'meenta_pr_cpt_init' );
+
+/**
+ * Display Product Flash
+ * This is here so that we can change the small red badges that appear on top of the product cards in the shop from 'Hot' to 'New' and re-style it
+ */
+if ( ! function_exists( 'lorada_product_flash' ) ) {
+	function lorada_product_flash() {
+		global $product;
+
+		$flash_output = array();
+
+		if ( $product->is_on_sale() ) {
+			$percentage = '';
+
+			if ( 'variable' == $product->get_type() ) {
+
+				$maximum_percentage = 0;
+				$variations = $product->get_variation_prices();
+
+				foreach( $variations['regular_price'] as $key => $regular_price ) {
+					$sale_price = $variations['sale_price'][$key];
+
+					if ( $sale_price < $regular_price ) {
+						$percentage = round( ( ( $regular_price - $sale_price ) / $regular_price ) * 100 );
+
+						if ( $percentage > $maximum_percentage ) {
+							$maximum_percentage = $percentage;
+						}
+					}
+				}
+
+				$percentage = $maximum_percentage;
+
+			} elseif ( 'simple' == $product->get_type() || 'external' == $product->get_type() ) {
+				$percentage = round( ( ( $product->get_regular_price() - $product->get_sale_price() ) / $product->get_regular_price() ) * 100 );
+			}
+
+			if ( $percentage && lorada_get_opt('sale_label_view') ) {
+				$flash_output[] = '<span class="onsale product-flash">-' . $percentage . '%</span>';
+			} else {
+				$flash_output[] = '<span class="onsale product-flash">' . esc_html__( 'Sale!', 'lorada' ) . '</span>';
+			}
+		}
+
+		if ( ! $product->is_in_stock() ) {
+			$flash_output[] = '<span class="out-stock product-flash">' . esc_html__( 'Sold Out', 'lorada' ) . '</span>';
+		}
+
+		if ( $product->is_featured() && lorada_get_opt( 'hot_label' ) ) {
+			$flash_output[] = '<span class="featured product-flash">' . esc_html__( 'New', 'lorada' ) . '</span>';
+		}
+
+		if ( $flash_output ) {
+			echo '<div class="product-flashs">' . implode( '', $flash_output ) . '</div>';
+		}
+	}
+}

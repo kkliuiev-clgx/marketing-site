@@ -15,7 +15,8 @@ section.module {
   &--faqs_section,
   &--image_cards,
   &--tabs,
-  &--team_members {
+  &--team_members,
+  &--testimonials {
     .module {
       &__intro {
         text-align: center;
@@ -198,6 +199,14 @@ section.module {
       }
     }
   }
+  &--testimonials {
+    .module__intro {
+      margin-bottom: 3rem;
+      @include media-breakpoint-up(lg){
+        margin-bottom: 5rem;
+      }
+    }
+  }
 
   &--alternating_2_column_sections {
     @extend .module-section--alternating;
@@ -334,9 +343,24 @@ section.module {
   &--orange { background-color: $orange; }
   &--yellow { background-color: $yellow; }
   &--secondary { background-color: $secondary; }
-  &--primary { background-color: $primary; }
+  &--primary { 
+    background-color: $primary; 
+    .section__title {
+      &:before {
+        background-color: $dark;
+      }
+    }
+  }
   &--light { background-color: $light; }
-  &--dark { background-color: $dark; }
+  &--dark { 
+    background-color: $dark; 
+    .section__title {
+      color: white;
+      &:before {
+        background-color: $primary;
+      }
+    }
+  }
   &--white { background-color: white; }
 
   &--logos_grid {
@@ -429,6 +453,58 @@ section.module {
     }
   }
   
+  &--team_members {
+    &.module--light { 
+      .meenta-team-member {
+        &__collapser {
+          &:before {
+            background: $light;
+            background: linear-gradient(0deg, $light 0%, rgba(255,255,255,0.006039915966386533) 100%);
+          }
+        }
+      }
+    }
+    &.module--magenta { 
+      .meenta-team-member {
+        &__collapser {
+          &:before {
+            background: $magenta;
+            background: linear-gradient(0deg, $magenta 0%, rgba(255,255,255,0.006039915966386533) 100%);
+          }
+        }
+      }
+    }
+    &.module--orange { 
+      .meenta-team-member {
+        &__collapser {
+          &:before {
+            background: $orange;
+            background: linear-gradient(0deg, $orange 0%, rgba(255,255,255,0.006039915966386533) 100%);
+          }
+        }
+      }
+    }
+    &.module--yellow { 
+      .meenta-team-member {
+        &__collapser {
+          &:before {
+            background: $yellow;
+            background: linear-gradient(0deg, $yellow 0%, rgba(255,255,255,0.006039915966386533) 100%);
+          }
+        }
+      }
+    }
+    &.module--secondary { 
+      .meenta-team-member {
+        &__collapser {
+          &:before {
+            background: $secondary;
+            background: linear-gradient(0deg, $secondary 0%, rgba(255,255,255,0.006039915966386533) 100%);
+          }
+        }
+      }
+    }
+  }
 }
 
 .module-section {

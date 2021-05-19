@@ -66,6 +66,10 @@ h4, h5, h6 {
   line-height: 1.1;
 }
 
+.entry-title {
+  @extend .meenta-kerning;
+}
+
 a {
   text-decoration: none;
   color: $dark;
@@ -85,9 +89,14 @@ ol, ul {
     content: '';
     width: 3rem;
     height: .25rem;
-    background-color: var(--orange);
+    background-color: var(--primary);
     margin: 0 auto 1em;
   }
+}
+
+aside .widget-title {
+  @extend .meenta-kerning;
+  font-size: 1.125rem;
 }
 
 .meenta-main-nav-heading {

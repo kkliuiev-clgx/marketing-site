@@ -1,8 +1,7 @@
-
 // FOoter
 
 #lorada-footer {
-  @include media-breakpoint-up(lg){
+  @include media-breakpoint-up(lg) {
     // margin-top: auto; // this takes margin away that pushes content away from the footer.. removing for now
   }
 
@@ -11,11 +10,11 @@
   }
 
   .footer-widget-content {
-    @include media-breakpoint-up(lg){
+    @include media-breakpoint-up(lg) {
       justify-content: space-between;
     }
   }
-  
+
   .footer-main {
     // background-color: black !important;
     a,
@@ -34,17 +33,17 @@
     @extend .text-lg;
     font-weight: 700;
     margin-bottom: 1rem;
-    @include media-breakpoint-up(lg){
+    @include media-breakpoint-up(lg) {
       margin-bottom: 3.25rem;
     }
   }
   .elementor-widget {
-    @include media-breakpoint-down(md){
+    @include media-breakpoint-down(md) {
       margin-bottom: 0;
     }
   }
   .elementor-widget-container {
-    @include media-breakpoint-down(md){
+    @include media-breakpoint-down(md) {
       margin-bottom: 1rem;
     }
   }
@@ -70,70 +69,109 @@
     flex: 0 0 100%;
     max-width: 100%;
     text-align: center;
-    font-size: .875rem;
-    opacity: .75
+    font-size: 0.875rem;
+    opacity: 0.75;
   }
 
   .column-index {
     &-1 {
-      @include media-breakpoint-up(lg){
+      @include media-breakpoint-up(lg) {
         flex: 0 0 25%;
         max-width: 25%;
       }
     }
     &-2,
     &-3 {
-      @include media-breakpoint-up(lg){
+      @include media-breakpoint-up(lg) {
         flex: 0 0 16.5%;
         max-width: 16.5%;
       }
     }
     &-4 {
-      @include media-breakpoint-up(lg){
+      @include media-breakpoint-up(lg) {
         flex: 0 0 33%;
         max-width: 33%;
       }
     }
   }
 
-  [data-id="ee7ee9a"]{
-    @include media-breakpoint-down(md){
+  [data-id="ee7ee9a"] {
+    @include media-breakpoint-down(md) {
       margin-bottom: 2rem;
     }
   }
 
-  .meenta-techstars-callout {
-    display: flex;
-    flex-direction: column;
-    padding: 1.5rem;
-    @include media-breakpoint-up(md){
-      flex-direction: row;
-      justify-content: center;
-      padding: 2.5rem 0 2.5rem;
-    }
-    img {
-      max-width: 100px;
-      margin: 0 auto 1rem;
-      @include media-breakpoint-up(md){
-        margin: 0;
-      }
-    }
-    p {
-      max-width: 260px;
-      margin: 0 auto;
-      text-align: center;
-      @include media-breakpoint-up(md){
-        padding-left: 2rem;
-        text-align: left;
-        margin: 0;
-      }
-    }
-  }
   
+
+  
+  .wpcf7 {
+    &-form {
+      display: flex;
+      align-items: flex-start;
+      .meenta-email-capture {
+        &__label {
+          margin-bottom: 0;
+          flex-grow: 1;
+        }
+        &__text {
+          font-size: 0px; // this is only here for screen readers
+          position: absolute;
+          pointer-events: none;
+          top: 0;
+          left: 0;
+        }
+      }
+      label {
+      }
+      > p {
+        display: flex;
+
+        input {
+          line-height: 1;
+          height: auto;
+          padding: 0.5rem 1rem;
+          font-size: 0.875rem;
+        }
+        input[type="submit"] {
+          display: flex;
+          -webkit-appearance: none;
+          border: 0;
+          padding: 0 1.5rem;
+          height: auto;
+          line-height: 1;
+          text-transform: uppercase;
+          background-color: black;
+          color: white;
+          font-weight: 700;
+        }
+        input[type="email"] {
+          margin-bottom: 0;
+          background-color: white;
+        }
+      }
+      p {
+        margin-bottom: 0 !important;
+      }
+    }
+    &-response-output {
+      margin: 0;
+      position: absolute;
+      background-color: white;
+      border: 0;
+      padding: 1rem 2rem;
+    }
+
+    .ajax-loader {
+      position: absolute;
+      top: 50%;
+      transform: translate3d(0,-50%,0);
+      left: 100%;
+    }
+    
+  }
 }
 
-
-.meenta-footer__logo-bar  {
+.meenta-footer__logo-bar {
   padding-top: 2rem;
 }
 
@@ -156,3 +194,32 @@
   margin-top: 10px;
 }
 
+
+.meenta-techstars-callout {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  @include media-breakpoint-up(md) {
+    flex-direction: row;
+    justify-content: center;
+  }
+  img {
+    max-width: 80px !important;
+    margin: 0 auto 1rem;
+    @include media-breakpoint-up(md) {
+      margin: 0;
+    }
+  }
+  p {
+    max-width: 260px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: .875rem;
+    color: gray;
+    @include media-breakpoint-up(md) {
+      padding-left: 2rem;
+      text-align: left;
+      margin: 0;
+    }
+  }
+}

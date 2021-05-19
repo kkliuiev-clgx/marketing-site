@@ -1,5 +1,3 @@
-
-
 /* Shop Page Custom CSS */
 .elementor .shop-blurb-icon {
   background-color: var(--orange);
@@ -14,12 +12,24 @@
   margin-right: auto;
 }
 
-.elementor .shop-blurb-icon--dark { background-color: var(--dark); }
-.elementor .shop-blurb-icon--blue { background-color: var(--primary); }
-.elementor .shop-blurb-icon--yellow { background-color: var(--yellow); }
-.elementor .shop-blurb-icon--green { background-color: var(--secondary); }
-.elementor .shop-blurb-icon--orange { background-color: var(--orange); }
-.elementor .shop-blurb-icon--magenta { background-color: var(--magenta); }
+.elementor .shop-blurb-icon--dark {
+  background-color: var(--dark);
+}
+.elementor .shop-blurb-icon--blue {
+  background-color: var(--primary);
+}
+.elementor .shop-blurb-icon--yellow {
+  background-color: var(--yellow);
+}
+.elementor .shop-blurb-icon--green {
+  background-color: var(--secondary);
+}
+.elementor .shop-blurb-icon--orange {
+  background-color: var(--orange);
+}
+.elementor .shop-blurb-icon--magenta {
+  background-color: var(--magenta);
+}
 
 .elementor .shop-blurb-icon img {
   max-width: 6rem;
@@ -27,12 +37,32 @@
   height: auto !important;
 }
 
-
-.lorada-elementor-special-products .product-view-full .product-thumbs  {
+.lorada-elementor-special-products .product-view-full .product-thumbs {
   flex: 1 1 33%;
   max-width: 33%;
 }
-.lorada-elementor-special-products .product-view-full .product-infobox  {
+.lorada-elementor-special-products .product-view-full .product-infobox {
   flex: 1 1 66%;
   max-width: 66%;
+}
+
+body.woocommerce-shop {
+  .sidebar-widget {
+    &.widget_product_categories {
+      ul.product-categories {
+        & > li {
+          & > a {
+            font-weight: bold;
+          }
+        }
+        ul {
+          padding-left: 1rem;
+          margin-left: 0;
+        }
+        .cat-parent:after {
+          display: none;
+        }
+      }
+    }
+  }
 }

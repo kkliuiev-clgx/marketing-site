@@ -1,0 +1,43 @@
+.section--icon-nav {
+  padding: 1rem 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+  .elementor-widget-wrap {
+    @media screen and (min-width: 400px){
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+    .elementor-element {
+      @media screen and (min-width: 400px){
+        flex-basis: 0;
+        flex-grow: 1;
+        max-width: 10rem;
+        width: 50%;
+      }
+      @include media-breakpoint-up(md){
+        margin-bottom: 0;
+      }
+    }
+    .elementor-icon {
+      &-box-wrapper {
+        svg {
+          path,
+          circle {
+            transition: fill .5s ease-out;
+          }
+        }
+        &:hover {
+          svg {
+            circle {
+              fill: $dark;
+            }
+            path {
+              fill: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

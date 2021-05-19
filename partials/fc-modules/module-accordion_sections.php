@@ -14,7 +14,9 @@ $sections = $module['sections'];
         <div class="module-section__body">
           <?php echo $section['content']; ?>
         </div>
-        <a class="module-section__link accordion-toggle" href="#collapser-<?php echo $innerKey; ?>" data-toggle="collapse"><?php echo $section['accordion_heading']; ?> <i class="fas fa-chevron-down"></i></a>
+        <?php if(!empty($section['accordion_content'])){ ?>
+          <a class="module-section__link accordion-toggle" href="#collapser-<?php echo $innerKey; ?>" data-toggle="collapse"><?php echo $section['accordion_heading']; ?> <i class="fas fa-chevron-down"></i></a>
+        <?php } ?>
         <div id="collapser-<?php echo $innerKey; ?>" class="accordion-body collapse">
           <div class="py-4"><?php echo $section['accordion_content']; ?></div>
         </div>

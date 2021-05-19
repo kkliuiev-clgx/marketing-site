@@ -1,0 +1,54 @@
+.testimonial-card {
+  position: relative;
+  margin-bottom: 3rem;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  &__content {
+    @extend .white-panel;
+    padding: 3.5rem 2rem 2rem;
+    @include media-breakpoint-up(md){
+      padding: 2.5rem 2.5rem 2.5rem 9rem;
+    }
+  }
+  &__body {
+    @extend .text-lg;
+    @extend .text-md-xl;
+    font-weigt: 500;
+    p {
+      display: inline;
+    }
+  }
+  &__author,
+  &__title {
+  }
+  &__author {
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 0.25rem;
+    @extend .text-base;
+  }
+  &__title {
+    margin-bottom: 0;
+  }
+  &__image {
+    width: 4rem;
+    height: 4rem;
+    display: block;
+    border-radius: 100%;
+    position: absolute;
+    top: -1.75rem;
+    left: 2rem;
+    border: 0.35rem solid white;
+
+    @include media-breakpoint-up(md){
+      left: 2rem;
+      top: 2.75rem;
+      width: 5rem;
+      height: 5rem;
+    }
+
+    // left: 50%;
+    // transform: translate3d(-50%,0,0);
+  }
+}

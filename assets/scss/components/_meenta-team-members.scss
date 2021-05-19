@@ -24,6 +24,7 @@ $member-circle-width-xl: 12rem;
     height: $member-circle-width-sm;
     flex: 0 0 $member-circle-width-sm;
     margin-right: 1.5rem;
+    filter: grayscale(1);
 
     @media screen and (min-width: 700px){
       width: $member-circle-width-md;
@@ -47,10 +48,10 @@ $member-circle-width-xl: 12rem;
     @extend .text-lg;
     @extend .text-lg-xl;
     &:hover {
-      color: $linkedin-blue; 
+      color: $primary; 
     }
     i[class^="fa"]{
-      color: $linkedin-blue; 
+      color: $primary; 
       display: inline-block; 
       margin-left: 1rem
     }

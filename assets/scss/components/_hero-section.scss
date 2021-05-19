@@ -17,7 +17,8 @@
     z-index: 2;
   }
 
-  &__main-heading {
+  &__main-heading,
+  .elementor-heading-title {
     margin-bottom: 1rem;
     @extend .text-2xl;
     @extend .text-md-3xl;
@@ -30,14 +31,15 @@
   &__sub-heading {
     margin-bottom: 1rem;
     @extend .text-lg;
-    @extend .text-md-2xl;
+    @extend .text-md-xl;
     text-align: center;
     // color: white;
     text-transform: none;
     letter-spacing: 0px;
     font-weight: 400;
     line-height: 1.5;
-    margin-bottom: 2rem;
+    margin-bottom: .5rem;
+    text-align: center;;
   }
 
   &__sub-heading {
@@ -53,6 +55,9 @@
       // color: white;
       @extend .text-md-lg;
     }
+  }
+  p {
+    text-align: center;
   }
 
   &--has-bg {

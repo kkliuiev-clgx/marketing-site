@@ -22,15 +22,15 @@ $teamMembers = $module['team_members'];
         ?>
         
         <div class="meenta-team-member module-section py-0">
-          <?php if(isset($member['headshot']) && isset($member['headshot']['sizes']) && isset($member['headshot']['sizes']['medium'])): ?>
-            <div class="meenta-team-member__img-wrapper">
-              <img class="meenta-team-member__img" src="<?php echo $member['headshot']['sizes']['medium']; ?>" <?php acf_img_alt($member['headshot']); ?>>
+          <?php if(isset($member['headshot']) && isset($member['headshot']['sizes']) && isset($member['headshot']['sizes']['large'])): ?>
+            <div class="meenta-team-member__img-wrapper" style="background: url(<?php echo $member['headshot']['sizes']['large']; ?>) no-repeat center; background-size: cover;">
+              <img class="meenta-team-member__img" src="" <?php acf_img_alt($member['headshot']); ?>>
             </div>
           <?php endif; ?>
           <div class="meenta-team-member__content">
             <div id="team-member-collapser-<?php echo $key; ?>" class="meenta-team-member__collapser <?php if(!$needsExpander){ echo 'inactive'; } ?>">
               <a class="meenta-team-member__name" data-toggle='tooltip' href="<?php echo $member['linkedin_url']; ?>" title="Visit <?php echo $member['name']; ?> on LinkedIn" target="_blank">
-                <?php echo $member['name']; ?> <i class="fab fa-linkedin" style=""></i>
+                <?php echo $member['name']; ?>
               </a>
               <p class="meenta-team-member__title"><?php echo $member['title']; ?></p>
               <?php echo $member['bio']; ?>
