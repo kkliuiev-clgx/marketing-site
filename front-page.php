@@ -45,6 +45,19 @@
       
         <div class="leading-institutions">
 			
+                   
+          <h2 class="publications-heading section__title"><?php echo get_field('publications_heading'); ?></h2>
+
+          <div class="logos-grid">
+            <?php $logos = get_field('publications_logos'); ?>
+            <?php foreach($logos as $key => $logo): ?>
+              <?php if(isset($logo['image']) && isset($logo['image']['sizes']) && isset($logo['image']['sizes']['medium'])): ?>
+                <img class="tab-blurb__img" src="<?php echo $logo['image']['sizes']['medium']; ?>" <?php acf_img_alt($logo['image']); ?>>
+              <?php endif; ?>
+            <?php endforeach; ?>
+          </div>			
+
+
 
           <h2 class="institutions-heading section__title"><?php echo get_field('institutions_heading'); ?></h2>
 
@@ -58,19 +71,7 @@
               <?php endif; ?>
             <?php endforeach; ?>
           </div>
-          
-          <h2 class="publications-heading section__title"><?php echo get_field('publications_heading'); ?></h2>
-
-          <div class="logos-grid">
-            <?php $logos = get_field('publications_logos'); ?>
-            <?php foreach($logos as $key => $logo): ?>
-              <?php if(isset($logo['image']) && isset($logo['image']['sizes']) && isset($logo['image']['sizes']['medium'])): ?>
-                <img class="tab-blurb__img" src="<?php echo $logo['image']['sizes']['medium']; ?>" <?php acf_img_alt($logo['image']); ?>>
-              <?php endif; ?>
-            <?php endforeach; ?>
-          </div>			
-			
-
+ 
 
         
         </div>

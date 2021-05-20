@@ -6,12 +6,12 @@ $columns = $module['columns'];
 ?>
 
 <div class="container">
-  <div class="module__intro">
+  <div class="module__intro <?php if(empty($content)){ echo 'mb-0'; } ?>">
     <?php if($heading): ?>
-      <h3 class="section__title text-lg-3xl"><?php echo $heading; ?></h3>
+      <h3 class="section__title text-lg-3xl <?php if(empty($content) && empty($subHeading)){ echo 'mb-0'; } ?>"><?php echo $heading; ?></h3>
     <?php endif; ?>
     <?php if($subHeading): ?>
-      <p class="lead"><?php echo $subHeading; ?></p>
+      <p class="lead <?php if(empty($content)){ echo 'mb-0'; } ?>"><?php echo $subHeading; ?></p>
     <?php endif; ?>
   </div>
   <?php if($columns && !empty($columns)): ?>

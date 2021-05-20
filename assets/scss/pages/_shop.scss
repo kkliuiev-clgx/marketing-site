@@ -46,23 +46,59 @@
   max-width: 66%;
 }
 
-body.woocommerce-shop {
-  .sidebar-widget {
-    &.widget_product_categories {
-      ul.product-categories {
-        & > li {
-          & > a {
-            font-weight: bold;
-          }
-        }
-        ul {
-          padding-left: 1rem;
-          margin-left: 0;
-        }
-        .cat-parent:after {
-          display: none;
+.meenta_widget_product_categories {
+
+  .cat-item {
+    > a {
+      position: relative;
+      display: block;
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: .5rem;
+        left: -1.25rem;
+        width: .25rem;
+        height: 1.125rem;
+        transform: scaleY(0);
+        background-color: $orange;
+        transition: transform 1s ease-out;
+      }
+      &:hover {
+        color: $orange !important;
+        &:before {
+          transition: transform .35s ease-out;
+          transform: scaleY(1);
         }
       }
     }
+    .cat-item {
+      a {
+        &:before {
+          left: -2.2rem;
+        }
+      }
+    }
+  }
+  
+  .current-cat {
+    position: relative;
+    > a {
+      // color: $primary !important;
+      // &:before {
+      //   background-color: $primary;
+      //   transform: scaleY(1);
+      // }
+    }
+  }
+  
+  .cat-parent {
+      &:after {
+          display: none;
+      }
+      .children {
+        // padding-left: 1.25rem;
+          display: block !important;
+      }
   }
 }

@@ -3,9 +3,9 @@ $member-circle-width-md: 10rem;
 $member-circle-width-xl: 12rem;
 
 .meenta-team-members {
-  margin-top: 3rem;
+  // margin-top: 3rem;
   @include media-breakpoint-up(lg){
-    margin-top: 5rem;
+    // margin-top: 5rem;
   }
 }
 
@@ -16,6 +16,9 @@ $member-circle-width-xl: 12rem;
     max-width: 800px;
     margin: 0 auto 4rem;
     margin-bottom: 4rem;
+  }
+  &:last-child {
+    margin-bottom: 0;
   }
   &__img-wrapper {
     border-radius: 100%;

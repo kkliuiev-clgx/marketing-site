@@ -28,7 +28,7 @@ $teamMembers = $module['team_members'];
             </div>
           <?php endif; ?>
           <div class="meenta-team-member__content">
-            <div id="team-member-collapser-<?php echo $key; ?>" class="meenta-team-member__collapser <?php if(!$needsExpander){ echo 'inactive'; } ?>">
+            <div id="team-member-collapser-<?php echo meentaCleanString($member['name']); ?>" class="meenta-team-member__collapser <?php if(!$needsExpander){ echo 'inactive'; } ?>">
               <a class="meenta-team-member__name" data-toggle='tooltip' href="<?php echo $member['linkedin_url']; ?>" title="Visit <?php echo $member['name']; ?> on LinkedIn" target="_blank">
                 <?php echo $member['name']; ?>
               </a>
@@ -36,7 +36,7 @@ $teamMembers = $module['team_members'];
               <?php echo $member['bio']; ?>
             </div>
             <?php if($needsExpander){ ?>
-              <a href="#team-member-collapser-<?php echo $key; ?>" class="meenta-team-member__read-more" data-meenta-toggle="collapse">
+              <a href="#team-member-collapser-<?php echo meentaCleanString($member['name']); ?>" class="meenta-team-member__read-more" data-meenta-toggle="collapse">
                 <span class="the-text">Read More</span>
                 <i class="fas fa-chevron-down"></i>
               </a>
