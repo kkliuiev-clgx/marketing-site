@@ -105,18 +105,24 @@ function meenta_price_unit_label($product, $display = false, $color = false){
   }
 
   if ( function_exists( 'get_field' ) ) {
-    $unit_label = get_field('unit_label', $product->ID);
+    $unit_label = get_field('unit_label', $product->get_id());
   } else {
     return false;
   }
+  
   ?>
 
-  <small class="meenta-price__unit-label <?php echo $classes; ?>">
-    <?php if($unit_label){ ?>
-    per 
-      <?php echo $unit_label; ?>
-    <?php } ?>
-  </small>
+
+  <?php if($product->is_in_stock()): ?>
+    <small class="meenta-price__unit-label <?php echo $classes; ?>">
+      <?php if($unit_label){ ?>
+        per 
+        <?php echo $unit_label; ?>
+      <?php } ?>
+    </small>
+  <?php else: ?>
+    <?php // var_dump($product->stock_status); ?>
+  <?php endif; ?>
   
   <?php 
 }
@@ -127,7 +133,7 @@ function meenta_template_brand_badge(){
   $brands = wp_get_post_terms( $product->get_id(), 'pa_brand', 'all' );
   if(!is_array($brands)) return false;
   ?>
-  <div class="meenta-brand-badge badge badge-primary mb-3 p-2">
+  <div class="meenta-brand-badge badge badge-dark mb-3 p-2">
     <?php echo $brands[0]->name; ?>
   </div>
   <?php 
@@ -136,8 +142,13 @@ function meenta_template_brand_badge(){
 add_action( 'woocommerce_single_product_summary', 'meenta_template_brand_badge', 4 );
 
 
+function add_meenta_price_unit_label(){
+  global $product;
+  meenta_price_unit_label($product);
+}
 
-add_action( 'woocommerce_after_shop_loop_item_title', 'meenta_price_unit_label', 12 );
+
+add_action( 'woocommerce_after_shop_loop_item_title', 'add_meenta_price_unit_label', 12 );
 
 
 if( function_exists('acf_add_options_page') ) {
@@ -166,7 +177,7 @@ add_filter( 'woocommerce_product_tabs', 'meenta_product_additional_tabs' );
 if ( ! function_exists( 'meenta_product_additional_tabs' ) ) {
 	function meenta_product_additional_tabs( $tabs ) {    
     global $product;
-		if ( ! empty( get_field('test_details', $product->id) ) ) {
+		if ( ! empty( get_field('test_details', $product->get_id()) ) ) {
       $title = 'Test Details';
 			$tabs['meenta_payment_details_tab'] = array(
 				'title'		=>	$title,
@@ -174,7 +185,7 @@ if ( ! function_exists( 'meenta_product_additional_tabs' ) ) {
 				'callback'	=>	'meenta_test_details_tab_content'
 			);
 		}
-    if ( ! empty( get_field('collection_details', $product->id) ) ) {
+    if ( ! empty( get_field('collection_details', $product->get_id()) ) ) {
       $title = 'Collection Details';
 			$tabs['meenta_collection_details_tab'] = array(
 				'title'		=>	$title,
@@ -182,7 +193,7 @@ if ( ! function_exists( 'meenta_product_additional_tabs' ) ) {
 				'callback'	=>	'meenta_collection_details_tab_content'
 			);
 		}
-    if ( ! empty( get_field('payment_methods', $product->id) ) ) {
+    if ( ! empty( get_field('payment_methods', $product->get_id()) ) ) {
       $title = 'Payment Methods';
 			$tabs['meenta_payment_methods_tab'] = array(
 				'title'		=>	$title,
@@ -201,7 +212,7 @@ if ( ! function_exists( 'meenta_product_additional_tabs' ) ) {
 if ( ! function_exists( 'meenta_test_details_tab_content' ) ) {
 	function meenta_test_details_tab_content() {
 		global $product;
-    $content = get_field('test_details', $product->id);
+    $content = get_field('test_details', $product->get_id());
 		if ( ! empty( $content ) ){
 			echo $content;
 		}
@@ -211,7 +222,7 @@ if ( ! function_exists( 'meenta_test_details_tab_content' ) ) {
 if ( ! function_exists( 'meenta_collection_details_tab_content' ) ) {
 	function meenta_collection_details_tab_content() {
 		global $product;
-    $content = get_field('collection_details', $product->id);
+    $content = get_field('collection_details', $product->get_id());
 		if ( ! empty( $content ) ){
 			echo $content;
 		}
@@ -221,7 +232,7 @@ if ( ! function_exists( 'meenta_collection_details_tab_content' ) ) {
 if ( ! function_exists( 'meenta_payment_methods_tab_content' ) ) {
 	function meenta_payment_methods_tab_content() {
 		global $product;
-    $content = get_field('payment_methods', $product->id);
+    $content = get_field('payment_methods', $product->get_id());
 		if ( ! empty( $content ) ){
 			echo $content;
 		}
@@ -471,7 +482,7 @@ if ( ! function_exists( 'lorada_product_flash' ) ) {
 		}
 
 		if ( $product->is_featured() && lorada_get_opt( 'hot_label' ) ) {
-			$flash_output[] = '<span class="featured product-flash">' . esc_html__( 'New', 'lorada' ) . '</span>';
+			$flash_output[] = '<span class="featured product-flash">' . esc_html__( 'Featured', 'lorada' ) . '</span>';
 		}
 
 		if ( $flash_output ) {

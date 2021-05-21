@@ -11,8 +11,12 @@ EVERYTHING in here was written before SCSS was introduced to this theme.
 Make the unit label and price sit next to each other
 */
 .product-quick-shop-enable .product-infobox .rating-price-wrap {
-  flex-direction: row;
+  margin-top: .5rem;
+  flex-direction: column;
   justify-content: flex-start;
+  .meenta-price__unit-label {
+    margin-left: 0 !important;
+  }
 }
 
 
@@ -44,4 +48,7 @@ Make the footer stick to the bottom of the page when viewed on a screen that is 
 
 .embed-responsive {
   padding-bottom: 56.25%;
+}
+.lorada-social-buttons.button-style-colored .lorada-social-button a {
+  background-color: $dark !important;
 }

@@ -24,7 +24,7 @@
             <a 
               href="<?php if(isset($link)&& !empty($link)){ echo $link; } ?>" 
               class="intro-card card"
-              <?php acf_button_target($button); ?>
+              <?php acf_button_target($card); ?>
             >
               <?php if(isset($card['title'])&& !empty($card['title'])): ?>
                 <h2 class="intro-card__title card-title"><?php echo $card['title']; ?></h2>

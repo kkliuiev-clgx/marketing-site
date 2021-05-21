@@ -13,6 +13,9 @@
   transition: all .1s ease-out;
   &:hover {
     transition: all .5s ease-out;
+    i[class^="fa"]{
+      color: inherit !important;
+    }
   }
   &-primary {
     background-color: $primary;

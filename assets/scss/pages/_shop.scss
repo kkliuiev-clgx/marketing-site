@@ -61,11 +61,11 @@
         width: .25rem;
         height: 1.125rem;
         transform: scaleY(0);
-        background-color: $orange;
+        background-color: $magenta;
         transition: transform 1s ease-out;
       }
       &:hover {
-        color: $orange !important;
+        color: $magenta !important;
         &:before {
           transition: transform .35s ease-out;
           transform: scaleY(1);
@@ -100,5 +100,22 @@
         // padding-left: 1.25rem;
           display: block !important;
       }
+  }
+}
+
+.product-infobox {
+  .woocommerce-loop {
+    &-product {
+      &__title {
+        font-size: 1rem;
+        line-height: 1.3;
+        margin-top: .75rem;
+        a {
+          &:hover {
+            color: $magenta;
+          }
+        }
+      }
+    }
   }
 }
