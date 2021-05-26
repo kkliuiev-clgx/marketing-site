@@ -2,7 +2,6 @@
 
   document.addEventListener("DOMContentLoaded", function() {
     var chatTriggers = document.querySelectorAll('.meenta-chat-trigger');
-    console.log(chatTriggers);
     if(chatTriggers.length){
       // browser support <3
       for(var i = 0; i < chatTriggers.length; i++){
@@ -32,7 +31,6 @@
           // update the toggle's text and icon
           toggle.childNodes.forEach(n => {
             if(n.classList && n.classList.contains('the-text')){
-              console.log(n);
               n.innerHTML = open ? 'Read Less' : 'Read More';
             } else if(n.classList && n.classList.contains('fas')){
               if(open) {

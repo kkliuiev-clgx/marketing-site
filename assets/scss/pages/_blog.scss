@@ -16,11 +16,11 @@ body.post-type-archive-meenta_p {
           content: '';
           display: block;
           position: absolute;
-          top: 0;
+          top: 0rem;
           left: -2.25rem;
           width: .45rem;
-          height: 2rem;
-          background-color: orange;
+          height: 1.5rem;
+          background-color: $primary;
         }
       }
     }
@@ -31,6 +31,15 @@ body.post-type-archive-meenta_p {
 body.single-post article.post,
 body.blog article.post {
   @extend .white-panel;
+}
+
+body.blog {
+  article.blog-post-item {
+    .sticky-post {
+      background-color: $primary;
+      text-transform: none;
+    }
+  }
 }
 
 body.single-post article.post {

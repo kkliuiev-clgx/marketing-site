@@ -119,3 +119,75 @@
     }
   }
 }
+
+body.single-product {
+  .meenta-product-back-order-cta {
+    margin-bottom: 3rem;
+    .wpcf7 {
+      &-form {
+        display: flex;
+        align-items: flex-start;
+        .meenta-email-capture {
+          &__label {
+            margin-bottom: 0;
+            flex-grow: 1;
+          }
+          &__text {
+            font-size: 0px; // this is only here for screen readers
+            position: absolute;
+            pointer-events: none;
+            top: 0;
+            left: 0;
+          }
+        }
+        label {
+        }
+        > p {
+          display: flex;
+  
+          input {
+            line-height: 1;
+            height: auto;
+            padding: 0.5rem 1rem;
+            font-size: 0.875rem;
+          }
+          input[type="submit"] {
+            display: flex;
+            -webkit-appearance: none;
+            border: 0;
+            padding: 0 1.5rem;
+            height: auto;
+            line-height: 1;
+            text-transform: uppercase;
+            background-color: black;
+            color: white;
+            font-weight: 700;
+          }
+          input[type="email"] {
+            margin-bottom: 0;
+            background-color: white;
+          }
+        }
+        p {
+          margin-bottom: 0 !important;
+        }
+      }
+      &-response-output {
+        margin: 0;
+        position: absolute;
+        background-color: white;
+        border: 0;
+        padding: 1rem 2rem;
+        box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+      }
+  
+      .ajax-loader {
+        position: absolute;
+        top: 50%;
+        transform: translate3d(0,-50%,0);
+        left: 100%;
+      }
+      
+    }
+  }
+}

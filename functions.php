@@ -113,7 +113,7 @@ function meenta_price_unit_label($product, $display = false, $color = false){
   ?>
 
 
-  <?php if($product->is_in_stock()): ?>
+  <?php if($product->is_in_stock() && !$product->is_on_backorder()): ?>
     <small class="meenta-price__unit-label <?php echo $classes; ?>">
       <?php if($unit_label){ ?>
         per 
@@ -127,6 +127,9 @@ function meenta_price_unit_label($product, $display = false, $color = false){
   <?php 
 }
 
+/**
+ * Add Badge displaying the product's brand
+ */
 function meenta_template_brand_badge(){
   global $product;
   // die(print_r($product->get_attributes()));
@@ -140,6 +143,21 @@ function meenta_template_brand_badge(){
 }
 
 add_action( 'woocommerce_single_product_summary', 'meenta_template_brand_badge', 4 );
+
+/**
+ * Add call to action for backordered products
+ * the 21 indicates that this should be shown immediately after the product's description
+ */
+function meenta_back_ordered_cta(){
+  global $product;
+  if($product->is_on_backorder() || !$product->is_in_stock()) {
+    echo "<div class='meenta-product-back-order-cta'>";
+    echo do_shortcode("[lorada_html_block block_id='2217']");
+    echo "</div>";
+  }
+}
+
+add_action( 'woocommerce_single_product_summary', 'meenta_back_ordered_cta', 21 );
 
 
 function add_meenta_price_unit_label(){
@@ -479,6 +497,10 @@ if ( ! function_exists( 'lorada_product_flash' ) ) {
 
 		if ( ! $product->is_in_stock() ) {
 			$flash_output[] = '<span class="out-stock product-flash">' . esc_html__( 'Sold Out', 'lorada' ) . '</span>';
+		}
+
+    if ( $product->is_on_backorder() ) {
+			$flash_output[] = '<span class="out-stock product-flash">' . esc_html__( 'Back-Ordered', 'lorada' ) . '</span>';
 		}
 
 		if ( $product->is_featured() && lorada_get_opt( 'hot_label' ) ) {

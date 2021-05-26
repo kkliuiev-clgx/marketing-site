@@ -77,7 +77,6 @@
       }
 
       window.dataLayer.push(params);
-      console.log('event', params);
 
     } catch(err) {
       console.log('Got Error in dataLayer', err.message);
