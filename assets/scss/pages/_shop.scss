@@ -123,6 +123,17 @@
 body.single-product {
   .meenta-product-back-order-cta {
     margin-bottom: 3rem;
+    background-color: $warning;
+    padding: 1rem;
+    color: $dark;
+    @include media-breakpoint-up(lg){
+      padding: 2rem;
+    }
+
+    p {
+      color: $dark;
+    }
+    
     .wpcf7 {
       &-form {
         display: flex;
@@ -144,7 +155,8 @@ body.single-product {
         }
         > p {
           display: flex;
-  
+          flex-direction: column;
+
           input {
             line-height: 1;
             height: auto;
@@ -153,9 +165,11 @@ body.single-product {
           }
           input[type="submit"] {
             display: flex;
+            justify-content: center;
+            text-align: center;
             -webkit-appearance: none;
             border: 0;
-            padding: 0 1.5rem;
+            padding: .75rem 0;
             height: auto;
             line-height: 1;
             text-transform: uppercase;
