@@ -812,3 +812,38 @@ function meenta_wc_register_widgets() {
 }
 add_action( 'widgets_init', 'meenta_wc_register_widgets' );
 
+
+
+
+
+/**
+ * Add Custom Product Field to WooCommerce
+ * - Adds "Product ID" to the bottom of the "General" tab in the edit screen for a WooCommerce product
+ */
+add_action('woocommerce_product_options_general_product_data', 'meenta_product_custom_fields');
+add_action('woocommerce_process_product_meta', 'meenta_product_custom_fields_save');
+
+function meenta_product_custom_fields()
+{
+    global $woocommerce, $post;
+    echo '<div class="meenta-custom-product-field">';
+    // Product ID
+    woocommerce_wp_text_input(
+        array(
+            'id' => 'product_id',
+            'placeholder' => '',
+            'label' => __('Product ID', 'woocommerce'),
+            'desc_tip' => 'true'
+        )
+    );
+    
+    echo '</div>';
+}
+
+function meenta_product_custom_fields_save($post_id)
+{
+    // Product ID
+    $woocommerce_meenta_product_id = $_POST['product_id'];
+    if (!empty($woocommerce_meenta_product_id))
+        update_post_meta($post_id, 'product_id', esc_attr($woocommerce_meenta_product_id));
+}
