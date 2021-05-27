@@ -52,7 +52,9 @@
             <?php $logos = get_field('publications_logos'); ?>
             <?php foreach($logos as $key => $logo): ?>
               <?php if(isset($logo['image']) && isset($logo['image']['sizes']) && isset($logo['image']['sizes']['medium'])): ?>
-                <img class="tab-blurb__img" src="<?php echo $logo['image']['sizes']['medium']; ?>" <?php acf_img_alt($logo['image']); ?>>
+                <div class="logos-grid__frame">
+                  <img class="tab-blurb__img" src="<?php echo $logo['image']['sizes']['medium']; ?>" <?php acf_img_alt($logo['image']); ?>>
+                </div>
               <?php endif; ?>
             <?php endforeach; ?>
           </div>			
@@ -65,7 +67,7 @@
             <?php $logos = get_field('institutions_logos'); ?>
             <?php foreach($logos as $key => $logo): ?>
               <?php if(isset($logo['image']) && isset($logo['image']['sizes']) && isset($logo['image']['sizes']['medium'])): ?>
-                <div class="tab-blurb__img-wrapper">
+                <div class="logos-grid__frame">
                   <img class="tab-blurb__img" src="<?php echo $logo['image']['sizes']['medium']; ?>" <?php acf_img_alt($logo['image']); ?>>
                 </div>
               <?php endif; ?>

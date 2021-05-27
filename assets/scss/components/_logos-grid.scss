@@ -16,6 +16,17 @@
     justify-content: center;
     align-items: center;
   }
+  &__frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include media-breakpoint-up(md){
+      width: 25%;
+    }
+    @include media-breakpoint-up(lg){
+      width: 20%;
+    }
+  }
   img {
     display: block;
     width: auto;

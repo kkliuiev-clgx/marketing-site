@@ -404,7 +404,7 @@ body.home {
       color: var(--light);
       @include media-breakpoint-up(xl){
         margin-top: 7rem;
-        margin-bottom: 3rem;
+        margin-bottom: 5rem;
       }
       &:before {
         background-color: var(--primary);

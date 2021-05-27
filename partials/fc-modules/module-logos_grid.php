@@ -24,9 +24,9 @@ $logos = $module['logos'];
         ?>
         <?php if(isset($logo['image']) && isset($logo['image']['sizes']) && isset($logo['image']['sizes']['medium'])): ?>
           <?php if($isLink): ?>
-            <a href="<?php echo $logo['url']; ?>" class="logos-grid__img-wrapper" <?php if($newTab): ?>target="_blank"<?php endif; ?>>
+            <a href="<?php echo $logo['url']; ?>" class="logos-grid__frame" <?php if($newTab): ?>target="_blank"<?php endif; ?>>
           <?php else: ?>
-            <div class="logos-grid__img-wrapper">
+            <div class="logos-grid__frame">
           <?php endif; ?>
             <img class="logos-grid__img" src="<?php echo $logo['image']['sizes']['medium']; ?>" <?php acf_img_alt($logo['image']); ?>>
           <?php if($isLink): ?>
