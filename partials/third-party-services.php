@@ -38,6 +38,20 @@
 
 <?php endif; ?>
 
+<!-- 508 Compliance and website accessibility. -->
+<script>
+      (function(d){
+         var s = d.createElement("script");
+         s.setAttribute("data-position", 6);
+         s.setAttribute("data-account", "nfMNEvXQJY");
+         s.setAttribute("src", "https://cdn.userway.org/widget.js");
+         (d.body || d.head).appendChild(s);})(document)
+ </script>
+<noscript>
+Please ensure Javascript is enabled for purposes of 
+<a href="https://userway.org">website accessibility</a>
+</noscript>
+
 <script>
   function initFreshChat() {
     window.fcWidget.init({

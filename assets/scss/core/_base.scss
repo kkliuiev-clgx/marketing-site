@@ -6,6 +6,10 @@ EVERYTHING in here was written before SCSS was introduced to this theme.
 
 */
 
+/* Meenta unit label */
+.meenta-price__unit-label {
+  color: $dark;
+}
 
 /*
 Make the unit label and price sit next to each other
@@ -51,4 +55,56 @@ Make the footer stick to the bottom of the page when viewed on a screen that is 
 }
 .lorada-social-buttons.button-style-colored .lorada-social-button a {
   background-color: $dark !important;
+}
+
+
+
+/* 
+
+Emergency Fixes 
+- REFACTOR ALL OF THIS!!!
+
+
+*/
+
+@media screen and (max-width: 1024px){
+  .lorada-sidebar-mini-cart .widget_shopping_cart_content .product_list_widget {
+    max-height: calc(100vh - 260px);
+  }
+}
+
+.woocommerce-mini-cart-item .product-featured-title {
+  overflow: hidden;
+}
+
+.widget_shopping_cart_content .mini_cart_item .product-featured-title img {
+  max-width: 70px;
+  max-height: 50px;
+  object-fit: cover;
+}
+
+.widget_shopping_cart_content .mini_cart_item .product-featured-title {
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.widget_shopping_cart_content .mini_cart_item .variation {
+  height: auto;
+  align-items: flex-start;
+}
+
+.widget_shopping_cart_content .mini_cart_item .variation dt.variation-Includes {
+  flex: 0 0 86px;
+}
+
+.widget_shopping_cart_content .mini_cart_item .quantity {
+  padding-top: .5rem;
+  display: block;
+  padding-left: 0;
+  text-align: right;
+}
+
+.widget_shopping_cart_content .mini_cart_item .variation dd {
+  color: #333 !important;
+  font-weight: 400;
 }

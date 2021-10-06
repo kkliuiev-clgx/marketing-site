@@ -1,6 +1,26 @@
 .hero-section {
+  display: block;
   padding: 2rem 0;
   position: relative;
+  text-decoration: none;
+  &:before {
+    @include pseudo;
+    background-color: rgba(255, 255, 255, 0.0);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    transition: all .2s ease-in;
+  }
+  &:hover {
+    text-decoration: none;
+    &:before {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+  }
   &:not(.hero-section--has-bg){
     background-color: $primary;
   }
@@ -63,17 +83,14 @@
   &--has-bg {
     &:before {
       @include pseudo;
-      // background-color: rgba(255, 255, 255, 0.9);
-      // background-color: rgba(0, 0, 0, 0.4);
       background: rgb(0,0,0);
-background: linear-gradient(97deg, rgba(0,0,0,.9) 00%, rgba(0,0,0,.7) 50%,  rgba(98,98,98,0.006039915966386533) 100%);
-      width: 100%;
-      height: 100%;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      z-index: 1;
+      background: linear-gradient(97deg, rgba(0,0,0,.9) 00%, rgba(0,0,0,.7) 50%,  rgba(98,98,98,0.006039915966386533) 100%);
+    }
+    &:hover {
+      &:before {
+        background: linear-gradient(97deg, rgba(0,0,0,.9) 00%, rgba(0,0,0,.7) 50%,  rgba(19, 13, 13, 0.015) 100%);
+        opacity: 0 !important;
+      }
     }
     .hero-section {
       &__main-heading,

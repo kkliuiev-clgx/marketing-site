@@ -1,0 +1,50 @@
+body.single-product {
+  .product-summary-inner {
+    .price {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 2rem;
+      .from { font-size: 1rem; }
+      .meenta-price__unit-label {
+        font-size: 1rem;
+        padding-left: 0;
+        margin-left: 0 !important;      
+      }
+    }
+  }
+
+  .bundle_button .quantity.lorada-qty-form {
+    display: none;
+  }
+  .bundle_button .single_add_to_cart_button {
+    -webkit-appearance: none;
+    border: 0;
+    background-color: black;
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-weight: 700;
+  }
+  
+  .bundle_wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    justify-content: center;
+    gap: 2rem;
+    border: 1px solid lightgray;
+    padding: 2rem 0;
+  }
+  
+  
+  .bundle_wrap .bundle_price {
+    font-size: 1.4rem;
+    .price {
+      margin-bottom: 0 !important;
+    }
+  }
+  .bundle_wrap .bundle_price:before {
+    content: 'Bundle Total:';
+    font-size: 1rem;
+  } 
+}

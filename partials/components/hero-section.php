@@ -1,6 +1,7 @@
 <?php 
 $heroSectionClasses = [];
 $hero_bg = get_field('hero_bg'); 
+$hero_banner_url = get_field('hero_banner_url'); 
 $featuredImage = get_field('featured_image'); 
 $colorScheme = get_field('color_scheme'); 
 $colorScheme = isset($colorScheme['color_scheme']) && !empty($colorScheme['color_scheme']) ? $colorScheme['color_scheme'] : false;
@@ -11,7 +12,11 @@ if($hasBg){ $heroSectionClasses[] = "hero-section--has-bg"; }
 if($colorScheme){ $heroSectionClasses[] = "hero-section--theme-" . $colorScheme; }
 if($hasFeaturedImage){ $heroSectionClasses[] = "hero-section--has-featured-img"; }
 ?>
+<?php if(isset($hero_banner_url) && !empty($hero_banner_url)): ?>
+<a href="<?php echo $hero_banner_url; ?>"
+<?php else: ?>
 <section 
+<?php endif; ?>
   class="hero-section <?php echo implode(' ', $heroSectionClasses); ?>" 
   style="<?php if($hasBg){ echo "background: url(" . $hero_bg['sizes']['1536x1536'] . ") no-repeat center"; } ?> ; background-size: cover;">
 
@@ -47,4 +52,8 @@ if($hasFeaturedImage){ $heroSectionClasses[] = "hero-section--has-featured-img";
 
   </div>
 
+<?php if(isset($hero_banner_url) && !empty($hero_banner_url)): ?>
+</a>
+<?php else: ?>
 </section>
+<?php endif; ?>

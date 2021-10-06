@@ -17,11 +17,8 @@ function meenta_remove_scripts() {
   // eliminate the parent theme's bootstrap, we will import it into our child theme stylesheet. This will allow us to use all of bootstrap's functions and customize its variables
   wp_dequeue_style( 'bootstrap-style' );
   wp_deregister_style( 'bootstrap-style' );
-  wp_enqueue_script( 'algoliasearch', get_stylesheet_directory_uri() . '/assets/vendor/algoliasearch.min.js', false, false );
-  wp_enqueue_script( 'algoliasearch-helper', get_stylesheet_directory_uri() . '/assets/vendor/algoliasearch.helper.min.js', false, false );
-  wp_enqueue_script( 'algoliasearch-script', get_stylesheet_directory_uri() . '/assets/js/search/index.js', false, false );
   wp_enqueue_script( 'site-global-scripts', get_stylesheet_directory_uri() . '/assets/js/site.js', false, false );
-
+  
   // Now register your styles and scripts here
 }
 add_action( 'wp_enqueue_scripts', 'meenta_remove_scripts', 20 );
@@ -113,13 +110,13 @@ function meenta_price_unit_label($product, $display = false, $color = false){
   ?>
 
 
+  <small class="meenta-price__unit-label <?php echo $classes; ?>">
+    <?php if($unit_label){ ?>
+      per 
+      <?php echo $unit_label; ?>
+    <?php } ?>
+  </small>
   <?php if($product->is_in_stock() && !$product->is_on_backorder()): ?>
-    <small class="meenta-price__unit-label <?php echo $classes; ?>">
-      <?php if($unit_label){ ?>
-        per 
-        <?php echo $unit_label; ?>
-      <?php } ?>
-    </small>
   <?php else: ?>
     <?php // var_dump($product->stock_status); ?>
   <?php endif; ?>
@@ -162,7 +159,7 @@ add_action( 'woocommerce_single_product_summary', 'meenta_back_ordered_cta', 21 
 
 function add_meenta_price_unit_label(){
   global $product;
-  meenta_price_unit_label($product);
+  meenta_price_unit_label($product, 'block');
 }
 
 
@@ -196,7 +193,7 @@ if ( ! function_exists( 'meenta_product_additional_tabs' ) ) {
 	function meenta_product_additional_tabs( $tabs ) {    
     global $product;
 		if ( ! empty( get_field('test_details', $product->get_id()) ) ) {
-      $title = 'Test Details';
+      $title = 'Product Details'; // renamed per PM request
 			$tabs['meenta_payment_details_tab'] = array(
 				'title'		=>	$title,
 				'priority'	=> 12,
@@ -204,7 +201,7 @@ if ( ! function_exists( 'meenta_product_additional_tabs' ) ) {
 			);
 		}
     if ( ! empty( get_field('collection_details', $product->get_id()) ) ) {
-      $title = 'Collection Details';
+      $title = 'Sample Details'; // renamed per PM request
 			$tabs['meenta_collection_details_tab'] = array(
 				'title'		=>	$title,
 				'priority'	=> 13,

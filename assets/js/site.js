@@ -1,4 +1,6 @@
+var headerSearchTerm = '';
 (function(){
+
 
   document.addEventListener("DOMContentLoaded", function() {
     var chatTriggers = document.querySelectorAll('.meenta-chat-trigger');
@@ -48,11 +50,17 @@
       }
     }
 
-
+    /**
+     * When the search input in the header changes, update the search term variable
+     */
+    var headerSearchInput = document.querySelector('.main-header .search-form-wrapper .lorada-search-form .searchform-inner input[type="text"]');
+    headerSearchInput.addEventListener('change', function(evt){
+      console.log('search change', this.value);
+      window.dataLayer.push({headerSearchTerm: this.value});
+      headerSearchTerm = this.value;
+    })
     
   });
-
-  
   
   
 }())
@@ -64,4 +72,35 @@ jQuery(document).ready(function($){
   $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   })
+	
+  
+  /**
+   * When Lorada autocomplete suggestion is clicked, send a request to GA
+   */
+  $('.autocomplete-suggestions').on('click', '.autocomplete-suggestion', function(e){
+    try {
+      var selectionTitle = e.currentTarget.querySelector('.suggestion-title').innerHTML.replace(/(<([^>]+)>)/gi, "");
+    } catch(e) {
+      var selectionTitle = e;
+    }
+
+	 var trackers =   ga.getAll();
+	 var firstTracker = trackers[0];
+	  /**
+	   *  Send a GA event to each tracker
+	   */
+	 trackers.map(function(t){
+		 var trackerName = t.get('name');
+		 ga(
+		  trackerName + '.send', 
+		  'event', 
+		  'Behavior Tracking - Search', 
+		  'Search Selection', 
+		  selectionTitle, 
+		  headerSearchTerm ? headerSearchTerm : 'nothing'
+		);
+	 })
+	
+  })
+  
 })
