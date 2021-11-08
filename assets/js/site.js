@@ -86,6 +86,16 @@ jQuery(document).ready(function($){
 
 	 var trackers =   ga.getAll();
 	 var firstTracker = trackers[0];
+
+   ga(
+    'send', 
+    'event', 
+    'Behavior Tracking - Search', 
+    'Search Selection', 
+    selectionTitle, 
+    headerSearchTerm ? headerSearchTerm : 'nothing'
+  );
+   
 	  /**
 	   *  Send a GA event to each tracker
 	   */

@@ -79,6 +79,20 @@
         }
       }
     }
+
+    &.cat-item-138,
+    &.cat-item-137 {
+
+      > a {
+        font-weight: 700 !important;
+        &:before {
+          transform: scaleY(1) !important;
+          background-color: var(--magenta) !important;
+        }
+      }
+    }
+    
+    
   }
   
   .current-cat {

@@ -76,7 +76,7 @@ add_action('wp_head', 'meenta_hook_google_tag_manager');
  */
 add_action( 'wp_body_open', 'meenta_add_gtag_noscript_into_opening_body_tag' );
 function meenta_add_gtag_noscript_into_opening_body_tag() {
-    echo '<!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5B6SCNB"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) -->';
+    echo '<!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N6MGBQS"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) -->';
 }
 
 
@@ -133,7 +133,7 @@ function meenta_template_brand_badge(){
   $brands = wp_get_post_terms( $product->get_id(), 'pa_brand', 'all' );
   if(!is_array($brands)) return false;
   ?>
-  <div class="meenta-brand-badge badge badge-dark mb-3 p-2">
+  <div class="p-2 mb-3 meenta-brand-badge badge badge-dark">
     <?php echo $brands[0]->name; ?>
   </div>
   <?php 
