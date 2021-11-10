@@ -25,26 +25,54 @@ body.single-product {
     color: white;
     font-weight: 700;
   }
+
+  .bundle_price {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+    margin-bottom: 0;
+  }
   
   .bundle_wrap {
     display: flex;
     align-items: center;
-    margin-bottom: 3rem;
     justify-content: center;
+    margin-bottom: 3rem;
     gap: 2rem;
     border: 1px solid lightgray;
-    padding: 2rem 0;
-  }
-  
-  
-  .bundle_wrap .bundle_price {
-    font-size: 1.4rem;
-    .price {
-      margin-bottom: 0 !important;
+    padding: 3.5rem 0 2rem 0;
+    position: relative;
+    .bundle_price {
+      .price {
+        margin-bottom: 0 !important;
+        > .woocommerce-Price-amount.amount {
+          font-size: 1.4rem;
+          margin-bottom: 0.5rem;
+        }
+        // extra line
+      }
+      &:before {
+        background-color: var(--yellow);
+        color: black;
+        height: 1.5rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        content: 'Page Total:';
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: .75rem;
+        position: absolute;
+        width: 100%;
+        top: 0rem;
+        left: 50%;
+        transform: translate3d(-50%,0,0);
+      } 
     }
   }
-  .bundle_wrap .bundle_price:before {
-    content: 'Page Total:';
-    font-size: 1rem;
-  } 
+  
+  
 }
