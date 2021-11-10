@@ -1,0 +1,22 @@
+body.woocommerce-checkout {
+  label[for*="free_shipping"] {
+      font-weight: bold;
+  }
+  ul#shipping_method > li {
+      display: flex;
+      flex-direction: row !important;
+      justify-content: stretch !important;
+      text-align: left;
+      align-items: stretch !important;
+  }
+  ul#shipping_method > li input[type="radio"] {
+      margin-right: 1rem !important;
+      position: relative;
+      top: .4rem !important;
+  }
+
+  ul.wc_payment_methods li.wc_payment_method input[type="radio"] {
+    margin-right: 1rem !important;
+  }
+  
+}

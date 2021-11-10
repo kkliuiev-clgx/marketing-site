@@ -16,4 +16,12 @@ body.single-product {
   .woocommerce-product-gallery ~ .lorada-html-block {
     margin-top: 4rem;
   }
+
+  .up-sells.upsells.products {
+    margin-bottom: 1.5rem;
+    @include media-breakpoint-up(lg){
+      margin-bottom: 3rem;
+    }
+  
+  }
 }

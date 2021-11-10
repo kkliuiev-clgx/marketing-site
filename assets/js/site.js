@@ -69,6 +69,42 @@ var headerSearchTerm = '';
  * Jquery zone..avoiding this wherever possible......
  */
 jQuery(document).ready(function($){
+
+  // function checkShippingOptions(e){
+  //   console.log('checkShippingOptions');
+  //   setTimeout(function(){
+  //     var freeShippingRadioOption = $('input[name^="shipping_method"][value^="free_shipping');
+  //     if(freeShippingRadioOption.length && !freeShippingRadioOption.prop('checked')) {
+  //       console.log('option exists', freeShippingRadioOption.prop('checked'));
+  //       freeShippingRadioOption.prop('checked', true).trigger('change')
+  //       disableUpdateCartHandlers() // prevent never-ending loop
+  //     }
+  //   }, 1000)
+  // }
+
+
+  // /**
+  //  * Enable event listeners for the cart and checkout pages. These are what we are using to detect when we need to trigger manual selection of the "Free Shipping" option
+  //  */
+  // function enableUpdateCartHandlers(){
+  //   console.log('enabling cart handler');
+  //   $('body').on('updated_cart_totals', checkShippingOptions)
+  //   $('body').on('updated_checkout', checkShippingOptions)
+  //   $(document).on('change', 'ul#shipping_method input[name^="shipping_method"]', disableUpdateCartHandlers)
+  // }
+
+  // /**
+  //  * Disable event listeners for cart and checkout pages. Otherwise, this will turn into a never-ending loop
+  //  */
+  // function disableUpdateCartHandlers(){
+  //   console.log('disabling cart handler');
+  //   $('body').off('updated_cart_totals', checkShippingOptions)
+  //   $('body').off('updated_checkout', checkShippingOptions)
+  //   $(document).off('change', 'ul#shipping_method input[name^="shipping_method"]', disableUpdateCartHandlers)
+  // }
+
+  // enableUpdateCartHandlers()
+  
   $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   })

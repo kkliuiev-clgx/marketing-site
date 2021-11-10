@@ -1,0 +1,33 @@
+body.woocommerce-cart {
+  label[for*="free_shipping"] {
+      font-weight: bold;
+      text-transform: uppercase; 
+      letter-spacing: 2px;
+  }
+  ul#shipping_method {
+    margin: 2rem 0;
+  }
+  ul#shipping_method > li {
+      margin: .5rem 0;
+  /*     flex-direction: row-reverse; */
+      text-align: left;
+      flex-grow: 1;
+      width: 100%;
+      align-items: flex-start;
+      justify-content: stretch;
+  }
+  ul#shipping_method > li input[type="radio"] {
+      margin-right: 1rem;
+      position: relative;
+      top: .4rem
+  }
+  .cart-collaterals {
+    margin-top: 1.5rem;
+    @include media-breakpoint-up(lg){
+      margin-top: 3rem;
+    }
+    @include media-breakpoint-up(xl){
+      margin-top: 5rem;
+    }
+  }
+}
