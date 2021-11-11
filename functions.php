@@ -497,7 +497,7 @@ if ( ! function_exists( 'lorada_product_flash' ) ) {
 		}
 
     if ( $product->is_on_backorder() ) {
-			$flash_output[] = '<span class="out-stock product-flash">' . esc_html__( 'Back-Ordered', 'lorada' ) . '</span>';
+			$flash_output[] = '<span class="out-stock product-flash">' . esc_html__( 'Backordered', 'lorada' ) . '</span>';
 		}
 
 		if ( $product->is_featured() && lorada_get_opt( 'hot_label' ) ) {
