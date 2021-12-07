@@ -385,7 +385,7 @@ function meenta_faq_cpt_init() {
   $args = array(
       'public' => true,
       'label'  => __( 'FAQs', 'textdomain' ),
-      'supports' => ['page-attributes']
+      'supports' => ['page-attributes', 'editor']
   );
   register_post_type( 'meenta_faqs', $args );
 }
